@@ -25,22 +25,33 @@ export default function Home() {
       {/* Top Banner END */}
 
 
+
       {/* Central Container BEGIN */}
-      <div className="grid grid-cols-2">
+      <div className="w-full flex justify-center">
+        <div className="grid grid-cols-2 gap-4 max-w-4xl w-full px-4">
 
-        {/* Left Column */}
-        <div className="grid grid-cols-1 gap-2 place-items-center">
-          <Image src="/anthony.png" width={300} height={300} alt="anthony" className="border-3 border-cyan-400 rounded-sm p-1" />
-          <div className="border-3 border-cyan-400 rounded-sm p-1"> <InstaViewer /> </div>
-        </div>
+          {/* Left Column */}
+          <div className="grid grid-cols-1 gap-2 w-full">
+            <Image
+              src="/anthony.png"
+              width={300}
+              height={300}
+              alt="anthony"
+              className="w-full h-auto border-3 border-cyan-400 rounded-sm p-1"
+            />
+            <div className="border-3 border-cyan-400 rounded-sm p-1">
+              <InstaViewer />
+            </div>
+          </div>
 
-        {/* Right Column */}
-        <div>
-          <div className="border-3 border-cyan-400 rounded-sm p-1"> <EyeLadyText /> </div>
+          {/* Right Column */}
+          <div className="border-3 border-cyan-400 rounded-sm p-1">
+            <EyeLadyText />
+          </div>
+
         </div>
       </div>
       {/* Central Container END */}
-
 
     </div>
 
