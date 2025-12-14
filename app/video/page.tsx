@@ -56,7 +56,7 @@ export default function Video() {
                   setSelectedVideo(video.url)
                   setIsMenuOpen(false)
                 }}
-                className="w-full text-left px-4 py-3 hover:bg-blue-50 transition-colors first:rounded-t-sm last:rounded-b-sm border-b last:border-b-0 border-green-600"
+                className="w-full text-left px-4 py-3 hover:bg-gray-800 transition-colors first:rounded-t-sm last:rounded-b-sm border-b last:border-b-0 border-green-600"
               >
                 {video.title}
               </button>
