@@ -1,26 +1,15 @@
 import InstaViewer from "@/components/igViewer";
-import YoutubeEmbed from "@/components/YoutubeEmbed";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="flex flex-col justify-center items-center gap-5">
 
       <div> EYELADY </div>
+
+      <Link href="/video" className="p-1 border rounded-sm hover:bg-green-600/40 hover:scale-110 transition-transform duration-300"> <button> Videos </button> </Link>
+
       <InstaViewer />
-
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/gCOmhfpXihY?si=bilxWHuiAtoTvpv1"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerPolicy="strict-origin-when-cross-origin"
-        allowFullScreen
-      >
-      </iframe>
-
-
 
     </div>
   );
