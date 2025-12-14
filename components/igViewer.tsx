@@ -12,8 +12,9 @@ export default function InstaProfileEmbed() {
         data-instgrm-captioned
         data-instgrm-permalink="https://www.instagram.com/reel/DMG_OTGu02X/?utm_source=ig_embed&utm_campaign=loading"
         data-instgrm-version="14"
+        data-instgrm-theme="dark"
         style={{
-          background: "#FFF",
+          background: "#000",
           border: 0,
           borderRadius: "3px",
           boxShadow: "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)",
@@ -28,7 +29,7 @@ export default function InstaProfileEmbed() {
           <a
             href="https://www.instagram.com/reel/DMG_OTGu02X/?utm_source=ig_embed&utm_campaign=loading"
             style={{
-              background: "#FFFFFF",
+              background: "#000000",
               lineHeight: 0,
               padding: 0,
               textAlign: "center",
@@ -40,7 +41,7 @@ export default function InstaProfileEmbed() {
           >
             <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
               <div style={{
-                backgroundColor: "#F4F4F4",
+                backgroundColor: "#222",
                 borderRadius: "50%",
                 flexGrow: 0,
                 height: "40px",
@@ -54,7 +55,7 @@ export default function InstaProfileEmbed() {
                 justifyContent: "center"
               }}>
                 <div style={{
-                  backgroundColor: "#F4F4F4",
+                  backgroundColor: "#222",
                   borderRadius: "4px",
                   flexGrow: 0,
                   height: "14px",
@@ -62,7 +63,7 @@ export default function InstaProfileEmbed() {
                   width: "100px"
                 }} />
                 <div style={{
-                  backgroundColor: "#F4F4F4",
+                  backgroundColor: "#222",
                   borderRadius: "4px",
                   flexGrow: 0,
                   height: "14px",
@@ -89,7 +90,7 @@ export default function InstaProfileEmbed() {
             </div>
             <div style={{ paddingTop: "8px" }}>
               <div style={{
-                color: "#3897f0",
+                color: "#fff",
                 fontFamily: "Arial,sans-serif",
                 fontSize: "14px",
                 fontStyle: "normal",
@@ -102,7 +103,7 @@ export default function InstaProfileEmbed() {
             <div style={{ padding: "12.5% 0" }} />
           </a>
           <p style={{
-            color: "#c9c8cd",
+            color: "#aaa",
             fontFamily: "Arial,sans-serif",
             fontSize: "14px",
             lineHeight: "17px",
