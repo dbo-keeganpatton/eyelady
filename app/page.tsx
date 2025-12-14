@@ -1,7 +1,10 @@
 import InstaViewer from "@/components/igViewer";
 import EyeLadyText from "@/components/eyeladyText";
+import FrontPageVideo from "@/components/frontPageVideo";
 import Image from "next/image";
 import Link from "next/link";
+
+
 
 export default function Home() {
   return (
@@ -28,7 +31,7 @@ export default function Home() {
 
       {/* Central Container BEGIN */}
       <div className="w-full flex justify-center">
-        <div className="grid grid-cols-2 gap-4 max-w-4xl w-full px-4">
+        <div className="grid grid-cols-2 gap-2 max-w-4xl w-full px-4">
 
           {/* Left Column */}
           <div className="grid grid-cols-1 gap-2 w-full">
@@ -45,8 +48,9 @@ export default function Home() {
           </div>
 
           {/* Right Column */}
-          <div className="border-3 border-cyan-400 rounded-sm p-1">
-            <EyeLadyText />
+          <div className="grid grid-cols-1 gap-2">
+            <div className="border-3 border-cyan-400 rounded-sm p-1"> <EyeLadyText /> </div>
+            <div className="border-3 border-cyan-400 rounded-sm p-2"> <FrontPageVideo /> </div>
           </div>
 
         </div>
