@@ -1,0 +1,61 @@
+<svg width="100%" height="100%" viewBox="0 0 1440 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+
+  <!-- DEFINITIONS -->
+  <defs>
+    <!-- Sky gradient -->
+    <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1b4f"></stop>
+      <stop offset="60%" stop-color="#123c8c"></stop>
+      <stop offset="100%" stop-color="#1fb3ff"></stop>
+    </linearGradient>
+
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+
+    <!-- Soft fog -->
+    <radialGradient id="fog" cx="50%" cy="80%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"></stop>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"></stop>
+    </radialGradient>
+
+    <!-- Scanline effect -->
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.03"></rect>
+    </pattern>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="100%" height="100%" fill="url(#skyGradient)"></rect>
+
+  <!-- ENERGY STREAKS -->
+  <path d="M1100 120 C 900 260, 700 200, 500 360" stroke="#7fdcff" stroke-width="3" fill="none" opacity="0.7" filter="url(#glow)"></path>
+
+  <path d="M1200 80 C 1000 200, 800 140, 600 300" stroke="#b7f4ff" stroke-width="2" fill="none" opacity="0.5" filter="url(#glow)"></path>
+
+  <!-- FLOATING ORBS -->
+  <g filter="url(#glow)">
+    <circle cx="300" cy="520" r="6" fill="#9be8ff" opacity="0.9"></circle>
+    <circle cx="420" cy="610" r="4" fill="#6ad3ff" opacity="0.8"></circle>
+    <circle cx="900" cy="460" r="5" fill="#bff3ff" opacity="0.9"></circle>
+    <circle cx="1100" cy="540" r="3" fill="#7fdcff" opacity="0.7"></circle>
+    <circle cx="760" cy="380" r="4" fill="#9be8ff" opacity="0.85"></circle>
+  </g>
+
+  <!-- ABSTRACT HORIZON SHAPES (low-poly island / architecture feel) -->
+  <polygon points="0,650 200,600 400,620 600,590 800,610 1000,580 1200,600 1440,560 1440,900 0,900" fill="#0b255e" opacity="0.55"></polygon>
+
+  <polygon points="0,700 300,670 600,690 900,660 1200,680 1440,650 1440,900 0,900" fill="#091c46" opacity="0.7"></polygon>
+
+  <!-- FOG LAYER -->
+  <rect width="100%" height="100%" fill="url(#fog)"></rect>
+
+  <!-- SCANLINES -->
+  <rect width="100%" height="100%" fill="url(#scanlines)"></rect>
+
+</svg>
