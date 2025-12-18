@@ -1,4 +1,3 @@
-import InstaViewer from "@/components/igViewer";
 import EyeLadyText from "@/components/eyeladyText";
 import FrontPageVideo from "@/components/frontPageVideo";
 import Image from "next/image";
@@ -10,18 +9,47 @@ export default function Home() {
   return (
     <div className="flex flex-col w-screen">
 
+      {/**************************************
+        * TODO: Banner should be moved to a  *
+        * standalone component at some point *
+      **************************************/}
       {/* Top Banner BEGIN */}
       <div className="w-full px-2 pt-2">
-        <div className="grid grid-cols-3 items-center border border-blue-500/20 bg-white/5 backdrop-blur-sm backdrop-saturate-150 text-md p-1 m-2 rounded-sm shadow-lg">
+        <div className="grid grid-cols-4 items-center border border-blue-500/20 bg-white/5 backdrop-blur-sm backdrop-saturate-150 text-md p-1 m-2 rounded-sm shadow-lg">
           <h1 className="justify-self-start text-2xl font-mono text-amber-400 ml-5"> $EYELADY </h1>
 
 
-          <div /* Placeholder column  */ />
+          <div className="justify-self-center">
+            <a href="https://www.instagram.com/eyeladyskateboards?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+              <Image
+                src="/instagram-svgrepo-com.svg"
+                width={50}
+                height={50}
+                alt="instagram"
+                className="shadow-white/20 shadow-xs/10 hover:shadow-md/20  hover:scale-110 transition-transform duration-300"
+              />
+            </a>
+          </div>
+
+
+          <div className="justify-self-center">
+            <a href="https://youtube.com/@sigmoidsenakot?si=OpuC4RgHrEXBJC-j">
+              <Image
+                src="/youtube-svgrepo-com.svg"
+                width={50}
+                height={50}
+                alt="youtube"
+                className="shadow-white/20 shadow-xs/10 hover:shadow-md/20 hover:scale-110 transition-transform duration-300"
+              />
+            </a>
+          </div>
+
+
           <Link
             href="/video"
-            className="justify-self-end p-2 m-1 border border-amber-400 shadow-lg text-amber-400 rounded-sm font-mono hover:scale-110 transition-transform duration-300"
+            className="justify-self-center p-2 m-1 border border-amber-400 shadow-white/20 shadow-xs/10 hover:shadow-md/20 text-amber-400 rounded-sm font-mono hover:scale-110 transition-transform duration-300"
           >
-            Videos
+            Bucket
           </Link>
         </div>
       </div>
@@ -39,23 +67,19 @@ export default function Home() {
         <div className="grid grid-cols-2 gap-1 mr-10 ml-10">
 
           {/* Left Column */}
-          <div className="border border-blue-500/20 backdrop-blur-sm backdrop-saturate-150 text-md p-1 m-2 rounded-sm shadow-lg hover:border-yellow-500 hover:scale-101 transition-transform duration-300"> <EyeLadyText /> </div>
+          <div className="border border-blue-500/20 backdrop-blur-sm backdrop-saturate-150 text-md p-1 m-2 rounded-sm shadow-lg hover:border-yellow-500 hover:scale-101 transition-transform duration-300">
+            <EyeLadyText />
+          </div>
+
+          {/* Left Column */}
           <div className="border border-blue-500/20 backdrop-blur-sm backdrop-saturate-150 text-md p-1 m-2 rounded-sm shadow-lg hover:border-yellow-500 hover:scale-101 transition-transform duration-300">
             <Image
               src="/anthony.png"
               width={300}
               height={300}
               alt="anthony"
-              className="w-full h-auto border-3 border-gray-300 rounded-sm p-1"
+              className="w-full h-auto border-3 border-gray-300 rounded-sm p-1 opacity-10"
             />
-          </div>
-
-          {/* Right Column */}
-          <div className="grid grid-cols-1">
-
-            <div className="border border-blue-500/20 backdrop-blur-sm backdrop-saturate-150 text-md p-1 m-2 rounded-sm shadow-lg hover:border-yellow-500 hover:scale-101 transition-transform duration-300">
-              <InstaViewer />
-            </div>
           </div>
 
         </div>

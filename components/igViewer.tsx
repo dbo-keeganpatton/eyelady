@@ -1,5 +1,9 @@
-"use client";
-
+"use client"
+{/*********************************
+*       !! DEPRECATED !!          *
+*  No longer invoked in app, may  *
+*  be valuable at some point.     *
+*********************************/}
 import Script from "next/script";
 
 
@@ -19,8 +23,8 @@ export default function InstaProfileEmbed() {
           borderRadius: "3px",
           boxShadow: "0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)",
           margin: "1px",
-          maxWidth: "540px",
-          minWidth: "326px",
+          maxWidth: "100px",
+          minWidth: "100px",
           padding: 0,
           width: "99.375%"
         }}
