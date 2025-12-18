@@ -15,7 +15,7 @@ export default function Home() {
       **************************************/}
       {/* Top Banner BEGIN */}
       <div className="w-full px-2 pt-2">
-        <div className="grid grid-cols-4 items-center border border-blue-500/20 bg-white/5 backdrop-blur-sm backdrop-saturate-150 text-md p-1 m-2 rounded-sm shadow-lg">
+        <div className="grid grid-cols-4 items-center border border-blue-500/20 bg-white/5 backdrop-blur-sm backdrop-saturate-140 text-md p-1 m-2 rounded-sm shadow-lg shadow-neutral-500/20">
           <h1 className="justify-self-start text-2xl font-mono text-amber-400 ml-5"> $EYELADY </h1>
 
 

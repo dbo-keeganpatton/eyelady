@@ -38,7 +38,7 @@ export default function Video() {
 
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="px-6 py-2 bg-black text-green-600 border border-green-600 rounded-sm hover:scale-105 hover:bg-gray-800 transition-colors"
+          className="w-full items-center border border-blue-500/20 opacity-80 bg-white/5 backdrop-blur-sm backdrop-saturate-140 text-md p-1 m-2 rounded-sm shadow-lg shadow-neutral-500/20 transition-transform duration-300 hover:scale-110 hover:opacity-100"
         >
           Video List
         </button>
@@ -48,7 +48,7 @@ export default function Video() {
         *      Selection Menu Logic START     *
         **************************************/}
         {isMenuOpen && (
-          <div className="absolute top-full mt-2 bg-black rounded-sm shadow-lg border border-green-600 z-10 min-w-64">
+          <div className="absolute border border-blue-500/20 opacity-100 bg-gray-800/100 backdrop-blur-sm  text-md rounded-sm shadow-lg shadow-neutral-500/20  z-10 min-w-64 w-99">
             {videos.map((video, index) => (
               <button
                 key={index}
@@ -56,7 +56,7 @@ export default function Video() {
                   setSelectedVideo(video.url)
                   setIsMenuOpen(false)
                 }}
-                className="w-full text-left px-4 py-3 hover:bg-gray-800 transition-colors first:rounded-t-sm last:rounded-b-sm border-b last:border-b-0 border-green-600"
+                className="w-sm border border-blue-500/20 opacity-100 bg-white/5 backdrop-blur-sm backdrop-saturate-140 text-md p-1 m-1 rounded-sm shadow-sm shadow-neutral-500/20 transition-transform duration-300 hover:scale-120 hover:opacity-100 hover:shadow-xl"
               >
                 {video.title}
               </button>
