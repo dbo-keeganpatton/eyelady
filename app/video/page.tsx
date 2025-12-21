@@ -22,6 +22,7 @@ export default function Video() {
 
   const [selectedVideo, setSelectedVideo] = useState(videos[0].url)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [activeIndex, setActiveIndex] = useState<number | null>(null)
 
 
 
@@ -53,10 +54,25 @@ export default function Video() {
               <button
                 key={index}
                 onClick={() => {
+                  setActiveIndex(index)
                   setSelectedVideo(video.url)
-                  setIsMenuOpen(false)
+
+                  setTimeout(() => {
+                    setActiveIndex(null)
+                  }, 300)
+
+                  setTimeout(() => {
+                    setIsMenuOpen(false)
+                  }, 600)
+
                 }}
-                className="w-sm border border-blue-500/20 opacity-100 bg-white/5 backdrop-blur-sm backdrop-saturate-140 text-md p-1 m-1 rounded-sm shadow-sm shadow-neutral-500/20 transition-transform duration-300 hover:scale-120 hover:opacity-100 hover:shadow-xl"
+                className={`
+                  w-sm border border-blue-500/20 bg-white/5 text-md p-1 m-1 rounded-sm
+                  shadow-sm shadow-neutral-500/20
+                  transition-transform duration-300 ease-out
+                  ${activeIndex === index ? "scale-105 border border-yellow-500 text-yellow-500" : "scale-100"}
+                `}
+
               >
                 {video.title}
               </button>
