@@ -90,7 +90,7 @@ export default function Video() {
        *          Video Player START            *
       ******************************************/}
       <iframe
-        className="w-full h-full p-20"
+        className="aspect-video w-full h-full p-10"
         src={selectedVideo}
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

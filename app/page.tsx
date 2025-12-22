@@ -14,8 +14,8 @@ export default function Home() {
         * standalone component at some point *
       **************************************/}
       {/* Top Banner BEGIN */}
-      <div className="w-full px-2 pt-2">
-        <div className="grid grid-cols-4 items-center border border-blue-500/20 bg-white/5 backdrop-blur-sm backdrop-saturate-140  p-1 m-2 rounded-sm shadow-lg shadow-neutral-500/20">
+      <div>
+        <div className="grid grid-cols-4 items-center border border-blue-500/20 bg-white/5 backdrop-blur-sm backdrop-saturate-140  m-2 rounded-sm shadow-lg shadow-neutral-500/20">
           <h1 className="justify-self-start lg:text-2xl text-sm font-mono text-amber-400 ml-5"> $EYELADY </h1>
 
 
@@ -61,11 +61,11 @@ export default function Home() {
       {/* Central Container BEGIN */}
       <div className="w-full flex flex-col justify-center">
 
-        <div className="border border-blue-500/20 backdrop-blur-sm backdrop-saturate-150 text-md p-1 m-2 rounded-sm shadow-lg ml-11 mr-11 mb-2 mt-2 hover:border-yellow-500 hover:scale-101 transition-transform duration-300">
-          <div className="border-2 border-white/5 h-100"> <FrontPageVideo /> </div>
+        <div className="ml-5 mr-5 border border-blue-500/20 backdrop-blur-sm backdrop-saturate-150 text-md rounded-sm shadow-lg hover:border-yellow-500 hover:scale-101 transition-transform duration-300">
+          <div className="aspect-video border-2 border-white/5"> <FrontPageVideo /> </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-1 mr-10 ml-10">
+        <div className="lg:grid lg:grid-cols-2 gap-1 mr-3 ml-3">
 
           {/* Left Column */}
           <div className="border border-blue-500/20 backdrop-blur-sm backdrop-saturate-150 text-md p-1 m-2 rounded-sm shadow-lg hover:border-yellow-500 hover:scale-101 transition-transform duration-300">
