@@ -43,10 +43,11 @@ export default function Home() {
           </div>
 
 
-          <div className="justify-self-center relative flex items-center justify-center h-10 w-10">
+
+          <div className="justify-self-center relative flex items-center justify-center p-px rounded-md bg-gradient-to-r from-blue-500 to-purple-500">
             <Link
               href="/video"
-              className=" p-1 lg:p-2 border border-amber-400 shadow-white/20 shadow-xs/10 hover:shadow-md/20 text-amber-400 rounded-sm font-mono hover:scale-105 transition-transform duration-300"
+              className="p-1 bg-slate-900/80 rounded-md opacity-90 font-mono text-sm"
             >
               Bucket
             </Link>
