@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import background from '../public/background.svg'
+import ps2 from '../public/ps2.png'
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,7 +33,7 @@ export default function RootLayout({
         {/* BACKGROUND */}
         <div className="fixed inset-0 -z-10">
           <Image
-            src={background}
+            src={ps2}
             alt="background"
             fill
             priority

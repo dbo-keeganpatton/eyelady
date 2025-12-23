@@ -15,42 +15,21 @@ export default function Home() {
       **************************************/}
       {/* Top Banner BEGIN */}
       <div>
-        <div className="grid grid-cols-4 items-center border border-blue-500/20 bg-white/5 backdrop-blur-sm backdrop-saturate-140  m-2 rounded-sm shadow-lg shadow-neutral-500/20">
-          <h1 className="justify-self-start lg:text-2xl text-sm font-mono text-amber-400 ml-5"> $EYELADY </h1>
+        <div className="flex lg:m-4 m-2 border border-blue-500/20 bg-white/5 backdrop-blur-sm backdrop-saturate-140 rounded-sm shadow-lg shadow-neutral-500/20">
+          <h1 className="lg:text-2xl text-sm font-mono text-amber-400 ml-5"> $EYELADY </h1>
 
 
-          <div className="justify-self-center relative h-10 w-10">
-            <a href="https://www.instagram.com/eyeladyskateboards?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+          <div className="h-10 lg:h-18">
+            <a href="https://www.instagram.com/eyeladyskateboards?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              className="shadow-xl shadow-blue-500"
+            >
               <Image
-                src="/instagram-svgrepo-com.svg"
+                src="/video-camera-svgrepo-com.svg"
                 fill={true}
                 alt="instagram"
-                className="shadow-white/20 shadow-xs/10 hover:shadow-md/20  hover:scale-110 transition-transform duration-300"
+                className="hover:scale-110 transition-transform duration-300"
               />
             </a>
-          </div>
-
-
-          <div className="justify-self-center relative h-20 w-10">
-            <a href="https://youtube.com/@sigmoidsenakot?si=OpuC4RgHrEXBJC-j">
-              <Image
-                src="/youtube-svgrepo-com.svg"
-                fill={true}
-                alt="youtube"
-                className="shadow-white/20 shadow-xs/10 hover:shadow-md/20 hover:scale-110 transition-transform duration-300"
-              />
-            </a>
-          </div>
-
-
-
-          <div className="justify-self-center relative flex items-center justify-center p-px rounded-md bg-gradient-to-r from-blue-500 to-purple-500">
-            <Link
-              href="/video"
-              className="p-1 bg-slate-900/80 rounded-md opacity-90 font-mono text-sm"
-            >
-              Bucket
-            </Link>
           </div>
 
         </div>
