@@ -40,21 +40,22 @@ export default function SpinningCube() {
 
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
+    const context = ctx;
 
     let angle = 0;
     const dz = 1;
 
     function clear() {
-      ctx.clearRect(0, 0, SIZE, SIZE);
+      context.clearRect(0, 0, SIZE, SIZE);
     }
 
     function line(p1: Vec2, p2: Vec2) {
-      ctx.lineWidth = 2;
-      ctx.strokeStyle = FOREGROUND;
-      ctx.beginPath();
-      ctx.moveTo(p1.x, p1.y);
-      ctx.lineTo(p2.x, p2.y);
-      ctx.stroke();
+      context.lineWidth = 2;
+      context.strokeStyle = FOREGROUND;
+      context.beginPath();
+      context.moveTo(p1.x, p1.y);
+      context.lineTo(p2.x, p2.y);
+      context.stroke();
     }
 
     function screen(p: Vec2): Vec2 {
