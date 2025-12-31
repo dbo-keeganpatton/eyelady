@@ -1,6 +1,8 @@
 'use client'
 import { useState } from 'react'
 import SpinningCube from '@/components/spinningCube'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Video() {
   const videos = [
@@ -24,6 +26,21 @@ export default function Video() {
   return (
     <div className="flex flex-col items-center w-full min-h-screen gap-8 pt-8">
 
+      <Link
+        href="/"
+        className="
+        relative justify-start w-10 h-10 border border-blue-500/20 opacity-80 bg-white/5 backdrop-blur-sm
+        text-md p-1 rounded-sm shadow-lg shadow-neutral-500/20
+        transition-transform duration-300 hover:scale-110 hover:opacity-100 hover:backdrop-blur-2xl"
+      >
+        <Image
+          src="/home-svgrepo-com.svg"
+          alt="home"
+          fill
+          className="object-contain hover:scale-110 transition-transform duration-300 p-1"
+        />
+      </Link>
+
       {/* ================= Mobile Cubes + Button ================= */}
       <div className="flex items-center gap-4">
         <SpinningCube />
@@ -31,9 +48,11 @@ export default function Video() {
         <div className="relative">
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="border border-blue-500/20 opacity-80 bg-white/5 backdrop-blur-sm
-                       text-md p-1 rounded-sm shadow-lg shadow-neutral-500/20
-                       transition-transform duration-300 hover:scale-110 hover:opacity-100"
+            className="
+            border border-blue-500/20 opacity-80 bg-white/5 backdrop-blur-sm
+            text-md hover:text-blue-700 p-1 rounded-sm shadow-lg shadow-neutral-500/20
+            transition-transform duration-300 hover:scale-110 hover:opacity-100
+            "
           >
             Video List
           </button>
