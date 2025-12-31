@@ -90,7 +90,7 @@ export default function Video() {
       {/*****************************************
        *          Video Player START            *
       ******************************************/}
-      <div className="flex items-center justify-center gap-4">
+      <div className="lg:flex items-center justify-center gap-4">
 
         <SpinningCube />
         <iframe
