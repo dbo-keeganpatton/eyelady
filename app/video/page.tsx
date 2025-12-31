@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react'
+import SpinningCube from '@/components/spinningCube'
 
 
 
@@ -32,8 +33,8 @@ export default function Video() {
     /*****************************************
      *     Top level Page Styles Here        *
     ******************************************/
-    <div className="flex flex-col justify-center items-center w-screen h-screen gap-1">
-      <div className="mb-4 relative">
+    <div className="flex flex-col items-center w-full min-h-screen gap-4 justify-center">
+      <div className="relative">
 
 
 
@@ -89,14 +90,20 @@ export default function Video() {
       {/*****************************************
        *          Video Player START            *
       ******************************************/}
-      <iframe
-        className="aspect-video w-full h-full p-10"
-        src={selectedVideo}
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerPolicy="strict-origin-when-cross-origin"
-        allowFullScreen
-      />
+      <div className="lg:flex items-center justify-center gap-4">
+
+        <SpinningCube />
+        <iframe
+          className="aspect-video w-full max-w-5xl"
+          src={selectedVideo}
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+        <SpinningCube />
+
+      </div>
       {/*****************************************
        *           Video Player END             *
       ******************************************/}

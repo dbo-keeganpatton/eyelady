@@ -20,7 +20,7 @@ export default function Home() {
 
 
           <div className="ml-auto h-10 w-10 lg:h-20 lg:w-20 mr-5 flex items-center justify-center opacity-15">
-            <a href="/Video"
+            <a href="/video"
               className="relative h-20 w-20 flex items-center justify-center 
                hover:shadow-[0_0_12px_rgba(59,130,246,0.6)]/20
                rounded-sm"
