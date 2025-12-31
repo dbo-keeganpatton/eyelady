@@ -5,10 +5,14 @@ import { useEffect, useRef } from "react";
 type Vec2 = { x: number; y: number };
 type Vec3 = { x: number; y: number; z: number };
 
-const FOREGROUND = "#D10000";
-const SIZE = 200;
+type SpinningCubeProps = {
+  size?: number;
+  color?: string;
+  speed?: number;
+  className?: string;
+};
 
-const vs: Vec3[] = [
+const DEFAULT_VERTICES: Vec3[] = [
   { x: 0.25, y: 0.25, z: 0.25 },
   { x: -0.25, y: 0.25, z: 0.25 },
   { x: -0.25, y: -0.25, z: 0.25 },
@@ -19,7 +23,7 @@ const vs: Vec3[] = [
   { x: 0.25, y: -0.25, z: -0.25 },
 ];
 
-const fs = [
+const EDGES = [
   [0, 1, 2, 3],
   [4, 5, 6, 7],
   [0, 4],
@@ -28,52 +32,57 @@ const fs = [
   [3, 7],
 ];
 
-export default function SpinningCube() {
+export default function SpinningCube({
+  size = 160,
+  color = "#D10000",
+  speed = 1,
+  className = "",
+}: SpinningCubeProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
-    canvas.width = SIZE;
-    canvas.height = SIZE;
+    canvas.width = size;
+    canvas.height = size;
 
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
-    const context = ctx;
 
     let angle = 0;
     const dz = 1;
+    let last = performance.now();
 
-    function clear() {
-      context.clearRect(0, 0, SIZE, SIZE);
-    }
+    const clear = () => {
+      ctx.clearRect(0, 0, size, size);
+    };
 
-    function line(p1: Vec2, p2: Vec2) {
-      context.lineWidth = 2;
-      context.strokeStyle = FOREGROUND;
-      context.beginPath();
-      context.moveTo(p1.x, p1.y);
-      context.lineTo(p2.x, p2.y);
-      context.stroke();
-    }
+    const line = (a: Vec2, b: Vec2) => {
+      ctx.lineWidth = 1.75;
+      ctx.strokeStyle = color;
+      ctx.beginPath();
+      ctx.moveTo(a.x, a.y);
+      ctx.lineTo(b.x, b.y);
+      ctx.stroke();
+    };
 
-    function screen(p: Vec2): Vec2 {
-      return {
-        x: ((p.x + 1) / 2) * SIZE,
-        y: (1 - (p.y + 1) / 2) * SIZE,
-      };
-    }
+    const screen = (p: Vec2): Vec2 => ({
+      x: ((p.x + 1) / 2) * size,
+      y: (1 - (p.y + 1) / 2) * size,
+    });
 
-    function project({ x, y, z }: Vec3): Vec2 {
-      return { x: x / z, y: y / z };
-    }
+    const project = ({ x, y, z }: Vec3): Vec2 => ({
+      x: x / z,
+      y: y / z,
+    });
 
-    function translate_z(v: Vec3, dz: number): Vec3 {
-      return { ...v, z: v.z + dz };
-    }
+    const translateZ = (v: Vec3): Vec3 => ({
+      ...v,
+      z: v.z + dz,
+    });
 
-    function rotate_xz(v: Vec3, a: number): Vec3 {
+    const rotateXZ = (v: Vec3, a: number): Vec3 => {
       const c = Math.cos(a);
       const s = Math.sin(a);
       return {
@@ -81,38 +90,43 @@ export default function SpinningCube() {
         y: v.y,
         z: v.x * s + v.z * c,
       };
-    }
+    };
 
-    let last = performance.now();
-
-    function frame(t: number) {
+    const frame = (t: number) => {
       const dt = (t - last) / 1000;
       last = t;
 
-      angle += Math.PI * dt;
+      angle += Math.PI * speed * dt;
       clear();
 
-      for (const f of fs) {
-        for (let i = 0; i < f.length; i++) {
-          const a = vs[f[i]];
-          const b = vs[f[(i + 1) % f.length]];
+      for (const edge of EDGES) {
+        for (let i = 0; i < edge.length; i++) {
+          const a = DEFAULT_VERTICES[edge[i]];
+          const b = DEFAULT_VERTICES[edge[(i + 1) % edge.length]];
+
           line(
-            screen(project(translate_z(rotate_xz(a, angle), dz))),
-            screen(project(translate_z(rotate_xz(b, angle), dz)))
+            screen(project(translateZ(rotateXZ(a, angle)))),
+            screen(project(translateZ(rotateXZ(b, angle))))
           );
         }
       }
 
       requestAnimationFrame(frame);
-    }
+    };
 
     requestAnimationFrame(frame);
-  }, []);
+  }, [size, color, speed]);
 
   return (
     <canvas
       ref={canvasRef}
-      className="block w-[200px] h-[200px] shrink-0"
+      className={`
+        shrink-0 select-none pointer-events-none
+        opacity-70 lg:opacity-100
+        w-[96px] h-[96px]
+        lg:w-[160px] lg:h-[160px]
+        ${className}
+      `}
     />
   );
 }

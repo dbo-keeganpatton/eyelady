@@ -2,11 +2,7 @@
 import { useState } from 'react'
 import SpinningCube from '@/components/spinningCube'
 
-
-
 export default function Video() {
-
-  // Skate Video array, extract from here mf
   const videos = [
     { title: "Shelter", url: "https://www.youtube.com/embed/gCOmhfpXihY?si=bilxWHuiAtoTvpv1" },
     { title: "Gravitational Constant", url: "https://www.youtube.com/embed/fUikjgcU45o?si=ckx56lGe-pOtgDKK" },
@@ -25,90 +21,88 @@ export default function Video() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [activeIndex, setActiveIndex] = useState<number | null>(null)
 
-
-
   return (
+    <div className="flex flex-col items-center w-full min-h-screen gap-8 pt-8">
+
+      {/* ================= Mobile Cubes + Button ================= */}
+      <div className="flex items-center gap-4">
+        <SpinningCube />
+
+        <div className="relative">
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="border border-blue-500/20 opacity-80 bg-white/5 backdrop-blur-sm
+                       text-md p-1 rounded-sm shadow-lg shadow-neutral-500/20
+                       transition-transform duration-300 hover:scale-110 hover:opacity-100"
+          >
+            Video List
+          </button>
 
 
-    /*****************************************
-     *     Top level Page Styles Here        *
-    ******************************************/
-    <div className="flex flex-col items-center w-full min-h-screen gap-4 justify-center">
-      <div className="relative">
+          {isMenuOpen && (
+            <div
+              className="
+              absolute left-1/2 -translate-x-1/2 mt-10 w-64
+              border border-red-700 bg-gray-950/95
+              rounded-sm shadow-lg shadow-neutral-500/20
+              p-1 z-20
+            ">
+              {videos.map((video, index) => (
+                <button
+                  key={index}
+                  onClick={() => {
+                    setActiveIndex(index)
+                    setSelectedVideo(video.url)
 
+                    setTimeout(() => setActiveIndex(null), 300)
+                    setTimeout(() => setIsMenuOpen(false), 600)
+                  }}
+                  className={`
+                    w-full px-2 py-1 text-left text-md rounded-sm
+                    bg-white/5 border border-blue-500/20
+                    hover:text-red-700
+                    transition-transform duration-300
+                    ${activeIndex === index
+                      ? 'scale-105 border-blue-600 text-blue-700'
+                      : 'scale-100'}
+                  `}
+                >
+                  {video.title}
+                </button>
+              ))}
+            </div>
+          )}
 
-
-        <button
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="w-full items-center border border-blue-500/20 opacity-80 bg-white/5 backdrop-blur-sm backdrop-saturate-140 text-md p-1 m-2 rounded-sm shadow-lg shadow-neutral-500/20 transition-transform duration-300 hover:scale-110 hover:opacity-100"
-        >
-          Video List
-        </button>
-
-
-        {/*************************************
-        *      Selection Menu Logic START     *
-        **************************************/}
-        {isMenuOpen && (
-          <div className="absolute border border-blue-500/20 opacity-100 bg-gray-800/100 backdrop-blur-sm  text-md rounded-sm shadow-lg shadow-neutral-500/20  z-10 min-w-64 w-99">
-            {videos.map((video, index) => (
-              <button
-                key={index}
-                onClick={() => {
-                  setActiveIndex(index)
-                  setSelectedVideo(video.url)
-
-                  setTimeout(() => {
-                    setActiveIndex(null)
-                  }, 300)
-
-                  setTimeout(() => {
-                    setIsMenuOpen(false)
-                  }, 600)
-
-                }}
-                className={`
-                  w-sm border border-blue-500/20 bg-white/5 text-md p-1 m-1 rounded-sm
-                  shadow-sm shadow-neutral-500/20
-                  transition-transform duration-300 ease-out
-                  ${activeIndex === index ? "scale-105 border border-yellow-500 text-yellow-500" : "scale-100"}
-                `}
-
-              >
-                {video.title}
-              </button>
-            ))}
-          </div>
-        )}
-        {/*************************************
-        *      Selection Menu Logic END       *
-        **************************************/}
-
-      </div>
-
-
-      {/*****************************************
-       *          Video Player START            *
-      ******************************************/}
-      <div className="lg:flex items-center justify-center gap-4">
+        </div>
 
         <SpinningCube />
+      </div>
+
+      {/* ================= Desktop Video Player ================= */}
+      <div className="hidden lg:flex items-center justify-center w-full pb-5">
         <iframe
           className="aspect-video w-full max-w-5xl"
           src={selectedVideo}
           title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         />
-        <SpinningCube />
-
       </div>
-      {/*****************************************
-       *           Video Player END             *
-      ******************************************/}
 
+      {/* ================= Mobile Video Player ================= */}
+      <div className="lg:hidden flex justify-center w-full">
+        <iframe
+          className="aspect-video justify-end w-full max-w-5xl p-3"
+          src={selectedVideo}
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+      </div>
 
     </div>
   )
 }
+
