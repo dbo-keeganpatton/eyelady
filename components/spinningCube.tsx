@@ -120,11 +120,9 @@ export default function SpinningCube({
   return (
     <canvas
       ref={canvasRef}
+      style={{ width: size, height: size }}
       className={`
         shrink-0 select-none pointer-events-none
-        opacity-70 lg:opacity-100
-        w-[96px] h-[96px]
-        lg:w-[160px] lg:h-[160px]
         ${className}
       `}
     />

@@ -1,5 +1,6 @@
 import EyeLadyText from "@/components/eyeladyText";
 import FrontPageVideo from "@/components/frontPageVideo";
+import SpinningCube from "@/components/spinningCube";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,14 +17,13 @@ export default function Home() {
       {/* Top Banner BEGIN */}
       <div>
         <div className="flex lg:m-4 m-2 border items-center justify-center border-blue-500/20 bg-white/5 backdrop-blur-sm backdrop-saturate-140 rounded-sm shadow-lg shadow-neutral-500/20">
-          <h1 className="lg:text-2xl text-sm font-mono text-blue-500 ml-5"> $EYELADY </h1>
+          <SpinningCube color="#3B82F6" size={50} />
+          <h1 className="lg:text-2xl text-sm font-mono text-blue-500"> $EYELADY </h1>
 
 
           <div className="ml-auto h-10 w-10 lg:h-20 lg:w-20 mr-5 flex items-center justify-center opacity-15">
             <a href="/video"
-              className="relative h-20 w-20 flex items-center justify-center 
-               hover:shadow-[0_0_12px_rgba(59,130,246,0.6)]/20
-               rounded-sm"
+              className="relative h-10 w-10 flex items-center justify-center"
             >
               <Image
                 src="/video-camera-svgrepo-com.svg"
