@@ -34,7 +34,7 @@ export default function Video() {
         transition-transform duration-300 hover:scale-110 hover:opacity-100 hover:backdrop-blur-2xl"
       >
         <Image
-          src="/home-svgrepo-com.svg"
+          src="/homepage-svgrepo-com.svg"
           alt="home"
           fill
           className="object-contain hover:scale-110 transition-transform duration-300 p-1"
