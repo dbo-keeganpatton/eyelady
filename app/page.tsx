@@ -49,30 +49,15 @@ export default function Home() {
 
         <div className="mr-3 ml-3">
 
-          {/* Left Column */}
-          <div className="border border-blue-500/20 backdrop-blur-sm backdrop-saturate-150 text-md p-1 m-2 rounded-sm shadow-lg hover:border-yellow-500 hover:scale-101 transition-transform duration-300">
-            <EyeLadyText />
-          </div>
 
           {/* Fixed translucent background images */}
-          <div className="flex">
-            <div className="backdrop-blur-sm backdrop-saturate-100 rounded-sm shadow-lg opacity-10 hover:opacity-100 transition-opacity duration-1000">
-              <Image
-                src="/anthony.png"
-                width={300}
-                height={300}
-                alt="anthony"
-                className="w-full h-auto rounded-sm p-1 opacity-30"
-              />
-            </div>
-
-
+          <div className="flex justify-center">
             <div className="backdrop-blur-sm backdrop-saturate-100 rounded-sm shadow-lg opacity-10 hover:opacity-100 transition-opacity duration-1000">
               <Image
                 src="/byron.png"
-                width={300}
-                height={300}
-                alt="anthony"
+                width={130}
+                height={130}
+                alt="byron"
                 className="w-full h-auto rounded-sm p-1 opacity-30"
               />
             </div>
@@ -80,12 +65,27 @@ export default function Home() {
             <div className="backdrop-blur-sm backdrop-saturate-100 rounded-sm shadow-lg opacity-10 hover:opacity-100 transition-opacity duration-1000">
               <Image
                 src="/jodey.png"
-                width={300}
-                height={300}
+                width={200}
+                height={200}
+                alt="jody"
+                className="w-full h-auto rounded-sm p-1 opacity-30"
+              />
+            </div>
+
+            <div className="backdrop-blur-sm backdrop-saturate-100 rounded-sm shadow-lg opacity-10 hover:opacity-100 transition-opacity duration-1000">
+              <Image
+                src="/anthony.png"
+                width={140}
+                height={140}
                 alt="anthony"
                 className="w-full h-auto rounded-sm p-1 opacity-30"
               />
             </div>
+          </div>
+
+          {/* Captions Text */}
+          <div className="border border-blue-500/20 backdrop-blur-sm backdrop-saturate-150 text-md p-1 m-2 rounded-sm shadow-lg hover:border-yellow-500 hover:scale-101 transition-transform duration-300">
+            <EyeLadyText />
           </div>
 
 
