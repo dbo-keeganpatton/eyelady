@@ -17,7 +17,7 @@ export default function SpinningSphere({
   size = 160,
   color = "#4DA3FF",
   speed = 0.6,
-  segments = 18,
+  segments = 10,
   className = "",
 }: SpinningSphereProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
