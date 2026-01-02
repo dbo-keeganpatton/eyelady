@@ -44,7 +44,7 @@ export default function Home() {
       <div className="w-full flex flex-col justify-center">
 
         <div className="ml-5 mr-5 lg:ml-20 lg:mr-20 border border-blue-500/20 backdrop-blur-sm backdrop-saturate-150 text-md rounded-sm shadow-lg hover:border-blue-500/40 hover:scale-101 transition-transform duration-300">
-          <div className="aspect-video border-2 border-white/5"> {/* <FrontPageVideo /> */} </div>
+          <div className="aspect-video border-2 border-white/5"> <FrontPageVideo />  </div>
         </div>
 
         <div className="mr-3 ml-3">
@@ -52,7 +52,7 @@ export default function Home() {
 
           {/* Fixed translucent background images */}
           <div className="flex justify-center">
-            <div className="backdrop-blur-sm backdrop-saturate-100 rounded-sm shadow-lg opacity-10 hover:opacity-100 transition-opacity duration-1000">
+            <div className="backdrop-blur-sm backdrop-saturate-100 rounded-sm shadow-lg opacity-30 lg:opacity-10 hover:opacity-100 transition-opacity duration-1000">
               <Image
                 src="/byron.png"
                 width={130}
@@ -62,7 +62,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="backdrop-blur-sm backdrop-saturate-100 rounded-sm shadow-lg opacity-10 hover:opacity-100 transition-opacity duration-1000">
+            <div className="backdrop-blur-sm backdrop-saturate-100 rounded-sm shadow-lg opacity-30 lg:opacity-10 hover:opacity-100 transition-opacity duration-1000">
               <Image
                 src="/jodey.png"
                 width={200}
@@ -72,12 +72,23 @@ export default function Home() {
               />
             </div>
 
-            <div className="backdrop-blur-sm backdrop-saturate-100 rounded-sm shadow-lg opacity-10 hover:opacity-100 transition-opacity duration-1000">
+            <div className="backdrop-blur-sm backdrop-saturate-100 rounded-sm shadow-lg opacity-30 lg:opacity-10 hover:opacity-100 transition-opacity duration-1000">
               <Image
                 src="/anthony.png"
                 width={140}
                 height={140}
                 alt="anthony"
+                className="w-full h-auto rounded-sm p-1 opacity-30"
+              />
+            </div>
+
+
+            <div className="backdrop-blur-sm backdrop-saturate-100 rounded-sm shadow-lg opacity-30 lg:opacity-10 hover:opacity-100 transition-opacity duration-1000">
+              <Image
+                src="/chad.png"
+                width={130}
+                height={130}
+                alt="chad"
                 className="w-full h-auto rounded-sm p-1 opacity-30"
               />
             </div>
