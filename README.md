@@ -19,3 +19,5 @@
    - `git pull origin main`
 5. Push to this repo with `git push -u origin [your-branch]`
 6. Open a Pull request from your branch to main
+
+Supports: [Eyelady.NET](https://www.eyelady.net)

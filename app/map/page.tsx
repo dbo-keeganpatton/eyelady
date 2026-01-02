@@ -19,7 +19,7 @@ export default function Map() {
         />
       </Link>
 
-      <div className="lg:hidden absolute top-5 -z-10"> <SpinningSphere color="#FF0000" size={100} /> </div>
+      <div className="lg:hidden absolute top-4 -z-10"> <SpinningSphere color="#FF0000" size={100} /> </div>
 
       <div className="hidden lg:flex"> <SpinningSphere color="#FF0000" size={200} /> </div>
       <iframe
