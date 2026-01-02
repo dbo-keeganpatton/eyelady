@@ -42,7 +42,7 @@ export default function Video() {
       </Link>
 
       {/* ================= Mobile Cubes + Button ================= */}
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-3">
         <SpinningCube />
 
         <div className="relative">
@@ -82,7 +82,7 @@ export default function Video() {
                     hover:text-red-700
                     transition-transform duration-300
                     ${activeIndex === index
-                      ? 'scale-105 border-blue-600 text-blue-700'
+                      ? 'scale-105 border-blue-600 text-blue-800'
                       : 'scale-100'}
                   `}
                 >
