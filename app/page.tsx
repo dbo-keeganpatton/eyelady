@@ -21,7 +21,18 @@ export default function Home() {
           <h1 className="lg:text-2xl text-sm font-mono text-blue-500"> $EYELADY </h1>
 
 
-          <div className="ml-auto h-10 w-10 lg:h-20 lg:w-20 mr-5 flex items-center justify-center opacity-15">
+          <div className="ml-auto h-15 w-15 lg:h-20 lg:w-20 mr-5 flex items-center justify-center opacity-10">
+            <a href="/map"
+              className="relative h-15 w-15 flex items-center justify-center"
+            >
+              <Image
+                src="/gps.svg"
+                fill={true}
+                alt="map"
+                className="object-contain hover:scale-110 transition-transform duration-300"
+              />
+            </a>
+
             <a href="/video"
               className="relative h-10 w-10 flex items-center justify-center"
             >
