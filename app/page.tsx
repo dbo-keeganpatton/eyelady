@@ -16,33 +16,40 @@ export default function Home() {
       **************************************/}
       {/* Top Banner BEGIN */}
       <div>
-        <div className="flex lg:m-4 m-2 border items-center justify-center border-blue-500/20 bg-white/5 backdrop-blur-sm backdrop-saturate-140 rounded-sm shadow-lg shadow-neutral-500/20">
+        <div className="flex lg:m-4 m-2 border items-center border-blue-500/20 bg-white/5 backdrop-blur-sm backdrop-saturate-140 rounded-sm shadow-lg shadow-neutral-500/20">
           <SpinningCube color="#3B82F6" size={50} />
           <h1 className="lg:text-2xl text-sm font-mono text-blue-500"> $EYELADY </h1>
 
 
-          <div className="ml-auto h-15 w-15 lg:h-20 lg:w-20 mr-5 flex items-center justify-center opacity-10">
-            <a href="/map"
-              className="relative h-15 w-15 flex items-center justify-center"
-            >
+          <div className="flex w-30 gap-2 opacity-10 ml-auto">
+            <a href="/map">
               <Image
                 src="/gps.svg"
-                fill={true}
+                width={50}
+                height={50}
                 alt="map"
-                className="object-contain hover:scale-110 transition-transform duration-300"
               />
             </a>
 
-            <a href="/video"
-              className="relative h-10 w-10 flex items-center justify-center"
-            >
+            <a href="/video">
               <Image
                 src="/video-camera-svgrepo-com.svg"
-                fill={true}
-                alt="instagram"
-                className="object-contain hover:scale-110 transition-transform duration-300"
+                width={50}
+                height={50}
+                alt="videos"
               />
             </a>
+
+            <a href="/ail8d3">
+              <Image
+                src="/robot-thin-svgrepo-com.svg"
+                width={50}
+                height={50}
+                alt="ail8d3"
+              />
+            </a>
+
+
           </div>
 
         </div>
