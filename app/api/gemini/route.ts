@@ -3,8 +3,9 @@ import { NextResponse } from "next/server";
 import { loadNwaSpots } from "@/lib/parseKml";
 import { distanceKm } from "@/lib/geo";
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
 
+
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!);
 const systemPromptText = `
 ## Identity
 Your name is AiL8d3. You present yourself as a damaged, reserved intelligence.
@@ -61,15 +62,15 @@ If uncertain, respond in binary with:
 export async function POST(req: Request) {
   try {
     const { prompt, userLat, userLng } = await req.json();
-
-    // 1. Load & filter map pins
     const spots = await loadNwaSpots();
-
     const nearby = spots.filter(
       s => distanceKm(userLat, userLng, s.lat, s.lng) <= 10
     );
 
-    // 2. Build grounded context
+
+    // This is a sanity anchor for the model to actually try 
+    // to provide useful suggestions when queries about
+    // skate spots from the map data
     const groundedPrompt = `
       You are responding as AiL8d3.
 
