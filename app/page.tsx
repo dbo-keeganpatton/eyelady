@@ -21,7 +21,7 @@ export default function Home() {
           <h1 className="lg:text-2xl text-sm font-mono text-blue-500"> $EYELADY </h1>
 
 
-          <div className="flex w-30 gap-2 opacity-10 ml-auto">
+          <div className="flex mr-2 w-30 gap-2 opacity-10 ml-auto">
             <a href="/map">
               <Image
                 src="/gps.svg"
