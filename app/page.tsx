@@ -2,7 +2,6 @@ import EyeLadyText from "@/components/eyeladyText";
 import FrontPageVideo from "@/components/frontPageVideo";
 import SpinningCube from "@/components/spinningCube";
 import Image from "next/image";
-import Link from "next/link";
 
 
 
