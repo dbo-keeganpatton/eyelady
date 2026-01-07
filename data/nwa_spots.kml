@@ -1,0 +1,1918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>NWA Spots</name>
+    <description><![CDATA[Red = Rail<br>Blue = Ledge<br>Yellow = Stairs<br>Orange = Manny Pad <br>Green = Gap w/o Stairs<br>Purple = Miscellaneous / Epic Spots ]]></description>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-3949AB-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-3949AB-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-3949AB">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-3949AB-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-3949AB-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-A52714-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-A52714-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-A52714">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-A52714-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-A52714-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FBC02D-nodesc-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-FBC02D-nodesc-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-FBC02D-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FBC02D-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FBC02D-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>SPOTS</name>
+      <Placemark>
+        <name>Vue Outrail</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooZKvqoROle7Z7NK0PGvTnfr-kTWfpFXy6idrNNZWyNqGb2wiK29Nwk77yTp3Yx_JTeQEnvjKCE0XmhSOwLIzWQolXaeXy_u4FUcJ7FAqU9XTGCb-UyF3Fo4pOcT0LpuZ8_a1SsDrQXsgJkOQ4BBPkbpgwTiJ5lJNBG_A_zxq1ToeCZkeNqk08-_rH0XvlGngRdlcAvszT4x6OMSPokYYUzQQyJJ3iVm92Y5Yr7UIQaVSDeCTrN3jC4dZE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooZKvqoROle7Z7NK0PGvTnfr-kTWfpFXy6idrNNZWyNqGb2wiK29Nwk77yTp3Yx_JTeQEnvjKCE0XmhSOwLIzWQolXaeXy_u4FUcJ7FAqU9XTGCb-UyF3Fo4pOcT0LpuZ8_a1SsDrQXsgJkOQ4BBPkbpgwTiJ5lJNBG_A_zxq1ToeCZkeNqk08-_rH0XvlGngRdlcAvszT4x6OMSPokYYUzQQyJJ3iVm92Y5Yr7UIQaVSDeCTrN3jC4dZE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1756722,36.0525433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UBC Playground Flatbar</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqxzHCpGSvLFZnzTAWAjNYPx-y4KTf8KwWr92WuvNJH7HXEnAKz3yHAprRu5lg6bZZtyfxyB6XE5VNN4AfEGYf2Zx-markYLOnX1x2CO6_N4GzJ8bn6glbD9rAxKUT8ZvT__-QY0sTsEkF58vOp2723Mj7H7DrVX1gu-Q586Xd1j7RnnruJC_8n1wgB9_ZClXPBWACADYDMu70xJVYITZ9kZa4Y5Wzrh1wsLBHe7MOdsSzXn7ptd-4lrl4?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoppEPCmYbTYSlZmrSya7OryeEukbzLeehaqtOtF_COuhQl52h3U5Dm8EBfuL7eFZ3gop_zePnFTUcF6oHmPSk-yutQC84JijoqXobCQp8Xj-7zsPYydLoTvMx_-6vtaUtJgeD0zhvzFqCZoXf-VwnAy2iW5xk6GbjbFTtovlJn6Lb2dck9zYHA5ob9Om4TRn8h7xgl0c0K20qhqe-_vdKoLx3SOmOy-eUcMiwoijlAxjqb_39XmMR2MReE?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqxzHCpGSvLFZnzTAWAjNYPx-y4KTf8KwWr92WuvNJH7HXEnAKz3yHAprRu5lg6bZZtyfxyB6XE5VNN4AfEGYf2Zx-markYLOnX1x2CO6_N4GzJ8bn6glbD9rAxKUT8ZvT__-QY0sTsEkF58vOp2723Mj7H7DrVX1gu-Q586Xd1j7RnnruJC_8n1wgB9_ZClXPBWACADYDMu70xJVYITZ9kZa4Y5Wzrh1wsLBHe7MOdsSzXn7ptd-4lrl4?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoppEPCmYbTYSlZmrSya7OryeEukbzLeehaqtOtF_COuhQl52h3U5Dm8EBfuL7eFZ3gop_zePnFTUcF6oHmPSk-yutQC84JijoqXobCQp8Xj-7zsPYydLoTvMx_-6vtaUtJgeD0zhvzFqCZoXf-VwnAy2iW5xk6GbjbFTtovlJn6Lb2dck9zYHA5ob9Om4TRn8h7xgl0c0K20qhqe-_vdKoLx3SOmOy-eUcMiwoijlAxjqb_39XmMR2MReE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1638213,36.0691679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Archer Outledges</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqif0tc92fqvvV8ybRyzMCTkyBVxPJrjscL5V-ItXHF0jdb-XjppDAyAo1ReP-sNLdjIBJE30Nset2dK3zY7h14qm4DqPVMqVK4V5apD6smRANk5eF1Ng5iBIdip7y01gMuENzyo9H086jmKh88aVxXvphSMaFzeZD98313j31RLwRG7Ew_0_6lWK978F4kA2OoYfv40VEiTk2J78mCmb-r-k4pab-lYANCv_22pLcA8u4q07VoXzXXbGg?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqvk5vZ6hdizo9Q9ybXDKO3IP7i9Eb3GZhEZrnfEEM_d0in0BSo4AFINTfx3nS-wm2SjjKCVr9FufOVPoWJJQvUIrfIyI-r-vkEk14jOZZ_Rf6P3iYmB0WQck_DckRjiMkVZrhr5G27jmM4DQ4lzg0Jet0Pngx9UBsCU_J1g201UPtgY8bGvy1iRna-FD6nWghr6rPQieGkTJaUQz4ldjOZfl2rbqwQUPuhWGpAd_xf5mKIYhI17F8nNfk?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqif0tc92fqvvV8ybRyzMCTkyBVxPJrjscL5V-ItXHF0jdb-XjppDAyAo1ReP-sNLdjIBJE30Nset2dK3zY7h14qm4DqPVMqVK4V5apD6smRANk5eF1Ng5iBIdip7y01gMuENzyo9H086jmKh88aVxXvphSMaFzeZD98313j31RLwRG7Ew_0_6lWK978F4kA2OoYfv40VEiTk2J78mCmb-r-k4pab-lYANCv_22pLcA8u4q07VoXzXXbGg?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqvk5vZ6hdizo9Q9ybXDKO3IP7i9Eb3GZhEZrnfEEM_d0in0BSo4AFINTfx3nS-wm2SjjKCVr9FufOVPoWJJQvUIrfIyI-r-vkEk14jOZZ_Rf6P3iYmB0WQck_DckRjiMkVZrhr5G27jmM4DQ4lzg0Jet0Pngx9UBsCU_J1g201UPtgY8bGvy1iRna-FD6nWghr6rPQieGkTJaUQz4ldjOZfl2rbqwQUPuhWGpAd_xf5mKIYhI17F8nNfk?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1402711,36.1784511,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BHS Handrail</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqOityrJ5cyxpECfcXMLSTMRcfLx-8YeZH8kivcl6N3MG0jBZv2RsrSOxE7E7Zb8iHEjQCu69wTDt3y_dqIInObqWQHmEstAqarGZRfPu2f9BNzU1vKxbnsaoZ2LX0oya_GyEd3A0WXqRlNh-a9vkISI4cdtVi1NX3KTWYMXsnbuKUm1DrghPBd4Umi6vEcZyelt7O5Ihg-J2DiQ_0KvOe9ndwOiOjCkPikMDRfHMGi3fmL7CgKifMBrX8?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooD-FUCD64FfSMDhMN3kVwGtoyi01ketVQSivGgGjPHK8COEPBHcu13cqJ96DtuFy8JYk79ffxZrOicttsb3pGBHzq5SXWcMDD5Z26UEGgKpbuD6YRsUjjZzSanGzW0XMfKsd-dlUhsPyy0XwMd3fORji_jShf8Iu8FojnwSZr-ZF4B_5hfqzXjrhsupw8PnK69aH9zJ_-klnfa1UR4uOoYzKDBz2JdRFf5ZJgUfMet6GOYYQ7UqQ2oOc4?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqOityrJ5cyxpECfcXMLSTMRcfLx-8YeZH8kivcl6N3MG0jBZv2RsrSOxE7E7Zb8iHEjQCu69wTDt3y_dqIInObqWQHmEstAqarGZRfPu2f9BNzU1vKxbnsaoZ2LX0oya_GyEd3A0WXqRlNh-a9vkISI4cdtVi1NX3KTWYMXsnbuKUm1DrghPBd4Umi6vEcZyelt7O5Ihg-J2DiQ_0KvOe9ndwOiOjCkPikMDRfHMGi3fmL7CgKifMBrX8?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooD-FUCD64FfSMDhMN3kVwGtoyi01ketVQSivGgGjPHK8COEPBHcu13cqJ96DtuFy8JYk79ffxZrOicttsb3pGBHzq5SXWcMDD5Z26UEGgKpbuD6YRsUjjZzSanGzW0XMfKsd-dlUhsPyy0XwMd3fORji_jShf8Iu8FojnwSZr-ZF4B_5hfqzXjrhsupw8PnK69aH9zJ_-klnfa1UR4uOoYzKDBz2JdRFf5ZJgUfMet6GOYYQ7UqQ2oOc4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1944332,36.3512471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Folly Trick In To Drop</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqKtQlN5ppvD5KDKl8QquLzK93qm6m1Ha28qSaXceEBe-7Z_tH-ItW_xoUp2Q8ed_xJH64xooZFkNfJ9cEz9iAM4MZs9OEwhBZwQW3t7nJXCYvHPi0G1XE7SY85OrfgrMYqHI7213KzN8OYrj0EWlfUayrI7d64wfwPsZ3PaE1RkTljXLGmJjVsat0E6ZOxS_4-l_tOejZzJnL6xkwq3vP_GKLhR7s9ZrVaoDNP8UnkUI1YQpaSxnlTGFA?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqKtQlN5ppvD5KDKl8QquLzK93qm6m1Ha28qSaXceEBe-7Z_tH-ItW_xoUp2Q8ed_xJH64xooZFkNfJ9cEz9iAM4MZs9OEwhBZwQW3t7nJXCYvHPi0G1XE7SY85OrfgrMYqHI7213KzN8OYrj0EWlfUayrI7d64wfwPsZ3PaE1RkTljXLGmJjVsat0E6ZOxS_4-l_tOejZzJnL6xkwq3vP_GKLhR7s9ZrVaoDNP8UnkUI1YQpaSxnlTGFA?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1573595,36.0617721,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Funeral Home Dragon Ledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop6pPN82XQblzi1Z4xlEphNKcK6TvNtsuM-ndVyyvTzhM9Sn0BJfoYKYG13gEJHTWtX-_VvKD2KSrAHt8342uAFIBqk2WXzmqIVXcwrCvU723HkR6gMO2d3g2Sz_-_LFCB4NzgSMmjanwtRX2R992WIm5jTVJ4-r0iXvLRnHnaapgqOsQ7MmmSuBptobIoLKuDRVkL6Q-o0TvyFEm_e6ov7oGHnkqHZBTjs9IE-gDl3FKFnQvvkfdFkNgs?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooMPUQ68mUrV_SHgkvWgJegZoSOZjVHwCBNuiSpXMnI90iB2t8-QkpHA_GyY95wz3bQmSKfE5LI3KCM5pciFZkkrdLj4mzN13d73RDdmJms34UYsjLsSzPBFeP58A9hgi4jEa6x--zHX9DjcaqXvxtPzuRbcqLWxfFUeXVxuIKD9NpuxymBpaizknQkjq7pgKI8jOzdk5wQM4BC91s9hBV0wCynRxh_k-i1obty-Ws94vVGFfFvJ-ufqlg?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop6pPN82XQblzi1Z4xlEphNKcK6TvNtsuM-ndVyyvTzhM9Sn0BJfoYKYG13gEJHTWtX-_VvKD2KSrAHt8342uAFIBqk2WXzmqIVXcwrCvU723HkR6gMO2d3g2Sz_-_LFCB4NzgSMmjanwtRX2R992WIm5jTVJ4-r0iXvLRnHnaapgqOsQ7MmmSuBptobIoLKuDRVkL6Q-o0TvyFEm_e6ov7oGHnkqHZBTjs9IE-gDl3FKFnQvvkfdFkNgs?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooMPUQ68mUrV_SHgkvWgJegZoSOZjVHwCBNuiSpXMnI90iB2t8-QkpHA_GyY95wz3bQmSKfE5LI3KCM5pciFZkkrdLj4mzN13d73RDdmJms34UYsjLsSzPBFeP58A9hgi4jEa6x--zHX9DjcaqXvxtPzuRbcqLWxfFUeXVxuIKD9NpuxymBpaizknQkjq7pgKI8jOzdk5wQM4BC91s9hBV0wCynRxh_k-i1obty-Ws94vVGFfFvJ-ufqlg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1623129,36.0631546,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>McRay Hip</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooDvKMYjY8e723sqv4RmssZ1n26j_raL0FhLP3xrMZ72MCY1IbgWFnKO7gGdrcxECiXeTs36XnI7Wj-ldUtsEiB11Buurz0EJgOqCx0Q2ptkA0yUyZIicmshaCmXeZ2YGjfbiyuqfwLF1xLcjyD8aiWKMpiJHutRKYkK8rp--KOG4l3W8KMThiJDJlqiRbbSFH77xh3H4-aXnUhwZpyFmlMJs0p8E1AXO5aTpnCNgycxwgXTEDqmpJ99TM?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooDvKMYjY8e723sqv4RmssZ1n26j_raL0FhLP3xrMZ72MCY1IbgWFnKO7gGdrcxECiXeTs36XnI7Wj-ldUtsEiB11Buurz0EJgOqCx0Q2ptkA0yUyZIicmshaCmXeZ2YGjfbiyuqfwLF1xLcjyD8aiWKMpiJHutRKYkK8rp--KOG4l3W8KMThiJDJlqiRbbSFH77xh3H4-aXnUhwZpyFmlMJs0p8E1AXO5aTpnCNgycxwgXTEDqmpJ99TM?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1672907,36.1817596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University Beartrap Outledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorU-M5UVVKC9VSFZ6UiPlPFL3pJnySgPJtNEZSO0imrUmekaByrVN96kzhFHwhO3GmTGDkJI3lTQ3bFe2e1r1nVFZA8BQZP36C2umNdCXq224E6UoHNAAPjjW5hNP7NMP-UHL_QX6HEmR-_NXYS4VCU_z-mEoo_a37CF4F80A_b5dKndofuzwM56GnmwK9atfxYJK1_nHpSAW2ioGv2TVu8nj_HM2sVwwGRZ3izMfoH_vRYaO4sSAXZGgo?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorU-M5UVVKC9VSFZ6UiPlPFL3pJnySgPJtNEZSO0imrUmekaByrVN96kzhFHwhO3GmTGDkJI3lTQ3bFe2e1r1nVFZA8BQZP36C2umNdCXq224E6UoHNAAPjjW5hNP7NMP-UHL_QX6HEmR-_NXYS4VCU_z-mEoo_a37CF4F80A_b5dKndofuzwM56GnmwK9atfxYJK1_nHpSAW2ioGv2TVu8nj_HM2sVwwGRZ3izMfoH_vRYaO4sSAXZGgo?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1734157,36.0678392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tyson C Ledge (FALL/WINTER)</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoowlZycqAoI-IadhcYwqGUp-LLAQt8PPRGjyfzUJ00wADfkqXkcg995ykLPbLXsemkhl0ivuGS2_Pe8jIYp1RcauIVctznSZFey78pV3nq8cSJcWVzOEDLzKM1zVc7QJ65X8FkkNP4hNK0gxGhMUY6JmEYUbAAsg30IrRrWkuAGht5XPkKqFNev8AfcWgQ1SbXaRhewNho5DFlJ2jpqLoRo09UAhsQWhyRspJ-ZDWms6TF_PH9G6AeNyy8?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoowlZycqAoI-IadhcYwqGUp-LLAQt8PPRGjyfzUJ00wADfkqXkcg995ykLPbLXsemkhl0ivuGS2_Pe8jIYp1RcauIVctznSZFey78pV3nq8cSJcWVzOEDLzKM1zVc7QJ65X8FkkNP4hNK0gxGhMUY6JmEYUbAAsg30IrRrWkuAGht5XPkKqFNev8AfcWgQ1SbXaRhewNho5DFlJ2jpqLoRo09UAhsQWhyRspJ-ZDWms6TF_PH9G6AeNyy8?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1785602,36.1603347,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tontitown Outledges</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq2v5xz9Xs9kQxf4xJRqMmPuz8U08fvGVyKfQHRVlbQ8fNA8KDquguDQxjD-Ob_3NZYHqFork7bhV4VfW9eAQFWnkEQONWD4x4ol7-9o1OnP4NfeOM7K514In1iSqcDXbx_RevVbXB_NWlxhTDOBIDZHpCUI2lMsuRbagY-hyhNE2Y9ChLEJh1z-L0WMAxtkh4RhHZgrJyhE4bfaSd_rKjTGB-fqfL5rwokkvPrO__on_fNo6yUs5457Fo?authuser=0&fife=s16383" height="200" width="auto" /><br><br>frontside and backside <br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor1ekZBIa1ysuW3D52ONVRDeGFnVsJ0YgBbNwT6JpcjEN7ZtlS6dL-pjoss_b-D_sUBEwf7IaH_lIorCdiqaMqEVlfy_nsw-IMpTCOFTFwJG08azhHzbz_qWGTvhzDdxACV8yawV_AFR9qaRynEw5YzHWWKtTgqxDrx1F0eRMILSP3zPT6ypIOdoUE78xg4Aike_Vm8ZvX37hrIIlY6zKdi__hICiRlBGep39wUeZx-WbTSj4Qa4Yqyuws?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq2v5xz9Xs9kQxf4xJRqMmPuz8U08fvGVyKfQHRVlbQ8fNA8KDquguDQxjD-Ob_3NZYHqFork7bhV4VfW9eAQFWnkEQONWD4x4ol7-9o1OnP4NfeOM7K514In1iSqcDXbx_RevVbXB_NWlxhTDOBIDZHpCUI2lMsuRbagY-hyhNE2Y9ChLEJh1z-L0WMAxtkh4RhHZgrJyhE4bfaSd_rKjTGB-fqfL5rwokkvPrO__on_fNo6yUs5457Fo?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor1ekZBIa1ysuW3D52ONVRDeGFnVsJ0YgBbNwT6JpcjEN7ZtlS6dL-pjoss_b-D_sUBEwf7IaH_lIorCdiqaMqEVlfy_nsw-IMpTCOFTFwJG08azhHzbz_qWGTvhzDdxACV8yawV_AFR9qaRynEw5YzHWWKtTgqxDrx1F0eRMILSP3zPT6ypIOdoUE78xg4Aike_Vm8ZvX37hrIIlY6zKdi__hICiRlBGep39wUeZx-WbTSj4Qa4Yqyuws?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.2069331,36.1785391,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Holt Ledge Over Stair</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorp4tG0pN17H5lJ0xfsTJcLvwe4F2bE2paL-kpK68No_-cZdXw3_96t39NswSsSc_-PuwA6MzFLDMzwNXdhja76kHveq2StI6s5IoOCoi1Jx00UCizGmGjteSVuPKkSEqh-lddztgWXPdWtii8MWsSQprLDraJzTx78dYAfJPmMOwE7x5I-ChFadaYH7k5SHNmJQNQKS34S_buWv8C_7g8E0ZXNZvGyOxFiyxZ8nGlhHet_DRN259irMfM?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorp4tG0pN17H5lJ0xfsTJcLvwe4F2bE2paL-kpK68No_-cZdXw3_96t39NswSsSc_-PuwA6MzFLDMzwNXdhja76kHveq2StI6s5IoOCoi1Jx00UCizGmGjteSVuPKkSEqh-lddztgWXPdWtii8MWsSQprLDraJzTx78dYAfJPmMOwE7x5I-ChFadaYH7k5SHNmJQNQKS34S_buWv8C_7g8E0ZXNZvGyOxFiyxZ8nGlhHet_DRN259irMfM?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.2142166,36.0949841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mojo Bank to Ledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqIRksUPjxsgiqze1Z0lOMHEkMdadeC3HH6FwpmVJqMCNbu1hGv07by7U0QKUzATe6cYQpuDTlKU4YsDCfkwVAf_bd-l4WTw7VyTNY0d3YpnR1PIxROsJtv07sU-6TzncwpoRj1vTY9vb09TuFE-uV-4timZ7mM1JrtMeptEBVBfVDOQHCImmlBFSZq9sIyaOH7E3G5BJCaIvJVf0MUrc9Te7N46WYPL3fPF75M9fr0CEyjYcR3uARGEwY?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqIRksUPjxsgiqze1Z0lOMHEkMdadeC3HH6FwpmVJqMCNbu1hGv07by7U0QKUzATe6cYQpuDTlKU4YsDCfkwVAf_bd-l4WTw7VyTNY0d3YpnR1PIxROsJtv07sU-6TzncwpoRj1vTY9vb09TuFE-uV-4timZ7mM1JrtMeptEBVBfVDOQHCImmlBFSZq9sIyaOH7E3G5BJCaIvJVf0MUrc9Te7N46WYPL3fPF75M9fr0CEyjYcR3uARGEwY?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1741164,36.0782219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Washington 5 Flat 3</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBormP_5EXnWTosglARzY8kl3bvCVUec-QCziqihcq4kt-NuFvayWaMOK-UeghXJ7svFx2cLyxr8vhG9AM7dSyD3gV85JvJlyb7jhhZd7J8QzJzxC8_Ui1w2hBcB9XJ3e_NaW5AuhbnNQCvBI5mkFYrTBsjhKRGlM3SMTywRDGzFVR-JwwqDYgkg6IefnjwAJQkAry8vMOy9vXWqkKjWLVsvNo1eKhVDRnD__267U-DS293rhB9cwDplhb9o?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBormP_5EXnWTosglARzY8kl3bvCVUec-QCziqihcq4kt-NuFvayWaMOK-UeghXJ7svFx2cLyxr8vhG9AM7dSyD3gV85JvJlyb7jhhZd7J8QzJzxC8_Ui1w2hBcB9XJ3e_NaW5AuhbnNQCvBI5mkFYrTBsjhKRGlM3SMTywRDGzFVR-JwwqDYgkg6IefnjwAJQkAry8vMOy9vXWqkKjWLVsvNo1eKhVDRnD__267U-DS293rhB9cwDplhb9o?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1594551,36.0696301,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lot 42 Long 3 Flat 2</name>
+        <styleUrl>#icon-1899-FBC02D-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -94.1790037,36.0720379,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Little Debbie Bank</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo74cE18l4eGlsazDnDP-ITY7lSKB96klZwApSda2DdRefsDhlsyPKSJKGyfWuLKgDBwTslVf2s6RCr95uMVjpCy8-HMgngefMI3iu9MTkWn1o8qnxR4wxEGJlOun_Wq6BUd1SYhVabAZRR9AjRauzO3vWrI0r6klips5pFuwRoxdvBstB1XNQbZ-L480Eq-8sSW2hg38tZX999OXavBAa8pB1dYkw0PL3uinuuMYS1qdvqmkzEJ1ZsTAQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo74cE18l4eGlsazDnDP-ITY7lSKB96klZwApSda2DdRefsDhlsyPKSJKGyfWuLKgDBwTslVf2s6RCr95uMVjpCy8-HMgngefMI3iu9MTkWn1o8qnxR4wxEGJlOun_Wq6BUd1SYhVabAZRR9AjRauzO3vWrI0r6klips5pFuwRoxdvBstB1XNQbZ-L480Eq-8sSW2hg38tZX999OXavBAa8pB1dYkw0PL3uinuuMYS1qdvqmkzEJ1ZsTAQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1740734,36.1764732,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jersey Barrier Grinder (BRING WAX)</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooUm826h-_43UpFqCV-cHZ_LPqqjTubWEKUj8v4wYcpflStd35yjgY_hqEbCzS-H8JkDe2h9jt6yb6XRAMDgzOqKpQpvrmalCTvyxkfspOvFaPhOMllenIrgOdNB8yj1fMg0AoprkELy1YKrz0ZAnXR_3QSKp4BOj4A9dAFE58SB2drm-c04ewqkfyMm6gzYPMW1MbCYw1VgMc_Zfy7dC1kF-fkonPbpCexTegmXZMcNXd8G1Ui9LuxrcE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooUm826h-_43UpFqCV-cHZ_LPqqjTubWEKUj8v4wYcpflStd35yjgY_hqEbCzS-H8JkDe2h9jt6yb6XRAMDgzOqKpQpvrmalCTvyxkfspOvFaPhOMllenIrgOdNB8yj1fMg0AoprkELy1YKrz0ZAnXR_3QSKp4BOj4A9dAFE58SB2drm-c04ewqkfyMm6gzYPMW1MbCYw1VgMc_Zfy7dC1kF-fkonPbpCexTegmXZMcNXd8G1Ui9LuxrcE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1828373,36.055282,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ronda Flatbar </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqd3NJZYU9LMg4BOacuVNQiT5F7zM0nLdMx_vpTAKl0kbeDrfh5CQDHF8oAIhqHKaoVRnYBJ7ugtj9s1ubjwaLHLEziILjPufjiVJg1A0Xuq9Yyt4JflVjbTSweIu2v3TQNNa2rBnXf1Ut1TEIGPq5KV36-pzGzSX8AZxrfvwa__U4m6ApgwCIQRjYfIWErId1yEpuGjvuljGSMeSOOe905Ps0DriHewVRae--9hrQ-HR4HEEz6a-Ehdt8?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqd3NJZYU9LMg4BOacuVNQiT5F7zM0nLdMx_vpTAKl0kbeDrfh5CQDHF8oAIhqHKaoVRnYBJ7ugtj9s1ubjwaLHLEziILjPufjiVJg1A0Xuq9Yyt4JflVjbTSweIu2v3TQNNa2rBnXf1Ut1TEIGPq5KV36-pzGzSX8AZxrfvwa__U4m6ApgwCIQRjYfIWErId1yEpuGjvuljGSMeSOOe905Ps0DriHewVRae--9hrQ-HR4HEEz6a-Ehdt8?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1535537,36.0476728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hotwheels Curved Outrail </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBormz6UsNbZcIE5DHR7IrhJKPHyRxW1yl6AhxEyv3Y3QaNgRAQ5Zcno8M1QJLGmQ6aYwyLMz9RpNERh4U6NQG5_Q0_AHsDbm0HxPjvmiW8J2qD_JCtN7DrwRCnqxhGH1deGbQ1JbT9d6OR50JiVSwdaR-NIQFANRtZH_3SUtSErIaxIdI0PpyPCIh3ybtpt1xNQhGZFTLwrT6sQO2dXe0QSnp5g_zy4AKwFGZ2iPDcgNghlTTvwbuJtQoyM?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBormz6UsNbZcIE5DHR7IrhJKPHyRxW1yl6AhxEyv3Y3QaNgRAQ5Zcno8M1QJLGmQ6aYwyLMz9RpNERh4U6NQG5_Q0_AHsDbm0HxPjvmiW8J2qD_JCtN7DrwRCnqxhGH1deGbQ1JbT9d6OR50JiVSwdaR-NIQFANRtZH_3SUtSErIaxIdI0PpyPCIh3ybtpt1xNQhGZFTLwrT6sQO2dXe0QSnp5g_zy4AKwFGZ2iPDcgNghlTTvwbuJtQoyM?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1378398,36.252453,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mile 16 Plaza</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorHL29YfIP0D1WyyQbr00W_3oB71fz9QR-KHxu6miDgQO_hweD67gMYJ7OWCUjWnXUpeh0OlD_B7gx20mowLNqOLFWHrqB5nlWM38jCrVldiM1WYLNEqOAJpmJBSOr5FZ7NGF_5r5_tHdGtyV418cOBhm3XSMUx9sV7eLMJiDU6F09aaU9bkpg0_giFtt_-XWtgzbw2uB2e6U9ZB5sXCVaNq2cSXRTuITq2Hy5PmmhdTrTeyzzLPdPRgsI?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqrTadtuHI60x4PUyr8Wp-56xnEwPUNhOPeE-SVJ3uARKExlla73xNd3FYpcj_Q6nu2KxEHU8qXktmF5wOAq6hQDiDNoEwdmBH2nH6Nh_WReYq7mYDS-gNpk9wVOhX20sT_D_smRE_U3Ln1BApKq-rXUfuGbXkeI9E9rWk02JN1f5Ty0Z5V5EylArAJiNiqBVc7t2kaZG6V90K411ZcLJ6-uJ_sVyGQ2JS0brcoMaHbRz8yFYmoJwN8o7E?authuser=0&fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooJKcfYGoX0UPP-PD_WQaqMb2tr2mCczXwkWMju6AIbzIOyq3gVf5SYzqOyfZGRabW9aaF46yiPRWmjo90ztPUkeZ6St2vUUnqIA97owMdKlaoscRS_LSlwfdiQ4Jflv0aHNmTUFWFlddMiiSum5WJyxGT7GLgDErMnqTSnSBM_4QNBsmzg3Pq-ifKz7GvSVm604jgp7mtMamHTB93RFkVLgX-bnJDqxxGuzyaK8kKWh_q4vcoErgb0O90?authuser=0&fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooA26soOOuwuFd-HblZHOY5FKc8_PEIgryd7CrYuoAj1yyl1gI5cswUk09H7toS1nqjLBKT-xCpHFtFDIf9akPolPWYKq4doeHvJbF2vw4yUgODGtBoK__rySr2poor1TmowYez9_Ld3zGi9MJBVPmBOTd_pGsCrw0WIPaR4h_QpEogsVOJGDKT9mkFrSbZgBpbXa7Oo1Ns_Iag5qX_9PUFz2AvopxStr0OoM33SGVkBgeb7FiF6rKNjy8?authuser=0&fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopNMXwT7Bu0Br9zS4vDMQobk1pDo81qkzIIgHAabcJRlEivrf_HvwM-ExWN0fvZ51cqKKzErRz5J85xnRnFYOpJTPG-MxRV31essBJKLFJGB4tizUNsAT4r5b4MAokH8Tc7bocpf3b-dYsQyl8MVaxpKIH4YtupFBotaeeIsGbah9w1z7mGdFQElVtsHtTcbOJqIa-YuxHo31O6c3-QdGW5xtxb5sHeChruFqx8tGYqzWDOfp4cexvIPFc?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorHL29YfIP0D1WyyQbr00W_3oB71fz9QR-KHxu6miDgQO_hweD67gMYJ7OWCUjWnXUpeh0OlD_B7gx20mowLNqOLFWHrqB5nlWM38jCrVldiM1WYLNEqOAJpmJBSOr5FZ7NGF_5r5_tHdGtyV418cOBhm3XSMUx9sV7eLMJiDU6F09aaU9bkpg0_giFtt_-XWtgzbw2uB2e6U9ZB5sXCVaNq2cSXRTuITq2Hy5PmmhdTrTeyzzLPdPRgsI?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqrTadtuHI60x4PUyr8Wp-56xnEwPUNhOPeE-SVJ3uARKExlla73xNd3FYpcj_Q6nu2KxEHU8qXktmF5wOAq6hQDiDNoEwdmBH2nH6Nh_WReYq7mYDS-gNpk9wVOhX20sT_D_smRE_U3Ln1BApKq-rXUfuGbXkeI9E9rWk02JN1f5Ty0Z5V5EylArAJiNiqBVc7t2kaZG6V90K411ZcLJ6-uJ_sVyGQ2JS0brcoMaHbRz8yFYmoJwN8o7E?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooJKcfYGoX0UPP-PD_WQaqMb2tr2mCczXwkWMju6AIbzIOyq3gVf5SYzqOyfZGRabW9aaF46yiPRWmjo90ztPUkeZ6St2vUUnqIA97owMdKlaoscRS_LSlwfdiQ4Jflv0aHNmTUFWFlddMiiSum5WJyxGT7GLgDErMnqTSnSBM_4QNBsmzg3Pq-ifKz7GvSVm604jgp7mtMamHTB93RFkVLgX-bnJDqxxGuzyaK8kKWh_q4vcoErgb0O90?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooA26soOOuwuFd-HblZHOY5FKc8_PEIgryd7CrYuoAj1yyl1gI5cswUk09H7toS1nqjLBKT-xCpHFtFDIf9akPolPWYKq4doeHvJbF2vw4yUgODGtBoK__rySr2poor1TmowYez9_Ld3zGi9MJBVPmBOTd_pGsCrw0WIPaR4h_QpEogsVOJGDKT9mkFrSbZgBpbXa7Oo1Ns_Iag5qX_9PUFz2AvopxStr0OoM33SGVkBgeb7FiF6rKNjy8?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopNMXwT7Bu0Br9zS4vDMQobk1pDo81qkzIIgHAabcJRlEivrf_HvwM-ExWN0fvZ51cqKKzErRz5J85xnRnFYOpJTPG-MxRV31essBJKLFJGB4tizUNsAT4r5b4MAokH8Tc7bocpf3b-dYsQyl8MVaxpKIH4YtupFBotaeeIsGbah9w1z7mGdFQElVtsHtTcbOJqIa-YuxHo31O6c3-QdGW5xtxb5sHeChruFqx8tGYqzWDOfp4cexvIPFc?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1304072,36.1847222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shiloh 4 Block </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor1jvoLDIEWCRpa_VsnJrZXy_fFQVYnqFcMGBKdUN8DqRvvdSsWBXX2j35iifUlHivaVNnPM0V-oDfS1A0OK61tAZ8GsOIuz1mJt3X2bSChpZ2UMelMYa2A-j66YQcIomJ2sEcIuFoxKOWFzXIMIJsNAP7mDs56Rr_7csrBc3jqUlFD85SEACMI26wJ5gHnY6_8Tkv8RT1H8t_hbjOLq_aB6-j-bsm_-tixOYkXyneNSTohdA8MM3mfpCU?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor1jvoLDIEWCRpa_VsnJrZXy_fFQVYnqFcMGBKdUN8DqRvvdSsWBXX2j35iifUlHivaVNnPM0V-oDfS1A0OK61tAZ8GsOIuz1mJt3X2bSChpZ2UMelMYa2A-j66YQcIomJ2sEcIuFoxKOWFzXIMIJsNAP7mDs56Rr_7csrBc3jqUlFD85SEACMI26wJ5gHnY6_8Tkv8RT1H8t_hbjOLq_aB6-j-bsm_-tixOYkXyneNSTohdA8MM3mfpCU?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1303495,36.1851725,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Otis Bump to Flat</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqEv_Q9uiZAC-AE3c0yFKrNzExwgnINw5qMEsuRGmZ-YbDDGe1gdjcbGsgNWeJT4W9uVEPdcuNuddHjDOi_KJ92yumtg_swtvUQpf9l2r1TIkYyIAXL-n0_hUOh-tQa6BqvlKCfpD18GLy3mmtRC_qrA-0iZebeQxoYf5i1BBMBYvRGOQJxWshOItlT1KFWOM8pdy82haJ8GllUzZ50BSKTyGI7dADZ2Z_BD2nnjGumkc0L2iIHjo4sT5o?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqEv_Q9uiZAC-AE3c0yFKrNzExwgnINw5qMEsuRGmZ-YbDDGe1gdjcbGsgNWeJT4W9uVEPdcuNuddHjDOi_KJ92yumtg_swtvUQpf9l2r1TIkYyIAXL-n0_hUOh-tQa6BqvlKCfpD18GLy3mmtRC_qrA-0iZebeQxoYf5i1BBMBYvRGOQJxWshOItlT1KFWOM8pdy82haJ8GllUzZ50BSKTyGI7dADZ2Z_BD2nnjGumkc0L2iIHjo4sT5o?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1925978,36.3456728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FHS Angle Iron Ledge </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorFjLz7yMvUla4t0__4VW4nMW5yn7Aq9ZNgIn57kRmNaMgrNAaSCs0veif52KASIwDeyFLU53wN9hLQLqNoltlcpAcXBQoR2wMEwSuddzJylZ99m9yIdqHErVLAIhX9Q1yxY5syzPfgLmZAj8aAzC7QZxtH_-B2HnNK9FXt5zetJqJCGQsuJ7byP2OicnAypBBEO86rUwy2_M-p0kRLgZzznHGk7TtvzL0VFKJH0r2qv1G28JSQORbgjX0?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorFjLz7yMvUla4t0__4VW4nMW5yn7Aq9ZNgIn57kRmNaMgrNAaSCs0veif52KASIwDeyFLU53wN9hLQLqNoltlcpAcXBQoR2wMEwSuddzJylZ99m9yIdqHErVLAIhX9Q1yxY5syzPfgLmZAj8aAzC7QZxtH_-B2HnNK9FXt5zetJqJCGQsuJ7byP2OicnAypBBEO86rUwy2_M-p0kRLgZzznHGk7TtvzL0VFKJH0r2qv1G28JSQORbgjX0?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1729973,36.0580631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Junior Slappy Bank</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqy3f--4Ih5-3QPzWeyd6L_UKUm78uzaftDSDvDcbWYRw8CJ8rzrvtUnTCqNBZIBtk_QAHFB7S-AfgaMZMkD9mcD9iY62MssVaqZKNlVNcdpcMsCNzv8Tiyto6RqsG3boPgdXY_qG1MN7Tk5OmtTM_CC-jRpgzVl472Ap7IJ3Pv-vsZnYdYKD6kIxd8gIyxdmZsFz5LRkCYUmviujVpW1iSd45bvSwkLiXDPwcUcM0saKc3esFHHrqWX1o?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqy3f--4Ih5-3QPzWeyd6L_UKUm78uzaftDSDvDcbWYRw8CJ8rzrvtUnTCqNBZIBtk_QAHFB7S-AfgaMZMkD9mcD9iY62MssVaqZKNlVNcdpcMsCNzv8Tiyto6RqsG3boPgdXY_qG1MN7Tk5OmtTM_CC-jRpgzVl472Ap7IJ3Pv-vsZnYdYKD6kIxd8gIyxdmZsFz5LRkCYUmviujVpW1iSd45bvSwkLiXDPwcUcM0saKc3esFHHrqWX1o?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1616375,36.187682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Westside Ledges</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopNGTJsH4-ewVclfgbgyNcmD08k7wAjmIPVLXeMpwNpMbLDsHrr5rjRM7SqFN92thP6I8cw51v0TA1bQY5UmatXJbLjpsdyRvb1meAevlKbIjxwSqkpOORroeCOm1yui3c-JZDyuKJIkz0fbUxOjjvIf7ONLC---r4lnfuxUTfZpaffKND8as3hxshH_QsCEwxeYscut4w2gzSzheLaua_9SeemXwPVFyIr4ROAZ53fuzy21pqiYJVBlkc?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopNGTJsH4-ewVclfgbgyNcmD08k7wAjmIPVLXeMpwNpMbLDsHrr5rjRM7SqFN92thP6I8cw51v0TA1bQY5UmatXJbLjpsdyRvb1meAevlKbIjxwSqkpOORroeCOm1yui3c-JZDyuKJIkz0fbUxOjjvIf7ONLC---r4lnfuxUTfZpaffKND8as3hxshH_QsCEwxeYscut4w2gzSzheLaua_9SeemXwPVFyIr4ROAZ53fuzy21pqiYJVBlkc?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1497715,36.3277681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1st Security Philly Ledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorExzmLnK6cG5DvjTYJ64l4AZdMc_rfDK7PEidE1hZVsgqSz98O-LIwHCHn517vIB1oKcoEvlFIeL0j5whGOr5blxiWmN6x2I2cGun6k0kmp2k9aILIyy4XVlv-3nHXjCfTeFsHiE7bacSDkO8WBxMCUpOzeZKJ1TBQZybyhCsfLyD638lpBvn1RJSKGL6vJWu1eC_LF3nYfg8SCL1qaVxY7VipyZApuAk6qAEYsjgbJCk_IsiKiQtWpkE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorExzmLnK6cG5DvjTYJ64l4AZdMc_rfDK7PEidE1hZVsgqSz98O-LIwHCHn517vIB1oKcoEvlFIeL0j5whGOr5blxiWmN6x2I2cGun6k0kmp2k9aILIyy4XVlv-3nHXjCfTeFsHiE7bacSDkO8WBxMCUpOzeZKJ1TBQZybyhCsfLyD638lpBvn1RJSKGL6vJWu1eC_LF3nYfg8SCL1qaVxY7VipyZApuAk6qAEYsjgbJCk_IsiKiQtWpkE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1584206,36.0631159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>86 Rail</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop8wuaZ102hYpAS4Qz6ydMJgzyqwcT1iZIL1ab_o4-RFZq_FQxGF085laQQiCwv4NHF6YyiIiQIBzUcx3NR31NCFGTXyoIaHT_WurlQghVC7jwFk6sKZvexwYOFEoVv897bNC-46PHnj00iTFjEGfbpHkan4v_HUpXgQeUfleT5Z-zGqni0xegjES__SOSozMjnfUA0UFZCs0qpLp_Kz27OrMGWb65EqkR8cTsYeuoXZaP5Ak5JD71-oDA?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop8wuaZ102hYpAS4Qz6ydMJgzyqwcT1iZIL1ab_o4-RFZq_FQxGF085laQQiCwv4NHF6YyiIiQIBzUcx3NR31NCFGTXyoIaHT_WurlQghVC7jwFk6sKZvexwYOFEoVv897bNC-46PHnj00iTFjEGfbpHkan4v_HUpXgQeUfleT5Z-zGqni0xegjES__SOSozMjnfUA0UFZCs0qpLp_Kz27OrMGWb65EqkR8cTsYeuoXZaP5Ak5JD71-oDA?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1687069,36.0676882,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hoops Gap</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopOLRMM7endizAli6CAKkXmzoob_1d2DO7oroRJFalqTl9e1VTuEQKXMqYuPQC-bBQDIl3pedHw3vyDUa6EJRMAIZVF5k4xWkhRFQiwa5L-HfTTKUad9HEdjmll76xhTITGZsk9uCdhOApkYrnQ4c-Hac2oZqqSQbC5gZxmMGWUaZkxtKAQO3NCI13BzNf4mM2daG84MyOsqD9x5UN9pGV3r1S6c55Udy7drPdvtQQaaku4ZS_Y6TjlSIU?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopOLRMM7endizAli6CAKkXmzoob_1d2DO7oroRJFalqTl9e1VTuEQKXMqYuPQC-bBQDIl3pedHw3vyDUa6EJRMAIZVF5k4xWkhRFQiwa5L-HfTTKUad9HEdjmll76xhTITGZsk9uCdhOApkYrnQ4c-Hac2oZqqSQbC5gZxmMGWUaZkxtKAQO3NCI13BzNf4mM2daG84MyOsqD9x5UN9pGV3r1S6c55Udy7drPdvtQQaaku4ZS_Y6TjlSIU?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1643462,36.0595331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mall Ledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoozQKO_gD0OumdJ9v-6NSesjFm2KaeKL2avjVI_hXTgtIVPAAnyc2AR4y28C5thdXijdNkwuaPItO2D7_4RZlbLT8cuGEASGRxT6LmYEt2Bs9fi7i7K7Af3YfPBp3rg6EUmqJK45UXFq4MoTF9oEgDKmrJv29q88ihN9gzA7kRtIKX61j2Mckuv2J0xGZNudtHSF0Be_PTR8RMUJQvQv-8kTZYb2qEbMEqYX5Xv5y0P5SRnPyG178MP6BU?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopATNk3IMIaROmEOtYBGYjO5yq6vCAiIhv7ut5XtLr_sb9WRT5AS7lUvcx0QtpudxaIq6lYeRDhb0OU0QBL_uyZRd7tZptSS8oE1s5Uiw51QCHAHbZilwAZtWJpzYh67ldMf1JKFSfXlFe1ey1TNfdoAUIqoeh5K8-pjvf2CwEIm2qs9iHRU_Z0fo46KOM776YhxVYlDrS9TPdEm6z7KLzUtz3OdZST6lXxsnCh8yhLkhkj7xWgAyswSlc?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoozQKO_gD0OumdJ9v-6NSesjFm2KaeKL2avjVI_hXTgtIVPAAnyc2AR4y28C5thdXijdNkwuaPItO2D7_4RZlbLT8cuGEASGRxT6LmYEt2Bs9fi7i7K7Af3YfPBp3rg6EUmqJK45UXFq4MoTF9oEgDKmrJv29q88ihN9gzA7kRtIKX61j2Mckuv2J0xGZNudtHSF0Be_PTR8RMUJQvQv-8kTZYb2qEbMEqYX5Xv5y0P5SRnPyG178MP6BU?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopATNk3IMIaROmEOtYBGYjO5yq6vCAiIhv7ut5XtLr_sb9WRT5AS7lUvcx0QtpudxaIq6lYeRDhb0OU0QBL_uyZRd7tZptSS8oE1s5Uiw51QCHAHbZilwAZtWJpzYh67ldMf1JKFSfXlFe1ey1TNfdoAUIqoeh5K8-pjvf2CwEIm2qs9iHRU_Z0fo46KOM776YhxVYlDrS9TPdEm6z7KLzUtz3OdZST6lXxsnCh8yhLkhkj7xWgAyswSlc?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1511161,36.1289799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yoga Wooden 8 Stair Rail</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor21y3c_o2QGNVEVHNNrjJNq6vc4KaXpjHb87W4rjySyrlLOwISyTX2v38wwxh5G6BY9uRLDNHYcuuoC4r3ejIrg7LKt2hbeUkkWGkdCkcNk9BH0vDLL5GRCgXoFXT5hg4NAVX7tKH5i9mFBksSxk4hHEnn-dMa1QfF8HEbqpKYbXVAfScU3hMqWEFFY1tQQ_DE3mCLiICyFEyHjBe-X-lnEt74JjY9nUikiKtlDnzjFAf3HOUriP5sjzo?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor21y3c_o2QGNVEVHNNrjJNq6vc4KaXpjHb87W4rjySyrlLOwISyTX2v38wwxh5G6BY9uRLDNHYcuuoC4r3ejIrg7LKt2hbeUkkWGkdCkcNk9BH0vDLL5GRCgXoFXT5hg4NAVX7tKH5i9mFBksSxk4hHEnn-dMa1QfF8HEbqpKYbXVAfScU3hMqWEFFY1tQQ_DE3mCLiICyFEyHjBe-X-lnEt74JjY9nUikiKtlDnzjFAf3HOUriP5sjzo?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1560599,36.0880808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Collier Bank to Ledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoogqypCDRsri9fXvMeTmx9wo0X54cxG-Bp10f0-Lz9TMlNe15yCserG_lVDodGqRk4rD1QmKh2uHpJUU4FlUL4mdfEOfJu17HlCUUJ54nNxPpX807Lhi2WFOrbqms_GNw_9ktPaEENnKhrNEzhU5KEKPA2CUyqu5BtNUjYAN23lRFyMVYsi2WhejL_gpWxxFoJPs8Awbqy8WzMaqtgYMOW6PrsT0wPIPMbXoYgacteaSLUk8YfmAcQSQsI?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoogqypCDRsri9fXvMeTmx9wo0X54cxG-Bp10f0-Lz9TMlNe15yCserG_lVDodGqRk4rD1QmKh2uHpJUU4FlUL4mdfEOfJu17HlCUUJ54nNxPpX807Lhi2WFOrbqms_GNw_9ktPaEENnKhrNEzhU5KEKPA2CUyqu5BtNUjYAN23lRFyMVYsi2WhejL_gpWxxFoJPs8Awbqy8WzMaqtgYMOW6PrsT0wPIPMbXoYgacteaSLUk8YfmAcQSQsI?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.2325996,36.0433828,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sterling White Outledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqFOA8OP1uLK69nA1a3rP5Tft8d3yOwBhaAJhuEGdduvvGLypC7Nfxy6I71VmRCcc_XdEf5zHoc385taN0s5lvYfQ8N9o5EwNcJveXsKMiIaAJNdaNd_iyp3MtMqFWMfsipTWPjPtRG642C6ocE0qzjLljUYCBFFRdnWGR_HEUoKmrRmEUdIs1_BUdh_0hqJp9HknG6RxEJHiW8NnRHEeVM4cs3_bOf4nG0mgfVYadd7fO-fMH8id8uGFQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqFOA8OP1uLK69nA1a3rP5Tft8d3yOwBhaAJhuEGdduvvGLypC7Nfxy6I71VmRCcc_XdEf5zHoc385taN0s5lvYfQ8N9o5EwNcJveXsKMiIaAJNdaNd_iyp3MtMqFWMfsipTWPjPtRG642C6ocE0qzjLljUYCBFFRdnWGR_HEUoKmrRmEUdIs1_BUdh_0hqJp9HknG6RxEJHiW8NnRHEeVM4cs3_bOf4nG0mgfVYadd7fO-fMH8id8uGFQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1867818,36.3213996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gap To Electric Box</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqBMrp92I6r8_X_9hbo4xGkSMF7k5djwREZ5HKLllgYlPNOX5i3FsWarMO8VsPmjGwna5H4X20ZQip2deWzf1PLa9Aol-FY6HS_D6qQeekrFNuxn7LNLQdq92VrF1hHF30WSrEl2BJnvXo1kSqTye8FEu-BwJ0eTrBYUykmR0piVhpAXw9C6mN_kdfADQ1tJkfRXfukzFBF-efzqmuGXC5fgPR6PJeK3xyHefs751l2FTRHAWCAN8YUhoo?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqP9FJFjG-PM_2R5UQt0XvFTJG12C6HhkaQ3Ne6MXJc7978eTkvKtrMqWPZL0bryMQqbifsWrGKdJ1kC6Aho0Y23c6wRGNOgx_By47NftV3SDWTc3ZxE4svJ5t3SmCybb_Pp2AmVdf9g8GCFUQkYpRKYlEyJ2MMyBfQb-vrGFuDPN5-sRHVYBYYSTDZ8Sycqjzfi3RKlEYLA1bc_IXieiM2a7tRl31wpzCkzMpvgTAG7-ymlMsw-OVk3e4?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqBMrp92I6r8_X_9hbo4xGkSMF7k5djwREZ5HKLllgYlPNOX5i3FsWarMO8VsPmjGwna5H4X20ZQip2deWzf1PLa9Aol-FY6HS_D6qQeekrFNuxn7LNLQdq92VrF1hHF30WSrEl2BJnvXo1kSqTye8FEu-BwJ0eTrBYUykmR0piVhpAXw9C6mN_kdfADQ1tJkfRXfukzFBF-efzqmuGXC5fgPR6PJeK3xyHefs751l2FTRHAWCAN8YUhoo?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqP9FJFjG-PM_2R5UQt0XvFTJG12C6HhkaQ3Ne6MXJc7978eTkvKtrMqWPZL0bryMQqbifsWrGKdJ1kC6Aho0Y23c6wRGNOgx_By47NftV3SDWTc3ZxE4svJ5t3SmCybb_Pp2AmVdf9g8GCFUQkYpRKYlEyJ2MMyBfQb-vrGFuDPN5-sRHVYBYYSTDZ8Sycqjzfi3RKlEYLA1bc_IXieiM2a7tRl31wpzCkzMpvgTAG7-ymlMsw-OVk3e4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1584509,36.0641235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Malco Bump to Bar</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoplAqcU4oQJatvRfJx4tzD9wR3Xv92SZermdeL0W3kIFoBmRL_PfEvtEtHlt7SGWhu68uFz-dZW9voRfTqgoiMU3AgqVY-Sh3_AzwazBllgeNW4L1H3mMHNuwU3qQ0OmmXwcSURIh6kVOmLJ65DrEYUlsiKSI5Ab3ksCFhXZeXnjC8jQctFA6vrIm7YGVDDFr-c5GHIgBLj12AG5uoSaR5VKLtsXzzUQxNnx0qb8carep7GzLu_lCe-hQo?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoplAqcU4oQJatvRfJx4tzD9wR3Xv92SZermdeL0W3kIFoBmRL_PfEvtEtHlt7SGWhu68uFz-dZW9voRfTqgoiMU3AgqVY-Sh3_AzwazBllgeNW4L1H3mMHNuwU3qQ0OmmXwcSURIh6kVOmLJ65DrEYUlsiKSI5Ab3ksCFhXZeXnjC8jQctFA6vrIm7YGVDDFr-c5GHIgBLj12AG5uoSaR5VKLtsXzzUQxNnx0qb8carep7GzLu_lCe-hQo?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1539191,36.1229635,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chubba </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopvDgqVRtaDbTFq8AITE2QNM9Z7dU7yjur8GO3UODUteBXnRfaKVpgaN_IjCHZbjyOMX4BsHfo_oiqgmTsaerbiTTNe0Kf301MLNTzxX06S_N60uNv4U-4IlgH550Ov7mJihMUqbwuWMQ47_oVaQRhboTSyQRedc3D0198-NLU3CfJBMBLaBasyXx1qvdRZbYwaVv60eMzcyHmg_pNkusmw9658mjBkmbXVz6KozetYT1F-BEcpigTsU7I?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopvDgqVRtaDbTFq8AITE2QNM9Z7dU7yjur8GO3UODUteBXnRfaKVpgaN_IjCHZbjyOMX4BsHfo_oiqgmTsaerbiTTNe0Kf301MLNTzxX06S_N60uNv4U-4IlgH550Ov7mJihMUqbwuWMQ47_oVaQRhboTSyQRedc3D0198-NLU3CfJBMBLaBasyXx1qvdRZbYwaVv60eMzcyHmg_pNkusmw9658mjBkmbXVz6KozetYT1F-BEcpigTsU7I?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.159042,36.0632627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mitchell Gap Over Block</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqkF2EU0QWF2KoKS-cbjeRfNkcW8CGxM7CVeEg_9oYSh2m-fOUuN2bzDktqhPHF0muv_H-0hpjoBW05rn0NZf6C_TcweFzBYcy_nYNZ6HzAKYeZn0s5f4QpLN4350afQLCj7NEmPh23U9pNZLY-864DjHiVzVt2Xc4hGJwMKapFg42ekR6PZCLzZ2j0PutbIzx_dT5-hqanOnN7sqiUBPQ2cL__hTaMu6XnPkmt-E2qBf7tLoCX6U6Rihc?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo--9kFm5MD3DuFDXmLDj65UFtjmtyPbBI340clvRnvFrJjZQ5uoazk6buF55Ht26Db153fFzkRnTZ4DE9_ygu7SvmJ0yCNxdh7TtJUqBGArLFabQ_dhogySV_Qo1nwd23yii1dgpQ3hAn3hmP0keGKxAu64117Snz8b0XaCeDfnL8KDUEMBwQeFQls2BIB_ZVNKGUn4V1Ra1Q-0F-uLp6W8-ItEh6s15wfP3ZG7S4CDmemqv4VhaEdpD8?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqkF2EU0QWF2KoKS-cbjeRfNkcW8CGxM7CVeEg_9oYSh2m-fOUuN2bzDktqhPHF0muv_H-0hpjoBW05rn0NZf6C_TcweFzBYcy_nYNZ6HzAKYeZn0s5f4QpLN4350afQLCj7NEmPh23U9pNZLY-864DjHiVzVt2Xc4hGJwMKapFg42ekR6PZCLzZ2j0PutbIzx_dT5-hqanOnN7sqiUBPQ2cL__hTaMu6XnPkmt-E2qBf7tLoCX6U6Rihc?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo--9kFm5MD3DuFDXmLDj65UFtjmtyPbBI340clvRnvFrJjZQ5uoazk6buF55Ht26Db153fFzkRnTZ4DE9_ygu7SvmJ0yCNxdh7TtJUqBGArLFabQ_dhogySV_Qo1nwd23yii1dgpQ3hAn3hmP0keGKxAu64117Snz8b0XaCeDfnL8KDUEMBwQeFQls2BIB_ZVNKGUn4V1Ra1Q-0F-uLp6W8-ItEh6s15wfP3ZG7S4CDmemqv4VhaEdpD8?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.183121,36.0580239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TheatreSquared 4 Block</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopWDLKO8WcRnzdIOlIHVYOG7hyxbHZGFeQ2DCJz7d-pWhI44HNxO2hSnZlBlrBjtyXWegDSDSZcPX0oOd8go9iyvLTm9NxOSx7dJT3tDVdwrvQofMaag2ThYcHCB6RmNYRc72QriVyS4PQd1qNEeOn4gCrY8H49wMgFM-XVwOd90j7iHXGUdcgPRloT3IXc02LaV6__vhrGdVHXAf0g2NQSORHuZ1WOaWCj-gGcInstr4WiNLkwQuGvkPI?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopWDLKO8WcRnzdIOlIHVYOG7hyxbHZGFeQ2DCJz7d-pWhI44HNxO2hSnZlBlrBjtyXWegDSDSZcPX0oOd8go9iyvLTm9NxOSx7dJT3tDVdwrvQofMaag2ThYcHCB6RmNYRc72QriVyS4PQd1qNEeOn4gCrY8H49wMgFM-XVwOd90j7iHXGUdcgPRloT3IXc02LaV6__vhrGdVHXAf0g2NQSORHuZ1WOaWCj-gGcInstr4WiNLkwQuGvkPI?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1654111,36.0647084,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Green Elevator Rails</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqRRJrTpSe01NoGiOHpyceY5VYUZaZb1uEf2qp_sbim3PEQMe78MsF4RH-fvzCwk1Otllsi_WkMxPQIDoRMgLA8H6-Fr-edFGq0CgSxky9pj2R14IniWUUVCbb2xFFHWtibkWFOtTyRYpapxfPtZ2XKz_rXc2XHz_nZCR-qTYL4vV2KVnKxzx8H4lWigkJdklfDtRGazXrTGLkQXTG0AUqpugViRce_6XZLW8bQ9Detnj8ee2WcfguayTM?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqRRJrTpSe01NoGiOHpyceY5VYUZaZb1uEf2qp_sbim3PEQMe78MsF4RH-fvzCwk1Otllsi_WkMxPQIDoRMgLA8H6-Fr-edFGq0CgSxky9pj2R14IniWUUVCbb2xFFHWtibkWFOtTyRYpapxfPtZ2XKz_rXc2XHz_nZCR-qTYL4vV2KVnKxzx8H4lWigkJdklfDtRGazXrTGLkQXTG0AUqpugViRce_6XZLW8bQ9Detnj8ee2WcfguayTM?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.205312,36.1770859,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wells Fargo Rock Gap Ledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo6ysbgqCC-bG2pfViWpqRoGVVNrT0EOprLyGcRWDzkRpZdEufGffu7U9pVUDm5LA12pPGU9RX6oiNWVL4VMocKSikrKagRy-S63c7NbPdKAZ0mV8Il0j9XFu3uKeS2lU1UrCQRkGxEe2OnYaGw3pQkAOFQDDYM8PyHbpC5kZ5HMVQI6EM1orMCYC0niOVKBRrRsN8u0sFMht4Odwaxf65sRfsrVTq82XsJccuJvjnQLnblR11aN859wQk?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo6ysbgqCC-bG2pfViWpqRoGVVNrT0EOprLyGcRWDzkRpZdEufGffu7U9pVUDm5LA12pPGU9RX6oiNWVL4VMocKSikrKagRy-S63c7NbPdKAZ0mV8Il0j9XFu3uKeS2lU1UrCQRkGxEe2OnYaGw3pQkAOFQDDYM8PyHbpC5kZ5HMVQI6EM1orMCYC0niOVKBRrRsN8u0sFMht4Odwaxf65sRfsrVTq82XsJccuJvjnQLnblR11aN859wQk?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1550421,36.0659154,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wilson Park Curve Ride On Ledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop8qr6rAd9ALIDf8HZnrjBhdJWanRPKoF5tt325b9UhYawA75c5BG0ZzkwQQrwPD7hNt7cnZlGilFnRJP8rBG_WV0YpGkxonci9POfFtq3Du7ZNNbxRUvIhEpAcdeO6KW_D9N2rrMPPo56Eax6xLVR2rWP_dz5gzGKN4rAMW88YVH56vhq2kDNjiWDe-M57f2oGQkgn84NaIKTnZp2eztUcWBXZ9qWeHxB-NpALT4IRn0gceDZALYGcVwM?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq8dlYOsXmyUnPiZOsS0mSR_ttEDcJajctwm13SSEdM0fDgbsXVZTx6wFmUIRKuqc4ZqBlUoY-nrtZOdK4J-4F96l4SC3pl9rPO3IvAiqcE1d9H0L-msJdo8YnnZW3wOXjvUBISWNIZJKSg80CpiCcloCRZnWYRuvoPnRrtr1wKZARunO58W_hPlHhltQA-T-sWuRnFG6UzP6msKSwip4LWu7hR0Y8rTQd2KPzpnHupWpHOEsGNBChXzVc?authuser=0&fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor6ihmX3d67RRNrsZs5COmizjwvKYLFIHS336b9eLwG2BlPjXVzzCwbYxXMy7WRDHVgyOJz7zLnUZk5fld2uR_c5FNLsx0g1e9LUw3yM_RffcutvqcKOY-JByDafId8xUCzvtVVqBtXC26wECa9ebLWIbbdZzklrQwAqmr_KdPgTFo0pY4gaK05pNN9djpzqPY8QbU2vjMqxGy5ba8B3RKu-VAv5uh5H0FBUjhiXAz6wReJISv6SMy3sTw?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop8qr6rAd9ALIDf8HZnrjBhdJWanRPKoF5tt325b9UhYawA75c5BG0ZzkwQQrwPD7hNt7cnZlGilFnRJP8rBG_WV0YpGkxonci9POfFtq3Du7ZNNbxRUvIhEpAcdeO6KW_D9N2rrMPPo56Eax6xLVR2rWP_dz5gzGKN4rAMW88YVH56vhq2kDNjiWDe-M57f2oGQkgn84NaIKTnZp2eztUcWBXZ9qWeHxB-NpALT4IRn0gceDZALYGcVwM?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq8dlYOsXmyUnPiZOsS0mSR_ttEDcJajctwm13SSEdM0fDgbsXVZTx6wFmUIRKuqc4ZqBlUoY-nrtZOdK4J-4F96l4SC3pl9rPO3IvAiqcE1d9H0L-msJdo8YnnZW3wOXjvUBISWNIZJKSg80CpiCcloCRZnWYRuvoPnRrtr1wKZARunO58W_hPlHhltQA-T-sWuRnFG6UzP6msKSwip4LWu7hR0Y8rTQd2KPzpnHupWpHOEsGNBChXzVc?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor6ihmX3d67RRNrsZs5COmizjwvKYLFIHS336b9eLwG2BlPjXVzzCwbYxXMy7WRDHVgyOJz7zLnUZk5fld2uR_c5FNLsx0g1e9LUw3yM_RffcutvqcKOY-JByDafId8xUCzvtVVqBtXC26wECa9ebLWIbbdZzklrQwAqmr_KdPgTFo0pY4gaK05pNN9djpzqPY8QbU2vjMqxGy5ba8B3RKu-VAv5uh5H0FBUjhiXAz6wReJISv6SMy3sTw?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1609118,36.0723642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Record Ledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqg9GBeio7O6GzyLPRSCHgfHjp1r_j4kQZ5uYEC25ec-_I_l1PCpMRQ6OARE85m9cTFJisnWXXeFvGSJpQ-flnaz29weRb4xxovFs_ozYAqRTswhtzZsXiab02-_itHXl2v5liY7iH2AyuskS9kNlNxRqvTr1CHyfSH2snBDy2eRBQSOKUDoI8oOLCfjLZwG4MTIpCGX9ma7RknyJ9wzrb2Qj1iu3VLhuqcLVGZb2DDrT8XntIoeYGgWgo?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq_2A0THY_XW8dSpzdEpQngNW5NsyrM9NNAE5GJyhyeeqD4HrYcodWPPUQWjPYrBy3_Le7nHPPHpJNSs1cYgeHkELmLqqguzGaYKb0V4C_9Qe-b5wpHgkWtvd143UrbWdyMLLbn_YnHuJuPbwf8lRsnp5Co-svPjps5nmOEY0OOdNlAlcCgdvMwLFdTifc6YR4zWzS7l0emp_GLgfOl9dwG2mV6wQ7I-wIujmYbLbxVeKUUoHOY_rHd-Ns?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqg9GBeio7O6GzyLPRSCHgfHjp1r_j4kQZ5uYEC25ec-_I_l1PCpMRQ6OARE85m9cTFJisnWXXeFvGSJpQ-flnaz29weRb4xxovFs_ozYAqRTswhtzZsXiab02-_itHXl2v5liY7iH2AyuskS9kNlNxRqvTr1CHyfSH2snBDy2eRBQSOKUDoI8oOLCfjLZwG4MTIpCGX9ma7RknyJ9wzrb2Qj1iu3VLhuqcLVGZb2DDrT8XntIoeYGgWgo?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq_2A0THY_XW8dSpzdEpQngNW5NsyrM9NNAE5GJyhyeeqD4HrYcodWPPUQWjPYrBy3_Le7nHPPHpJNSs1cYgeHkELmLqqguzGaYKb0V4C_9Qe-b5wpHgkWtvd143UrbWdyMLLbn_YnHuJuPbwf8lRsnp5Co-svPjps5nmOEY0OOdNlAlcCgdvMwLFdTifc6YR4zWzS7l0emp_GLgfOl9dwG2mV6wQ7I-wIujmYbLbxVeKUUoHOY_rHd-Ns?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.2103603,36.3717645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Spring Street 5 Stair to Hill Bomb</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooAqtPryqdsXPh0XuwsP-1YD5SRxiXOgB94duNCjANs04HfV1Fg886AXwYYG7-XuPIzzzsFoRl7zT-lHpR7mUVh2DMY_wGRgieOZBAS5Y2LrV_nG_cZbhIwayVEsp3aLdS7f6eN_6Xwd5DA6Mn1v5L0FE9tiQXJVzCp2Nbi_zZ8Yv13-MGEZQaPT5Skc13Qmq76fJtPV1BbiIMxSyia3JBJtQonOZh7jYplBxyStFsH-RYq1qWzdAEnvKQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorTiUC1zIJ4HCH6xBeqZ6r7WFwLTsqMEpad3LH6cLUplFsE-kFJ5b17MveGKRQmg2a8KBmFLl6w3qOTRl4LsSA-HP9AylsHw-b3kmYgo3q3QeiWxSzC92GyXMu1uhaO0dCe6vbpP2Bomayb2bxYgLe8vH0qbmmz2JGSEHLlWWFkGetmZ3URGDDn2cAgzFx8jRTZ-VCacReFK0auzMvoReNr2tFOwZBJduPmLgOLAtldtJZYDXHtPsNKPh8?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooAqtPryqdsXPh0XuwsP-1YD5SRxiXOgB94duNCjANs04HfV1Fg886AXwYYG7-XuPIzzzsFoRl7zT-lHpR7mUVh2DMY_wGRgieOZBAS5Y2LrV_nG_cZbhIwayVEsp3aLdS7f6eN_6Xwd5DA6Mn1v5L0FE9tiQXJVzCp2Nbi_zZ8Yv13-MGEZQaPT5Skc13Qmq76fJtPV1BbiIMxSyia3JBJtQonOZh7jYplBxyStFsH-RYq1qWzdAEnvKQ?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorTiUC1zIJ4HCH6xBeqZ6r7WFwLTsqMEpad3LH6cLUplFsE-kFJ5b17MveGKRQmg2a8KBmFLl6w3qOTRl4LsSA-HP9AylsHw-b3kmYgo3q3QeiWxSzC92GyXMu1uhaO0dCe6vbpP2Bomayb2bxYgLe8vH0qbmmz2JGSEHLlWWFkGetmZ3URGDDn2cAgzFx8jRTZ-VCacReFK0auzMvoReNr2tFOwZBJduPmLgOLAtldtJZYDXHtPsNKPh8?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1562303,36.0646162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lafayette House Gap</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopRgRHeA9bDliumSKRgi2wy3aTr0vB_-QBRhAWFktbX0D-fICSLWyscx9dJCHsOyqmcqtR6rc_g65PnpXZYQJi_oeB2TJjPSXe3c5uX5y7GsTUdS0CfeMkRG5MX8NDE6iNxU52MmqtakewgQ43fEWBPZuEJ_3c7jvfHIbrL2zlXC7FQjso2YXfbS26ttwZHodfXpsvjo9mEXdmqgVqH0tZgSZNY1P7Qed5hN_JogyGDcR00EytTrK50tJY?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoocP9_B4z5cjdrksFLqMz9YMwXti7S2K1nGjw_Ej5Oa2APTR_kEkvAlntiv0LYLn-n7ne5m1MKOuHfNzFCBprX2ufHXZ3TP6oZ4-euJZxMFN1nqQxZGN1g41BvAzfPxioUCIA_UZzWT2htgVTRFjLCsHc1XI22WNI072408CYKhMtANclV76p9lqVOpq586hZHCjKT0_Cbft_i1993y4wvcRkXwX9elnFZY8PRy3AtYXkctIhDcHWjqV2k?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopRgRHeA9bDliumSKRgi2wy3aTr0vB_-QBRhAWFktbX0D-fICSLWyscx9dJCHsOyqmcqtR6rc_g65PnpXZYQJi_oeB2TJjPSXe3c5uX5y7GsTUdS0CfeMkRG5MX8NDE6iNxU52MmqtakewgQ43fEWBPZuEJ_3c7jvfHIbrL2zlXC7FQjso2YXfbS26ttwZHodfXpsvjo9mEXdmqgVqH0tZgSZNY1P7Qed5hN_JogyGDcR00EytTrK50tJY?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoocP9_B4z5cjdrksFLqMz9YMwXti7S2K1nGjw_Ej5Oa2APTR_kEkvAlntiv0LYLn-n7ne5m1MKOuHfNzFCBprX2ufHXZ3TP6oZ4-euJZxMFN1nqQxZGN1g41BvAzfPxioUCIA_UZzWT2htgVTRFjLCsHc1XI22WNI072408CYKhMtANclV76p9lqVOpq586hZHCjKT0_Cbft_i1993y4wvcRkXwX9elnFZY8PRy3AtYXkctIhDcHWjqV2k?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1601532,36.0686668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hidden Tape (KICKER/LEDGE)</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqnZLqZ6OPsEXPDhwGTyZJQSX53Hh0dlMn9S8L2PyFtg12MMT8QfTZjbN2spxoUq5hWorx_3Bqg8Yx_BRWJokYzGkW_zZY3Pg8EdjOopAyCozS6lFMijrAX0-oorlShEaLsojfCRviKi0RTp-GSXzsBwi5P_VKEbSmyDSZ4VMLFMsGLQ1D5xl2yzyx1dc8xWI7txjn5nsiojzXmqG2iGlUzB6kNmKBRgc3M2giGU2k-DtzNJWbjXbRq7GE?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooFbsSNkByK8ZiSVtthGX5GCcafa7GPwCBp4zs17EjUulY2fSlwpRyMo6ucEH_2bQy4h5sONLSbCnzX61W7yWdWvY6JKSsHjNFLnIedR6uBzuU8KW_nyGzbz7oPtmc5HWpJOHgZ9oiSl7ITr74qeqM-K3nfKnh_OO0lkv-d8Zd21aVW-YgEUQ81L2cZIL77K5xrRBRzXvt6vVU7fMwlxyT4miwF8hzSUkkGmn18LIuGomRFuj1yEOypiH8?authuser=0&fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqZJkWaXOXM9sy8Et4P0MRQKUgk3zC-33sKKfsF8EJshUcptrHORMEK38o7qxDqtHLEz5B-mrgzuOFtnzJyKN14syioyMt244_C31m3nBUyMIxXG0TrzTMKpgHuZ212-ROsAbU0bXmMuzwmUlhtXjSCSgL4C99xvS3f02ZSl2W9hDCmh_kjgZyQ7IMC-ki84ch3MZBikNe1L4KA8ILcP0L6iXBR29gJ3LSgZCve1lt9wSmxdzVsx86XtCE?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqnZLqZ6OPsEXPDhwGTyZJQSX53Hh0dlMn9S8L2PyFtg12MMT8QfTZjbN2spxoUq5hWorx_3Bqg8Yx_BRWJokYzGkW_zZY3Pg8EdjOopAyCozS6lFMijrAX0-oorlShEaLsojfCRviKi0RTp-GSXzsBwi5P_VKEbSmyDSZ4VMLFMsGLQ1D5xl2yzyx1dc8xWI7txjn5nsiojzXmqG2iGlUzB6kNmKBRgc3M2giGU2k-DtzNJWbjXbRq7GE?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooFbsSNkByK8ZiSVtthGX5GCcafa7GPwCBp4zs17EjUulY2fSlwpRyMo6ucEH_2bQy4h5sONLSbCnzX61W7yWdWvY6JKSsHjNFLnIedR6uBzuU8KW_nyGzbz7oPtmc5HWpJOHgZ9oiSl7ITr74qeqM-K3nfKnh_OO0lkv-d8Zd21aVW-YgEUQ81L2cZIL77K5xrRBRzXvt6vVU7fMwlxyT4miwF8hzSUkkGmn18LIuGomRFuj1yEOypiH8?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqZJkWaXOXM9sy8Et4P0MRQKUgk3zC-33sKKfsF8EJshUcptrHORMEK38o7qxDqtHLEz5B-mrgzuOFtnzJyKN14syioyMt244_C31m3nBUyMIxXG0TrzTMKpgHuZ212-ROsAbU0bXmMuzwmUlhtXjSCSgL4C99xvS3f02ZSl2W9hDCmh_kjgZyQ7IMC-ki84ch3MZBikNe1L4KA8ILcP0L6iXBR29gJ3LSgZCve1lt9wSmxdzVsx86XtCE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1736674,36.0643981,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brick Gap Over Rail</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooyHYTaNrDfkLktQpwohvQ96ySp7M4q7ZFXqGDF33ddMsyNMgO0UTnRDyqTPM2CGgjjhq75afR2O1dgWgvgi_eyPGLB8GnVi_cs7w46qBgzUOtarJNFkgOnt40T6GC_Ohy4k-55Pk-cEoOjccc3-PJ5JC4wH6hMOGITpPMgafxWb-a2E6rH4iP-Yk4OiujynA_E9xxdTgzmYjRIFUBdT-ppu5FTTxJeOr2X4tbQUSRuWPnlkDUtH8uImfI?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqcReSQaJC53W4k84TP62ufTCqeISEsifaO-6UFSyMLO-pTL2efVGGWBREGMsy7kBp6te9VZOIxFVJj2vhQ7Pn5H4XmbPwtCavnc19epN1PS5HU3Kuo_bQc73k6oWHTcZRyy6twG9qwIP45PGX6FDrugAxsqQpvpi23Iedon54GTXoSN1_7Hz8Uj6ikh8awy76qH2XqZRxVLoiajIx9YotkEA0YpSSBFo72GrQgKoSmw6SqWMmAew0czQw?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooyHYTaNrDfkLktQpwohvQ96ySp7M4q7ZFXqGDF33ddMsyNMgO0UTnRDyqTPM2CGgjjhq75afR2O1dgWgvgi_eyPGLB8GnVi_cs7w46qBgzUOtarJNFkgOnt40T6GC_Ohy4k-55Pk-cEoOjccc3-PJ5JC4wH6hMOGITpPMgafxWb-a2E6rH4iP-Yk4OiujynA_E9xxdTgzmYjRIFUBdT-ppu5FTTxJeOr2X4tbQUSRuWPnlkDUtH8uImfI?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqcReSQaJC53W4k84TP62ufTCqeISEsifaO-6UFSyMLO-pTL2efVGGWBREGMsy7kBp6te9VZOIxFVJj2vhQ7Pn5H4XmbPwtCavnc19epN1PS5HU3Kuo_bQc73k6oWHTcZRyy6twG9qwIP45PGX6FDrugAxsqQpvpi23Iedon54GTXoSN1_7Hz8Uj6ikh8awy76qH2XqZRxVLoiajIx9YotkEA0YpSSBFo72GrQgKoSmw6SqWMmAew0czQw?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1580596,36.0653616,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Town Center Plaza </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooXZaTT8hxBZBAB-_7YEcn3V5G3EdANUzDtIqfWeA0fnfEZ0Hy2yA2_GXxAz8yAbz8cofd53HPApImHbMlySR2Mv2CtLM43-vjSnw5Qyh_XeDvwxooOqiU2thdFtU-EsSJ_2vkocm1k0szw_bwkrDgZnczZcviltf9_e7ma0vUbkgY3MpGaRnXvnRznGh7NNLN4LDFPLYNdjT2ZjdD_wLwueWsA8Sz-3btYdhXxdq0LcFTT1nTIz30auKo?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqakCG7C5j5INYSsmGmA9W_XWAMBbCILLqUXu7jrSy_zXcJzq_91q97mbU70JyMW2k8psLFcgRpx6_JZOG2QL3qXN-AHoY3F1xrBrSlelfi6vYjiFt47Z2Ju8uuRrVXQwYgnIkOoYHw3l-vXOb7CRR5UffxlOmXFmJm71--BN9y5kWmCSHeY8weRuTqhjG8XHNYONdGBc8zC9okAnJHi7dRYg_mHAfcXfJdyWIzuVB-lJiY62mX0Ke5Ur0?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooXZaTT8hxBZBAB-_7YEcn3V5G3EdANUzDtIqfWeA0fnfEZ0Hy2yA2_GXxAz8yAbz8cofd53HPApImHbMlySR2Mv2CtLM43-vjSnw5Qyh_XeDvwxooOqiU2thdFtU-EsSJ_2vkocm1k0szw_bwkrDgZnczZcviltf9_e7ma0vUbkgY3MpGaRnXvnRznGh7NNLN4LDFPLYNdjT2ZjdD_wLwueWsA8Sz-3btYdhXxdq0LcFTT1nTIz30auKo?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqakCG7C5j5INYSsmGmA9W_XWAMBbCILLqUXu7jrSy_zXcJzq_91q97mbU70JyMW2k8psLFcgRpx6_JZOG2QL3qXN-AHoY3F1xrBrSlelfi6vYjiFt47Z2Ju8uuRrVXQwYgnIkOoYHw3l-vXOb7CRR5UffxlOmXFmJm71--BN9y5kWmCSHeY8weRuTqhjG8XHNYONdGBc8zC9okAnJHi7dRYg_mHAfcXfJdyWIzuVB-lJiY62mX0Ke5Ur0?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1600259,36.0617129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baby Handrail</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBortPwElGcLoCYUHjDZ-S25Du6qhsX-6TAUCoTfF1-53thZwYH20zssPiIm1Kz-t_apAr1smymd-TvArxGtvsEm-lsDKu7b2kMUlVKirfHCvqbti6PIKA8Q_4hmK3yL29K6_2fGuzzcTAPJRb1KFYpfzjD2bl16-_zbulZixFII3jHYp0gfkCC5xD3SbtCu6bEveT4zoEftOLgRGMTc0H7OvMPKlUAgbOevnTaOWSLUR6BX_c_zPKU49iNU?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBortPwElGcLoCYUHjDZ-S25Du6qhsX-6TAUCoTfF1-53thZwYH20zssPiIm1Kz-t_apAr1smymd-TvArxGtvsEm-lsDKu7b2kMUlVKirfHCvqbti6PIKA8Q_4hmK3yL29K6_2fGuzzcTAPJRb1KFYpfzjD2bl16-_zbulZixFII3jHYp0gfkCC5xD3SbtCu6bEveT4zoEftOLgRGMTc0H7OvMPKlUAgbOevnTaOWSLUR6BX_c_zPKU49iNU?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1926689,36.3716755,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wasabi Wood Ledge Into Bank</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq0Yd-bC3w3c-2d3om6O7NqUM47o_HMgTtgTTXkhqwOo69S29v5EFCXTdo8Gwvz3zZp9AP6ondw0L7S4JPsA1YfwNFwuv362UN7f3h7KQWTN_3usLBL7LepuqHZhVx9KiZxOlxtDMw5t2AOg0La5pvlo3FDrG2kBxZNAc0lE7hu5_DOM-zgFQiHhljSUnz5X8f3JrWXzp98HqAzrCAEzgVC2I6sNNL3wqaMezw2Jbn0-2Zxh9Z2wFqsJe4?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq0Yd-bC3w3c-2d3om6O7NqUM47o_HMgTtgTTXkhqwOo69S29v5EFCXTdo8Gwvz3zZp9AP6ondw0L7S4JPsA1YfwNFwuv362UN7f3h7KQWTN_3usLBL7LepuqHZhVx9KiZxOlxtDMw5t2AOg0La5pvlo3FDrG2kBxZNAc0lE7hu5_DOM-zgFQiHhljSUnz5X8f3JrWXzp98HqAzrCAEzgVC2I6sNNL3wqaMezw2Jbn0-2Zxh9Z2wFqsJe4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1639379,36.0663136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bubba Hubba</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorWEun6_KX7aOELNqG4WSB-hD2g2Sr4kLxxsSHj7mB7RF6_bq0PW8aPKGWsaGOZTbDtyaQ540njSWxiivYNYr9AxPPlP1nOHSObSp2PF0qFRrZfl4cPRZSKlPG_qKuXz-2X8b65STY3TQjoac0RjWFnzLXKv25_GasxXqAKO5Sm7EgjtCX1-tjh0m4YXpIODsTcY8_4eG8vfCbNzEL3UOMgkFFL2CPAlO1hDUyjMMHhQcQRj9Lzwht4AwM?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorWEun6_KX7aOELNqG4WSB-hD2g2Sr4kLxxsSHj7mB7RF6_bq0PW8aPKGWsaGOZTbDtyaQ540njSWxiivYNYr9AxPPlP1nOHSObSp2PF0qFRrZfl4cPRZSKlPG_qKuXz-2X8b65STY3TQjoac0RjWFnzLXKv25_GasxXqAKO5Sm7EgjtCX1-tjh0m4YXpIODsTcY8_4eG8vfCbNzEL3UOMgkFFL2CPAlO1hDUyjMMHhQcQRj9Lzwht4AwM?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1734096,36.0648959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waffle House Bank</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopTwIgwmwAW_P1Bd_OmnO7Qju4CwCKRh8AnBSGBMLyzvWOy0v-FRSsvLzqG1DJxzBfFyx-IZYYM2xAKklMWmduxDAN_y2y9fSOvntNRdboEi5KgIgQCeYXeJlDB1tExMBJ9RpI5qxcu7hLNPPMjO-s2oZyxF2nedTPWcxB9u9lGFjk17d14Jzl2Ohx_wXXypRfAW4ljcYo4AxWFol22SP82cqz_ej96ATYtJT1eEmn_6vMJyNMVgLNcGRQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopTwIgwmwAW_P1Bd_OmnO7Qju4CwCKRh8AnBSGBMLyzvWOy0v-FRSsvLzqG1DJxzBfFyx-IZYYM2xAKklMWmduxDAN_y2y9fSOvntNRdboEi5KgIgQCeYXeJlDB1tExMBJ9RpI5qxcu7hLNPPMjO-s2oZyxF2nedTPWcxB9u9lGFjk17d14Jzl2Ohx_wXXypRfAW4ljcYo4AxWFol22SP82cqz_ej96ATYtJT1eEmn_6vMJyNMVgLNcGRQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1922942,36.0538777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Union Breezeway Gap to Curbs </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorwRA5grF5cEu3zG3Ztrnf31rkfb-XZC_Y7fd9g59MfBXoNwE7bjWjdBllmlvIn0sqa9gMMErJuLXjknyuFUJGgdUqvRGyXU-7uoUvhHAIU-ca1szttLAJO9mbEQVCibGFUJQNEpJrsrQ-IjeMjf4mt1pd-X_bBonKlFddUY9ER81-KOOXlJAos8k3_k6Vie4J7C2FFysVoW7CBfEcbDvqznaRCRL5JHVfrdlU90EUXwoMKx6vw2vf-cno?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorwRA5grF5cEu3zG3Ztrnf31rkfb-XZC_Y7fd9g59MfBXoNwE7bjWjdBllmlvIn0sqa9gMMErJuLXjknyuFUJGgdUqvRGyXU-7uoUvhHAIU-ca1szttLAJO9mbEQVCibGFUJQNEpJrsrQ-IjeMjf4mt1pd-X_bBonKlFddUY9ER81-KOOXlJAos8k3_k6Vie4J7C2FFysVoW7CBfEcbDvqznaRCRL5JHVfrdlU90EUXwoMKx6vw2vf-cno?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1757457,36.0684472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Union Plaza</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopD-7vYu5mSfppr2OyOBFFM4C8BIOyp3Ob1ljNG4i-S74k-bplqrj1GvPluL8k7TljF1rghL8IOCnMZ0p6YEiUOZZY0dwONoXfW_jZH_WC6Ob5L3DQc5w_gccbICDWHGZM0nmZYCkTNS20QwdmKtUrpETizz7IVcptMD-5Hqt4nec9EZCa5i6C5Lo3fCI6b1MdF2WZfzKmFGVVyGfaU_fhZS0fUGTpy9Wq5W_1HnS6V9-Ys_UHqWmcVk-M?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopD-7vYu5mSfppr2OyOBFFM4C8BIOyp3Ob1ljNG4i-S74k-bplqrj1GvPluL8k7TljF1rghL8IOCnMZ0p6YEiUOZZY0dwONoXfW_jZH_WC6Ob5L3DQc5w_gccbICDWHGZM0nmZYCkTNS20QwdmKtUrpETizz7IVcptMD-5Hqt4nec9EZCa5i6C5Lo3fCI6b1MdF2WZfzKmFGVVyGfaU_fhZS0fUGTpy9Wq5W_1HnS6V9-Ys_UHqWmcVk-M?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1746234,36.068699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Law Building Marble Ledges (GIANT BUST)</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopzoMCGScrlx-KkGBPEZPXt5xlEHMpNPexk6GYX9yecMLfLQlyh4_7QZkvB7Ez5PTryDftz3oDf93sedJo-33nfzuLFmX3mVLwXZlryobK1kgWaIiDoBhuVjEVtwuimY5YaY6YtbffDhl2Xd19wujOG4GKU8e02ZUxuDZh3opT6Uep4X9qWwBhfq_YEOuVYVdsHgtav5kPO-o_pJwBGHvmGX3cOK8r3dwMlEIlhEqzIvIASRwAAWg-wIoM?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqbbG0WNAtXugNtmHxnX36xLyfJOZ2xjuQGTlDL_Eq4xxcgiUIwv_eumyB40rOcHMByTbQJy5IU-9r0peaSa5vAWwya_sCyh5yp9ajzoUNoAeMzlaoLR3TBFyEojdSJWUoYKTxvPSwlw3p2oi14VWQ0zGFZMRR4S4sO7q6sEWjYLwTi8rJ01NBplq9GyL37V2ay7-pfdk51zPU_cKBH2-pyFKNGtVnld39pztwrMVVRR6TVk1OFUzR127A?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopzoMCGScrlx-KkGBPEZPXt5xlEHMpNPexk6GYX9yecMLfLQlyh4_7QZkvB7Ez5PTryDftz3oDf93sedJo-33nfzuLFmX3mVLwXZlryobK1kgWaIiDoBhuVjEVtwuimY5YaY6YtbffDhl2Xd19wujOG4GKU8e02ZUxuDZh3opT6Uep4X9qWwBhfq_YEOuVYVdsHgtav5kPO-o_pJwBGHvmGX3cOK8r3dwMlEIlhEqzIvIASRwAAWg-wIoM?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqbbG0WNAtXugNtmHxnX36xLyfJOZ2xjuQGTlDL_Eq4xxcgiUIwv_eumyB40rOcHMByTbQJy5IU-9r0peaSa5vAWwya_sCyh5yp9ajzoUNoAeMzlaoLR3TBFyEojdSJWUoYKTxvPSwlw3p2oi14VWQ0zGFZMRR4S4sO7q6sEWjYLwTi8rJ01NBplq9GyL37V2ay7-pfdk51zPU_cKBH2-pyFKNGtVnld39pztwrMVVRR6TVk1OFUzR127A?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1748934,36.0697249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dickson White Flatbar</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoryi4QicGrW-ZrYZyCs7f3M4V9nzrF_IpWYmQZP5TAHYfawMJ1n3jtUVvs3QRN1uPZBwUsnOP11ThXKNd4vzx5KlEO2JAMZ60HYQOTy9WcPEcngJi8ut-JJEOHARRxAWWABDBgJAWj23XvZNYIEW2DS9zia6U1vHdmh75KgAwcJHqfmT_YuzTLZiblIRVZ486Z_UtG6oNCXyCC9v4ihlKZc2jZqUFm_UzF4tTIsf2s87l-vXenFF3ycbIk?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooNoAT4ODbU-XbjoJpoN2pANQkobZw7oXtpa1ebZA91WfgrFbusJ2lZKekDs_ozntwKlp47pdtEaN-stMhVvBUWlDgwUn3DVFdV82kkwrUwaqwnFKN4qD7Hqm_39vn3C-ibGfUTVDS2Hjb4q3CGFyX37Z6oXCJxsWv6eDn2CbyrIi6magzbjqFe1ay_MADUM4dy2OhlS2c3XagMzpnWnF-N8eR047r20X7Z0PS5cV3zdYVySXabRxwhXOs?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoryi4QicGrW-ZrYZyCs7f3M4V9nzrF_IpWYmQZP5TAHYfawMJ1n3jtUVvs3QRN1uPZBwUsnOP11ThXKNd4vzx5KlEO2JAMZ60HYQOTy9WcPEcngJi8ut-JJEOHARRxAWWABDBgJAWj23XvZNYIEW2DS9zia6U1vHdmh75KgAwcJHqfmT_YuzTLZiblIRVZ486Z_UtG6oNCXyCC9v4ihlKZc2jZqUFm_UzF4tTIsf2s87l-vXenFF3ycbIk?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooNoAT4ODbU-XbjoJpoN2pANQkobZw7oXtpa1ebZA91WfgrFbusJ2lZKekDs_ozntwKlp47pdtEaN-stMhVvBUWlDgwUn3DVFdV82kkwrUwaqwnFKN4qD7Hqm_39vn3C-ibGfUTVDS2Hjb4q3CGFyX37Z6oXCJxsWv6eDn2CbyrIi6magzbjqFe1ay_MADUM4dy2OhlS2c3XagMzpnWnF-N8eR047r20X7Z0PS5cV3zdYVySXabRxwhXOs?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1582509,36.0661536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>USPS Ledge W/ Bank</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopU1qf7tpJkmtiICP6VmQBdNWexkefPgLFBNPJOC6wy9RyC4r07O_hxqVCfmTF757Ma4ty41c6SQYFJHenqgUJpEub3O896PQ96Ui4LA6WcrVrNBeM0KtgY0vAJ3hsA477qZZwkJ52uPcXelE9d_hOLq7BfhrOhWJ5XTKW6MLaOJ41hhXB_mpm4N63RGWILLULq2LmtR8Daxy8LIbubebv7IX-OeV_EWcrUDkJ-88s34JAmIAksK0bCUPE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopU1qf7tpJkmtiICP6VmQBdNWexkefPgLFBNPJOC6wy9RyC4r07O_hxqVCfmTF757Ma4ty41c6SQYFJHenqgUJpEub3O896PQ96Ui4LA6WcrVrNBeM0KtgY0vAJ3hsA477qZZwkJ52uPcXelE9d_hOLq7BfhrOhWJ5XTKW6MLaOJ41hhXB_mpm4N63RGWILLULq2LmtR8Daxy8LIbubebv7IX-OeV_EWcrUDkJ-88s34JAmIAksK0bCUPE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1607142,36.0673381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sorority Drop In Mega Gap</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop1n-S9gUjkhlVbMUsV0CH0YmH_6THVoC6_sujV7dFDiB_pH8tdo9oI_xkct3n9aVDVSxKrCCmpKLRC8uIO7wrdn24mjeH8kwMohPAf04opGEk-I5tXqh-Q7Gd_nqbhWT-orlZ19dW--81yMUrN5YWiTS9lVFd6uB-Pg6ZP7Fu9Wm9LtLLWPIvZDd4agGAvJZ6oUufsEFr26Jg_yvzJMhciN8GPWEXCqtA0fdFI_ftO7EZ7ybWuJyInipE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop1n-S9gUjkhlVbMUsV0CH0YmH_6THVoC6_sujV7dFDiB_pH8tdo9oI_xkct3n9aVDVSxKrCCmpKLRC8uIO7wrdn24mjeH8kwMohPAf04opGEk-I5tXqh-Q7Gd_nqbhWT-orlZ19dW--81yMUrN5YWiTS9lVFd6uB-Pg6ZP7Fu9Wm9LtLLWPIvZDd4agGAvJZ6oUufsEFr26Jg_yvzJMhciN8GPWEXCqtA0fdFI_ftO7EZ7ybWuJyInipE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1677217,36.070069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Buck Flatbar to Drop</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqz_daaDv7CBQrpukUb5zk6wqmdzWGyY2LLUcXatL3O-cfm8mBztUUEALo949I2niLK1xJuVjN7DLHipl9arvfLaxq1BotG40BIfS30ilv36-Lte2DF2dBeoEzDGHcH5_BbxKB2OEyFkfQfyEccW9ioitEz6-iE217qu-soDBmg5P6SnoGRcIbn1Lm9fCoDSD9PoR4OBcTIQHabNeseDQn7VSGlxnY6jSQr6uCVeqscZyfC8LfS8eSBRk0?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopZJBC1mOx_c7ZY9vFMVbvXe9nbRFgW9Nuc7HP9A3SSnyQ6k-tA3D3fgLHsqHK8cNMsWwpC5tJzQ1RA46BAJ0kLlBwblMm21ba7SrHqkpJFFW1mxtl-XHplTJfyxRvPvds2uSxpUN0yv3wyX4s2wFkc4J_L9tkh0bgVLcmKAvbUpm0WZ1qH7qefnRwONfampNO-nZ-7YZKTS_8itRAQCsT939m04PevHfkxXWx4ueIA0xKHc4wg1pLKZwU?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqz_daaDv7CBQrpukUb5zk6wqmdzWGyY2LLUcXatL3O-cfm8mBztUUEALo949I2niLK1xJuVjN7DLHipl9arvfLaxq1BotG40BIfS30ilv36-Lte2DF2dBeoEzDGHcH5_BbxKB2OEyFkfQfyEccW9ioitEz6-iE217qu-soDBmg5P6SnoGRcIbn1Lm9fCoDSD9PoR4OBcTIQHabNeseDQn7VSGlxnY6jSQr6uCVeqscZyfC8LfS8eSBRk0?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopZJBC1mOx_c7ZY9vFMVbvXe9nbRFgW9Nuc7HP9A3SSnyQ6k-tA3D3fgLHsqHK8cNMsWwpC5tJzQ1RA46BAJ0kLlBwblMm21ba7SrHqkpJFFW1mxtl-XHplTJfyxRvPvds2uSxpUN0yv3wyX4s2wFkc4J_L9tkh0bgVLcmKAvbUpm0WZ1qH7qefnRwONfampNO-nZ-7YZKTS_8itRAQCsT939m04PevHfkxXWx4ueIA0xKHc4wg1pLKZwU?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.168181,36.0632047,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dickson Ledge Drop Ledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBortGvHMBa5JQnHooE5zubiIJXDeMlDSW_eVpf_GCpiguy-MW_kTfoYafohRDChrJ7ZfeM2dk1TM8Fo-R8VUIExZmQObgW4nhAHd7h_-qOMWIWgPrvKXmzfNFpUEFS8-sUv7LS5MTA8v6rE0IGlY1pFVIqgwipP6KTkZ3jWGeqG8WvG-EEMwepmoe8oL2Y9o2y4AcmIu-LL0nG_3_wdsaYlUGGzJI3fyNfpgUxUYBN3-olHhUCnqVoJj2mQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoruuHgZYAWNnXBzXLBHWjHHs6O0AvitIZ2v7k4Y6RLNMUqk7iuI4_DNNRGNVmTlMMp4TIbC6QEsdGYxukI0KKFi_rHOZtl355b6K1vpi-g6wLdKF_W17JSl-vRsrqLyeF-_Ua09dkrxRnuueVXlpVV8LrneLMosVKPvlXyDACFv1ULySzjE4HVYTBM1JdCW_TWg4SQczi57tH_IlVG4YVhz3XYgFZQ34KcmZXZrsZnMd8VPagJF787slHU?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBortGvHMBa5JQnHooE5zubiIJXDeMlDSW_eVpf_GCpiguy-MW_kTfoYafohRDChrJ7ZfeM2dk1TM8Fo-R8VUIExZmQObgW4nhAHd7h_-qOMWIWgPrvKXmzfNFpUEFS8-sUv7LS5MTA8v6rE0IGlY1pFVIqgwipP6KTkZ3jWGeqG8WvG-EEMwepmoe8oL2Y9o2y4AcmIu-LL0nG_3_wdsaYlUGGzJI3fyNfpgUxUYBN3-olHhUCnqVoJj2mQ?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoruuHgZYAWNnXBzXLBHWjHHs6O0AvitIZ2v7k4Y6RLNMUqk7iuI4_DNNRGNVmTlMMp4TIbC6QEsdGYxukI0KKFi_rHOZtl355b6K1vpi-g6wLdKF_W17JSl-vRsrqLyeF-_Ua09dkrxRnuueVXlpVV8LrneLMosVKPvlXyDACFv1ULySzjE4HVYTBM1JdCW_TWg4SQczi57tH_IlVG4YVhz3XYgFZQ34KcmZXZrsZnMd8VPagJF787slHU?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1652734,36.0663461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wilson Elevator Rail </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo-waNGhAosfOSanWyOZH3RGMk0ApRDTl3dgmVgjypBAPU6nnhlteOh9pQ7OGc9DtoWaNe08nnQ1zznwvY1NKYLD5Kr9LnTuYp51QVU9doF_jL5v9PUKi8HFA57oBCuGSfQbCoXaTJ4VjIkuX7Cw_i9uh7zchHXqMNwBFj2KjTA8L4WWQqSH6oQbVWGz2YjIXLGyrVL3OWCcUEd6lUDgLCdRBxPzNlhaaBdRAxz4WekjRRsv6e4ji5-I9A?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo-waNGhAosfOSanWyOZH3RGMk0ApRDTl3dgmVgjypBAPU6nnhlteOh9pQ7OGc9DtoWaNe08nnQ1zznwvY1NKYLD5Kr9LnTuYp51QVU9doF_jL5v9PUKi8HFA57oBCuGSfQbCoXaTJ4VjIkuX7Cw_i9uh7zchHXqMNwBFj2KjTA8L4WWQqSH6oQbVWGz2YjIXLGyrVL3OWCcUEd6lUDgLCdRBxPzNlhaaBdRAxz4WekjRRsv6e4ji5-I9A?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1633697,36.0729358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arvest Gap To Flatbar</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqFBGtXTPZiFIxo04DFTXhmBdrf6rdGY4GYg_XTr3ipaOGqFSWSsm19VBYfEGLhWSsWZtk1je4jz9laZfAZIA1JAU-79rK8G_uoiJcgarc1FEoWeYrpDAQvJGuBIy_jRGuaMjf7YxKGuXzvvN_UO6L_nuzXro9SA-oztcOtzqp6-G4rH3uE0XUiuOBaeQmDgkBOOxWZ-h9pe1AetC76CpKHEh86n-bcjA6NcJ4VIe__zBNFeuvdf3dC2ZE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqFBGtXTPZiFIxo04DFTXhmBdrf6rdGY4GYg_XTr3ipaOGqFSWSsm19VBYfEGLhWSsWZtk1je4jz9laZfAZIA1JAU-79rK8G_uoiJcgarc1FEoWeYrpDAQvJGuBIy_jRGuaMjf7YxKGuXzvvN_UO6L_nuzXro9SA-oztcOtzqp6-G4rH3uE0XUiuOBaeQmDgkBOOxWZ-h9pe1AetC76CpKHEh86n-bcjA6NcJ4VIe__zBNFeuvdf3dC2ZE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1601331,36.0632457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arvest Line Spot (BUMP/LEDGE/MANNY PAD)</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorYByGOQsCkEvzluLS7bDMfR_FWLHOloLaxaMPSmJqF8OnyGDAOjgVekVKq1HRfHlqwxxI9kV1v93NP1zESsjEMZaQuQ_2vd1XROw1rhc9CMWhvWf3iOwfFrNckEDZqstNem_3PjLO9ALraIkbwr8Ho9JH5UbBBkxZcSuf_g0buiSO1jwsMhjP-j8Z0foLm24qCHW3Grr3oO5fU9wFthULmb_zZSgzRVuJZ9sV2mMGl0qGvNmWlAeI-Ti0?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopPqB0mh_s1bBVL9_1g2LAY6HLXYQTpOgJ9jIRqWwmjZk4-N-1gIIg3AmVUFbQVZ_YjUVSKQKN4PHcCdtZAnxLaPaDywNopPoH-ppoIeMKgeh4Q5BQBOsX4oNXwFWpShjFEFspl9LjojOrJbGyoUCCEqSabKKzNeN-vqj9W_g0XZ3S_pm-kVv9mqpr7hZiqooGEcVdMFyKFI96M_vyCi5TlgltV-zoSzwNFtj06Gf9l-i9ZFpIVljsf6ug?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorYByGOQsCkEvzluLS7bDMfR_FWLHOloLaxaMPSmJqF8OnyGDAOjgVekVKq1HRfHlqwxxI9kV1v93NP1zESsjEMZaQuQ_2vd1XROw1rhc9CMWhvWf3iOwfFrNckEDZqstNem_3PjLO9ALraIkbwr8Ho9JH5UbBBkxZcSuf_g0buiSO1jwsMhjP-j8Z0foLm24qCHW3Grr3oO5fU9wFthULmb_zZSgzRVuJZ9sV2mMGl0qGvNmWlAeI-Ti0?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopPqB0mh_s1bBVL9_1g2LAY6HLXYQTpOgJ9jIRqWwmjZk4-N-1gIIg3AmVUFbQVZ_YjUVSKQKN4PHcCdtZAnxLaPaDywNopPoH-ppoIeMKgeh4Q5BQBOsX4oNXwFWpShjFEFspl9LjojOrJbGyoUCCEqSabKKzNeN-vqj9W_g0XZ3S_pm-kVv9mqpr7hZiqooGEcVdMFyKFI96M_vyCi5TlgltV-zoSzwNFtj06Gf9l-i9ZFpIVljsf6ug?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1598576,36.0635006,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hell Alley Rail</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor0N0fppsbEYtWxqOth-XBJMtqVN3mCvJgQ5a2-q9WlLKM-2XrXemoA9B4ci6xzxNQuWX6t6_wSSlVesF5yaO90AZsaCgwu4rygwhZ1TnFYQo--x5rnPqHpuKOE-YnlZeSzc02FvWotx18SVQQcXmyUDwT_sLLJZNFnHKLGvbMZBsZpnjSALJ0OM8jvgKk-cNPVwTVPX1llUTpt5v0vMrK3Qh8uxpOcruoy0Us2yNcHXIEfPINxTZGEpnw?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor0N0fppsbEYtWxqOth-XBJMtqVN3mCvJgQ5a2-q9WlLKM-2XrXemoA9B4ci6xzxNQuWX6t6_wSSlVesF5yaO90AZsaCgwu4rygwhZ1TnFYQo--x5rnPqHpuKOE-YnlZeSzc02FvWotx18SVQQcXmyUDwT_sLLJZNFnHKLGvbMZBsZpnjSALJ0OM8jvgKk-cNPVwTVPX1llUTpt5v0vMrK3Qh8uxpOcruoy0Us2yNcHXIEfPINxTZGEpnw?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1590784,36.064302,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leo Romero Handrail</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqaog-CXIYAtlgmNQi7bjs_bdqo4rXv8gSRl0KHQqzaZGy4tHUU0CYHYlncH7m2jOagyXI5Hu2MTgKZgM1Ywlm-cxvhKM_qqbFuonDhy8UuKLGAOk5Syn8vyUJzZF63C9u9zDD9uMX83lj2aI15O41WlAVsmd-4CvbfeBUekfUoSq0dHfi1_esRmj-5Zh2W9JBEdijL8GwL0qkQJEUm49eJPXs9z2Af_NfDuCIX-TuMKXa82mQUYoI9Dn4?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqaog-CXIYAtlgmNQi7bjs_bdqo4rXv8gSRl0KHQqzaZGy4tHUU0CYHYlncH7m2jOagyXI5Hu2MTgKZgM1Ywlm-cxvhKM_qqbFuonDhy8UuKLGAOk5Syn8vyUJzZF63C9u9zDD9uMX83lj2aI15O41WlAVsmd-4CvbfeBUekfUoSq0dHfi1_esRmj-5Zh2W9JBEdijL8GwL0qkQJEUm49eJPXs9z2Af_NfDuCIX-TuMKXa82mQUYoI9Dn4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1538824,36.0683092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zion 11</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqE1nvR1dUqhfp7Ks9sEnbLwQYPHWIkz3uiMeJl7CFjyQhN0EFXaQaSqOsIjP3wPMsX364tRglFurpSmos5DTh92d3WQ3qNgTpaCR-G9bi-xayseVeyiN6sgQ6C1QvAPAi2AH4X5_N9KeBmKiEP8PzBGIcklj_5CQHT1vdf4nWZH2ZTYD6WEsCbnvk1Sl_R3p4mJLS1V3BD5g-eUns10-pDUFxGceUl9SCbRj2EOrZ4o4VpbLWTHIDtUOQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqE1nvR1dUqhfp7Ks9sEnbLwQYPHWIkz3uiMeJl7CFjyQhN0EFXaQaSqOsIjP3wPMsX364tRglFurpSmos5DTh92d3WQ3qNgTpaCR-G9bi-xayseVeyiN6sgQ6C1QvAPAi2AH4X5_N9KeBmKiEP8PzBGIcklj_5CQHT1vdf4nWZH2ZTYD6WEsCbnvk1Sl_R3p4mJLS1V3BD5g-eUns10-pDUFxGceUl9SCbRj2EOrZ4o4VpbLWTHIDtUOQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1347873,36.1274935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Runtz Ledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor0j6gV7QutNJG0o1HDL_IItTqZOl0U0GqQn3GNngyTm9Oy0Ft17Z_FSMVAPEv36jPA3n823ImEI9vKPTDdvroNFGGjgmCIgyMviWeNYxE8QXDNMTLoUH_yzg0E6RWl74Xma6HOpfyZHwLi3gsmRNuTgyARBpgB9wg_u0dKv6NyLl-BeaG769fBFcf8Ux-tjpnVc7exz7kUPav84mpk_Wor2o0rBUfivmeVcqBca6S84CIXystU2h0HfJg?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor0j6gV7QutNJG0o1HDL_IItTqZOl0U0GqQn3GNngyTm9Oy0Ft17Z_FSMVAPEv36jPA3n823ImEI9vKPTDdvroNFGGjgmCIgyMviWeNYxE8QXDNMTLoUH_yzg0E6RWl74Xma6HOpfyZHwLi3gsmRNuTgyARBpgB9wg_u0dKv6NyLl-BeaG769fBFcf8Ux-tjpnVc7exz7kUPav84mpk_Wor2o0rBUfivmeVcqBca6S84CIXystU2h0HfJg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1590554,36.062752,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Courthouse Drop to Outrail </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopi-MQgDcP7NiRgHEZKJa3Rji2IORd-T-ZAArxNWOl-SLROSAfrZXgY206wuSRNsA6IpnbIWFhmQLWHVexeZ_dgc_ekWCMK56bGvk_OjYfuJOzyO5D-C-cFK9a_fS5VCKQg7AmT9QBEsIWcBOmJCNAAQP8msPITDaJ8GI0utCjYjmurd-S43l2f6PqtQovFsBGd5gMvg7ysHP7OsDdv2keI35ylnVoc8IpC94b0YQdqWL-QdgDydY5ojvg?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopY7zzsNIJeCA7d3fFftFZuyLrUcNL0pz3crlrQAv-CXQ3QB716pf-wbxSooEjDyGQt4ryF0hvHjxgblwyB_BWOFeOz3ANAAmsMICvcLsqgAC8_T94uh4cGXhYMbe0omgwewv7HsvhhSNb9mgBGSIbprgz2hWFN5No70CxRmR_hXv345DTSaYr4STsiENRQyIgCaPkEgd4KFSnaDVPzz0v7sQW00H5lGTTChSupr4FQQTQ9t54lwvldJA4?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopi-MQgDcP7NiRgHEZKJa3Rji2IORd-T-ZAArxNWOl-SLROSAfrZXgY206wuSRNsA6IpnbIWFhmQLWHVexeZ_dgc_ekWCMK56bGvk_OjYfuJOzyO5D-C-cFK9a_fS5VCKQg7AmT9QBEsIWcBOmJCNAAQP8msPITDaJ8GI0utCjYjmurd-S43l2f6PqtQovFsBGd5gMvg7ysHP7OsDdv2keI35ylnVoc8IpC94b0YQdqWL-QdgDydY5ojvg?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopY7zzsNIJeCA7d3fFftFZuyLrUcNL0pz3crlrQAv-CXQ3QB716pf-wbxSooEjDyGQt4ryF0hvHjxgblwyB_BWOFeOz3ANAAmsMICvcLsqgAC8_T94uh4cGXhYMbe0omgwewv7HsvhhSNb9mgBGSIbprgz2hWFN5No70CxRmR_hXv345DTSaYr4STsiENRQyIgCaPkEgd4KFSnaDVPzz0v7sQW00H5lGTTChSupr4FQQTQ9t54lwvldJA4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1577067,36.0624494,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chrome Rails</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopkPy9Gs-G3G69edPVntYQVFBXNgTG0UXSdoFB73rOJRw_XwRfyO9yJ4NadcsDrmNpqK-IXJrFr6sun7JjeJOrbSirwLqYeCQszUsU0rT4-0NKLu0zOV1QjUR7xWaLrtw6hm-PFvMg0B7ymIPKxaGDLyweOzqSQk0c0AxD-qtIlHTRwwLWBoGpgXhScHBg6MaRr4h7K7UDteh8E1SzajEP0lv733fIjmmP0RPyqN46aNw-AJ4gR9PfSJ44?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooMCAXAI03ZMZ7NfUGXhdiA0G2wGir500I16ONyxp1Hdk86vxRSv_FxO5Z8qh2hutTQfR25-7fu5aVD_7vBpYTEu4EiKDxwaVYlCeuJcTtvvGCdQ0KapQVFhJ4x6JNoMhXkSjxVWnk-2tX6JTolH3SBHPtMTaadzfscUvlMihfwDzxmvEhNjICuCujM2-DXoooNtmUrO1FT-X35qc4i6POY8lhsGM6m2KPZTydBdvSG4hPo-8jPI0EZUtI?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopkPy9Gs-G3G69edPVntYQVFBXNgTG0UXSdoFB73rOJRw_XwRfyO9yJ4NadcsDrmNpqK-IXJrFr6sun7JjeJOrbSirwLqYeCQszUsU0rT4-0NKLu0zOV1QjUR7xWaLrtw6hm-PFvMg0B7ymIPKxaGDLyweOzqSQk0c0AxD-qtIlHTRwwLWBoGpgXhScHBg6MaRr4h7K7UDteh8E1SzajEP0lv733fIjmmP0RPyqN46aNw-AJ4gR9PfSJ44?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooMCAXAI03ZMZ7NfUGXhdiA0G2wGir500I16ONyxp1Hdk86vxRSv_FxO5Z8qh2hutTQfR25-7fu5aVD_7vBpYTEu4EiKDxwaVYlCeuJcTtvvGCdQ0KapQVFhJ4x6JNoMhXkSjxVWnk-2tX6JTolH3SBHPtMTaadzfscUvlMihfwDzxmvEhNjICuCujM2-DXoooNtmUrO1FT-X35qc4i6POY8lhsGM6m2KPZTydBdvSG4hPo-8jPI0EZUtI?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1710613,36.0666849,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grimes Outrail </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorge0DJG91hXWgOreRHwnTnZpAiBpXgtDTkuGcIQ0aoA8VYj-cKaAdw3fhz6KBGOEs3x70h3RYGvT-SvVt3AA32uohtJq-GxIxit6GN5eH59VNx_KByAhjb43lN922GJB2ecxF1QkfZFlwBZ5pG4tJzaPKPHZzWpj3C8RDhG3HHImauB5K34_Xrt_pHYRhqRgYHbKzz1A9orab1ay6I8LqcSTkfvCA5tMjEfQpZdj6L6SJ-hlTQ0E1As04?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo9YQ5Jq_jEsaHc3EZeIGJvh91ntSOkaLQ7Ax05pwfYmmU-DdhjcnprLwTiZefl8414eqLpjPLLg-Mg6y0Sv7Dy1W50gvy_2_aAw69KkrIrFblNb5Xwuv4XLz2FaXcZyEVDa0JOaCPp9vNufMcgfNT70JDopmIMubBntGBqelt_Mu9Ddg_HaMTLHVSJm6MLGBlhAJpzcbmNsAhrJIFWYzB7lFMce68Uup5CyMXpRgaZzAomuTUizDR3DwU?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorge0DJG91hXWgOreRHwnTnZpAiBpXgtDTkuGcIQ0aoA8VYj-cKaAdw3fhz6KBGOEs3x70h3RYGvT-SvVt3AA32uohtJq-GxIxit6GN5eH59VNx_KByAhjb43lN922GJB2ecxF1QkfZFlwBZ5pG4tJzaPKPHZzWpj3C8RDhG3HHImauB5K34_Xrt_pHYRhqRgYHbKzz1A9orab1ay6I8LqcSTkfvCA5tMjEfQpZdj6L6SJ-hlTQ0E1As04?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo9YQ5Jq_jEsaHc3EZeIGJvh91ntSOkaLQ7Ax05pwfYmmU-DdhjcnprLwTiZefl8414eqLpjPLLg-Mg6y0Sv7Dy1W50gvy_2_aAw69KkrIrFblNb5Xwuv4XLz2FaXcZyEVDa0JOaCPp9vNufMcgfNT70JDopmIMubBntGBqelt_Mu9Ddg_HaMTLHVSJm6MLGBlhAJpzcbmNsAhrJIFWYzB7lFMce68Uup5CyMXpRgaZzAomuTUizDR3DwU?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1352366,36.3135676,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Death Drop Flatbar </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorXz5Ro757jmWk_NaoO7QD-WqdaJc4UD2JmN9fYJY4Ek6iMtxWxPNo4E_IDKB89mKsCj2xosIQ_FTTJLip1xFwIVEoglSkahh5aag4Yb3dd3SdoIJXVXTqhE3aeJTHIG5DRvWvNg-ZITOdOx-T0dPT2xpdouDTPPhCmZ51MH2FReSaAZ4-RD5x2U9wP_LUfY_-vcQvfLj9FBhV-3JM9fSmLsdYTzx7L_yfdArgDNbTo1aGoE7IOoPkJCH0?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorXz5Ro757jmWk_NaoO7QD-WqdaJc4UD2JmN9fYJY4Ek6iMtxWxPNo4E_IDKB89mKsCj2xosIQ_FTTJLip1xFwIVEoglSkahh5aag4Yb3dd3SdoIJXVXTqhE3aeJTHIG5DRvWvNg-ZITOdOx-T0dPT2xpdouDTPPhCmZ51MH2FReSaAZ4-RD5x2U9wP_LUfY_-vcQvfLj9FBhV-3JM9fSmLsdYTzx7L_yfdArgDNbTo1aGoE7IOoPkJCH0?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1612422,36.062378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cellar Door (BRING SIGN)</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoolCMs86avbhAqZI_6c-mnyU0gIzzfMOYSQTUw4Qjy4iCidFWYjLPi0iUYD8qmzC8Gdkz84bLPa4VTrgz0bdEUreMIwvuHTJ0pbLuN--A6D8wRMEoDT45zTwdRWQ_swHm6YaSZsmMytVAo_7NT09NRGJnX2qFwDkXZc6r9bNfohCdAyDoxe6QeNZI9qQQDcIK-K5s22_9CUPuS6JXHqwZaT4QcVj-CFybwUZOyOe_QQ75AcURoF_VrkfS4?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoolCMs86avbhAqZI_6c-mnyU0gIzzfMOYSQTUw4Qjy4iCidFWYjLPi0iUYD8qmzC8Gdkz84bLPa4VTrgz0bdEUreMIwvuHTJ0pbLuN--A6D8wRMEoDT45zTwdRWQ_swHm6YaSZsmMytVAo_7NT09NRGJnX2qFwDkXZc6r9bNfohCdAyDoxe6QeNZI9qQQDcIK-K5s22_9CUPuS6JXHqwZaT4QcVj-CFybwUZOyOe_QQ75AcURoF_VrkfS4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.208456,36.3735678,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Samaritan Yellow Flatbar </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorBGEAyQ3i-PSNtmUuCjXUV3s2cB-XYsgTbzAAH4PsoQgEqwIc0bHkiEP0PY2V4FLxKM9xocUGW0GDpWeJBS4RhSF8odQhFruv1OIG5x9QijP6x5GDqZZL6uCkiHBR7ZfmkyFppecZctr7TA4E9a-rIvSAmDjTc64VtQmOwtNLUoxb1U53khNo1wsmqBeuUmMv84lUmHjIn_3P6AaTWZ2e-7cja1FFTbY6Bq328hj_r2XcDuDhDpg8FN8w?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorBGEAyQ3i-PSNtmUuCjXUV3s2cB-XYsgTbzAAH4PsoQgEqwIc0bHkiEP0PY2V4FLxKM9xocUGW0GDpWeJBS4RhSF8odQhFruv1OIG5x9QijP6x5GDqZZL6uCkiHBR7ZfmkyFppecZctr7TA4E9a-rIvSAmDjTc64VtQmOwtNLUoxb1U53khNo1wsmqBeuUmMv84lUmHjIn_3P6AaTWZ2e-7cja1FFTbY6Bq328hj_r2XcDuDhDpg8FN8w?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1470724,36.1893455,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>McNair Double Set</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqDMG5wryJB0qhfhejPsMVWvoXbCmazy3GLguERH_g0H7_u-mbwlOD6onJuJxCQQFHwZcP8g1lB_GNxh-Ehb-fQEPMAa31WJbgkVGVyPtiHpgm-trnPq-5sFYXJtBGhZ9yTWNvLRAf_udno9EzEidqFDcAiZo51FHz2Ype-RbJ2EQlHPZQ_SEymCrnWfNGV55Pz47oUrEvjZB7eW3cSb8bu2JRIGelLiSGRV_c19uAVIiZAFJNRuxPMfhc?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooS7sOLzaLkTzm2pSOpYMhyu9uYUG-CO1muR3z1V0tT6XZGNgTke76mh5n9OsCYIRrTH8YyoTiFgzX-ooj0oBA3rRRbQQdCSVq6SIE6Oa5FOyh0q8t6JiD9PBln7zvaZLc8Dmvvu6AXloRSuwzW0-E0ch23D9tTNhHiGhWCHXRMKygp7pR0dH_W2gnegGSI7xIcqKoQDbUrKS0RCqqXs3SKq5nJSBJamR76uYDu40tWPKojqLDbDtHBC8Y?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqDMG5wryJB0qhfhejPsMVWvoXbCmazy3GLguERH_g0H7_u-mbwlOD6onJuJxCQQFHwZcP8g1lB_GNxh-Ehb-fQEPMAa31WJbgkVGVyPtiHpgm-trnPq-5sFYXJtBGhZ9yTWNvLRAf_udno9EzEidqFDcAiZo51FHz2Ype-RbJ2EQlHPZQ_SEymCrnWfNGV55Pz47oUrEvjZB7eW3cSb8bu2JRIGelLiSGRV_c19uAVIiZAFJNRuxPMfhc?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBooS7sOLzaLkTzm2pSOpYMhyu9uYUG-CO1muR3z1V0tT6XZGNgTke76mh5n9OsCYIRrTH8YyoTiFgzX-ooj0oBA3rRRbQQdCSVq6SIE6Oa5FOyh0q8t6JiD9PBln7zvaZLc8Dmvvu6AXloRSuwzW0-E0ch23D9tTNhHiGhWCHXRMKygp7pR0dH_W2gnegGSI7xIcqKoQDbUrKS0RCqqXs3SKq5nJSBJamR76uYDu40tWPKojqLDbDtHBC8Y?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1184592,36.0894713,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Slot Slider/Grinder Curb </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo12OL9GrBD7N9Va4YmDvetcWOghoXYFSq8cfuVXTls1bDiksHWtXBVC--Gk30tmdWlxfb0XiCCOoMVr4UbIuxYD61cdag0dF-i4cL5I3uH3_mFSPbcIbNyMVUAz5nfncST8Wcm2THr9Ijhy9Y-roFwys8rxNOgEeHup8X8Zhw7KNP0L500gbKuz-I0E3d6xNkdRo6Rp-Yy8twoWFfMJPbyQohxD7hyZZ9xnWGf4eoAIOCeJ5WSUZzXM_8?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo12OL9GrBD7N9Va4YmDvetcWOghoXYFSq8cfuVXTls1bDiksHWtXBVC--Gk30tmdWlxfb0XiCCOoMVr4UbIuxYD61cdag0dF-i4cL5I3uH3_mFSPbcIbNyMVUAz5nfncST8Wcm2THr9Ijhy9Y-roFwys8rxNOgEeHup8X8Zhw7KNP0L500gbKuz-I0E3d6xNkdRo6Rp-Yy8twoWFfMJPbyQohxD7hyZZ9xnWGf4eoAIOCeJ5WSUZzXM_8?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1589645,36.0635961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dickson Manny Pad/Drop Ledges </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqihuzGuuzPC0kO64HuGHMon9wQ5g6_ETwnMdREW0CmpnFwVXlxlFPaB7uf5Smp8QVLiTTmzKn-wCABA6hRBNq6vVmmagtkL971KCP5eVkABmqHTAqZqGCHAz48bJaJZS-rZUPTqUgKYz4EEE9RITVdkpYRdqYHyADO00hHqEmOYHQH2tXzmxn0eCm-JXyVaLeQ1pEBmg2zITeFR-ZYckPFMx_bzHldNzJuxuHgsR6JTk6AQ_On-0S_lvY?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqihuzGuuzPC0kO64HuGHMon9wQ5g6_ETwnMdREW0CmpnFwVXlxlFPaB7uf5Smp8QVLiTTmzKn-wCABA6hRBNq6vVmmagtkL971KCP5eVkABmqHTAqZqGCHAz48bJaJZS-rZUPTqUgKYz4EEE9RITVdkpYRdqYHyADO00hHqEmOYHQH2tXzmxn0eCm-JXyVaLeQ1pEBmg2zITeFR-ZYckPFMx_bzHldNzJuxuHgsR6JTk6AQ_On-0S_lvY?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1605969,36.0662228,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Police Station Banked Pad </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorrVQdj-JnTFLzixbWQXN-PzO-kd_gL23nf_5u3tCUAw0rZscfX-nKvMMRTLu0waGbeJq_W5cf_M8fFxXbs_CsGNgPTp7ytSanAswmZye0I8IIS_DMEoJJobf-AnGXjaZcXcP9A7feMx7gAgBozNtnCdJtKVUgJzt545XiAbZnt4HvqB4FzzYB4syXqqZUWAYXp5UuKG4ys1KrySAnRlfVPccWEafVmvuxlzLlfk6ByfHrStV8BJv-sUaY?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorrVQdj-JnTFLzixbWQXN-PzO-kd_gL23nf_5u3tCUAw0rZscfX-nKvMMRTLu0waGbeJq_W5cf_M8fFxXbs_CsGNgPTp7ytSanAswmZye0I8IIS_DMEoJJobf-AnGXjaZcXcP9A7feMx7gAgBozNtnCdJtKVUgJzt545XiAbZnt4HvqB4FzzYB4syXqqZUWAYXp5UuKG4ys1KrySAnRlfVPccWEafVmvuxlzLlfk6ByfHrStV8BJv-sUaY?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1607241,36.0613061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elevator Slappy Curb to Skinny Manny Pad</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop5_rJvoF6Y1vhDgDyNfq7h1zZ2ZW9yUXjNghKR-l-Uduv5vtTqhKqJsZvIBwTFQqZKJ_1VdH2DQkVVri6MXpMvMS0q5PbkORqrxc6l524ptQzf0k77fdZXw7EchvQ4Kd4k9eDnTwiUNU7vuft80Wsv8sRQRNCmFRtyFT8r8aYyhLY9WTeH1DP16MroA9XrWB9dbOQUYVy4xKh22F6uanJbuEu0sx7FmxcJu9vdrSnEjKUSZqGPfsdE_c0?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop5_rJvoF6Y1vhDgDyNfq7h1zZ2ZW9yUXjNghKR-l-Uduv5vtTqhKqJsZvIBwTFQqZKJ_1VdH2DQkVVri6MXpMvMS0q5PbkORqrxc6l524ptQzf0k77fdZXw7EchvQ4Kd4k9eDnTwiUNU7vuft80Wsv8sRQRNCmFRtyFT8r8aYyhLY9WTeH1DP16MroA9XrWB9dbOQUYVy4xKh22F6uanJbuEu0sx7FmxcJu9vdrSnEjKUSZqGPfsdE_c0?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1608275,36.064359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2 Step Philly Ledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopIoKCyvQ_0AV56iMSSZ4ftPebJhubbsu-jpJ4SUDmX7sEWSCn-6Aos9I4BD1jLvdKdU9YnlkuZAqwhYRe7tk5WYOwPASr6YueeMPd8NiX2i--L5b0urtk34Nqlp_myaoYhg7MSupCrtnsq4FjD3jgy4EekbUU-_OZTTa5O6zqCQoUYqIiO0dguVfbZI7FvIzNT-QgXIi2hNCeva1MaxL2aome1r_ifkwdkWhtLiwoFVhq6FyQSgHb8dQU?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopE3hVKpLXPvtt5x4SglmoagCWnkNW3nZUOgCcVkjpejVLaeLS4Yj6dPx3TnOgwWr9sjq_z_Iuza7EByKT33ELJDlsnXZf4CIE_L-4fD0IAM9mZbe0Xg-JONX8salT4x1tRJVySLTDdktQAx8m9ody2aBcjrLMhFXkGxerkUS-uPApEzM6Jt09pU2d4qbraMgrMPbquJjMiT5LxA1KiQIw0XSTLUklgubJgWOU1xv28Tb2So1qiaxxKRZo?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopIoKCyvQ_0AV56iMSSZ4ftPebJhubbsu-jpJ4SUDmX7sEWSCn-6Aos9I4BD1jLvdKdU9YnlkuZAqwhYRe7tk5WYOwPASr6YueeMPd8NiX2i--L5b0urtk34Nqlp_myaoYhg7MSupCrtnsq4FjD3jgy4EekbUU-_OZTTa5O6zqCQoUYqIiO0dguVfbZI7FvIzNT-QgXIi2hNCeva1MaxL2aome1r_ifkwdkWhtLiwoFVhq6FyQSgHb8dQU?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopE3hVKpLXPvtt5x4SglmoagCWnkNW3nZUOgCcVkjpejVLaeLS4Yj6dPx3TnOgwWr9sjq_z_Iuza7EByKT33ELJDlsnXZf4CIE_L-4fD0IAM9mZbe0Xg-JONX8salT4x1tRJVySLTDdktQAx8m9ody2aBcjrLMhFXkGxerkUS-uPApEzM6Jt09pU2d4qbraMgrMPbquJjMiT5LxA1KiQIw0XSTLUklgubJgWOU1xv28Tb2So1qiaxxKRZo?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1642437,36.0638851,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tooth Gaps Over Wall </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqZEEdlz7H8rwaescPYKH8ep6M1yiCSnp-IHpTUh-QqGfkbL1oADZd8wJqy-Dj-W9yW2TFqKwEvkGvCseLAYIrHz0HOwqCgt_EQgCifG69DJFVK-TTKqaQFBYiuCGDipd4uU05uIN-8VvytlwYaEq908rHWtIPnG-mhjOn4CqMF3c4_oZMZ0NvtfiAvMVaKJLNc8UkxNyCX_fCKgRjuRI5bCbRtZCQwPactcHCwWkP3UD9HW8sVJaVK3r8?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorj3Jjhkiaj5kMY36QEU2Vf79lLHyZcXlhyPHeuo0i7556IdnJx6aTatWsY0wRHBay55quCdXjQCQYTPxFm-DBjgfv1IvInXu4gMG2h1Emy_sbwYEjB8JrcmljZPH0eBW-P3EW0lreCYIgQkVFT8s4YpjKfvcsTlGCnrGqiaX98VxRKEyByGzl8vwbd8We5mdLiMRvc07-JcBjn3JUPuNL1MeTSUlc5ihGFSiwJSQr8Aa1OvYvl5r3hzg4?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqZEEdlz7H8rwaescPYKH8ep6M1yiCSnp-IHpTUh-QqGfkbL1oADZd8wJqy-Dj-W9yW2TFqKwEvkGvCseLAYIrHz0HOwqCgt_EQgCifG69DJFVK-TTKqaQFBYiuCGDipd4uU05uIN-8VvytlwYaEq908rHWtIPnG-mhjOn4CqMF3c4_oZMZ0NvtfiAvMVaKJLNc8UkxNyCX_fCKgRjuRI5bCbRtZCQwPactcHCwWkP3UD9HW8sVJaVK3r8?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorj3Jjhkiaj5kMY36QEU2Vf79lLHyZcXlhyPHeuo0i7556IdnJx6aTatWsY0wRHBay55quCdXjQCQYTPxFm-DBjgfv1IvInXu4gMG2h1Emy_sbwYEjB8JrcmljZPH0eBW-P3EW0lreCYIgQkVFT8s4YpjKfvcsTlGCnrGqiaX98VxRKEyByGzl8vwbd8We5mdLiMRvc07-JcBjn3JUPuNL1MeTSUlc5ihGFSiwJSQr8Aa1OvYvl5r3hzg4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1628179,36.0642592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tyson Ditch</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor7sZcczIqlTw5B6dPN6Ar9DsbWi7KJER6-6oX9lGI4j6xIAY1mQuE37Fc9CND9-hoqY6sxXW6RcrrWtighs7zRqtXKsrdZtYV4Iqg6B27e6IUsZTbslNhVC5s2D8fiW33xvsvrPcKX9MaffMbRbx3go5xPvjJwis8Fju_OXvXfeeVQ5y9_hV4frl0iqHprHc-dBMIJNlbZlC5kS7W7eIurt2TDgwvcM4N3-ufgon0A-nTJNrJBuQCyLug?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor7sZcczIqlTw5B6dPN6Ar9DsbWi7KJER6-6oX9lGI4j6xIAY1mQuE37Fc9CND9-hoqY6sxXW6RcrrWtighs7zRqtXKsrdZtYV4Iqg6B27e6IUsZTbslNhVC5s2D8fiW33xvsvrPcKX9MaffMbRbx3go5xPvjJwis8Fju_OXvXfeeVQ5y9_hV4frl0iqHprHc-dBMIJNlbZlC5kS7W7eIurt2TDgwvcM4N3-ufgon0A-nTJNrJBuQCyLug?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1512891,36.1562247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Woodland Ledges</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq3sh9rWOBh_1rhzGFWyu2IhEf8uhZiZh6S71zb9myouEykTFYX_MW3Aqzvcfcn4baxzcH19htEv4x31C1JGCStjWavpmsN5yN7Lq8EgvNM_512IeQsWNnXRryTVOxaza2M00YPJ2KPRIQ8hDDZxDTZAyJYUQmhtEdGjKYWplsCoJ9FQwP-GKizbFd2hyklt07k42BWq4Q2rKeCcLdgXJV1Y-Nr_VY1DGqCuZuTeeCWuk9ih1TVpgqy7W0?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq3sh9rWOBh_1rhzGFWyu2IhEf8uhZiZh6S71zb9myouEykTFYX_MW3Aqzvcfcn4baxzcH19htEv4x31C1JGCStjWavpmsN5yN7Lq8EgvNM_512IeQsWNnXRryTVOxaza2M00YPJ2KPRIQ8hDDZxDTZAyJYUQmhtEdGjKYWplsCoJ9FQwP-GKizbFd2hyklt07k42BWq4Q2rKeCcLdgXJV1Y-Nr_VY1DGqCuZuTeeCWuk9ih1TVpgqy7W0?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1577005,36.0883204,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>McClain Crusty Bank</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorhuURUZPoyf0rUPqR8ALVRe8Wta7ydcdQZlw3zYz75QvJifK9RyEdhzdOZVlDPZgfioHzz9jUxJZjR5KeEnJeQ7IwrXcy7sSMZNWc6LSZWvzgVeBeldy_NkAqAGS4lCT53JJf_HtchdjwdSHmW7ormPHXkQpvLqzJ9A_Z_cEIqPa8OOEcd7espvezviRyS8uZu3FVMOQ1w_ls1p1x8uJQfm30wnLAh_eHGQhMW21lVyN7kM0w-1yP0qu4?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorhuURUZPoyf0rUPqR8ALVRe8Wta7ydcdQZlw3zYz75QvJifK9RyEdhzdOZVlDPZgfioHzz9jUxJZjR5KeEnJeQ7IwrXcy7sSMZNWc6LSZWvzgVeBeldy_NkAqAGS4lCT53JJf_HtchdjwdSHmW7ormPHXkQpvLqzJ9A_Z_cEIqPa8OOEcd7espvezviRyS8uZu3FVMOQ1w_ls1p1x8uJQfm30wnLAh_eHGQhMW21lVyN7kM0w-1yP0qu4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1706499,36.3796974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B2B Marble Ledges </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqgsAIPAS-trL0Kk5-vXzhEJ9GdvpubVxCpfsuazpGo9P6y83cjO4RMOZNAyI5HMn95xo66ckMwYa7-xn38FDZud-Wx8CfJH69Nlieo_7k6LXx85C-QnmDSi4L_3omkhJmcui85GNSJzNGtOUg_cgYYm3mAFGgqz4AS7zq0Kfus5GU802XZoVGd4DYJZh2kfZB7ncFhnkITf9zjgWyCfd8u3RV_tig-BynFFn5SYYXgwJMJ4LdqCIPjikY?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqgsAIPAS-trL0Kk5-vXzhEJ9GdvpubVxCpfsuazpGo9P6y83cjO4RMOZNAyI5HMn95xo66ckMwYa7-xn38FDZud-Wx8CfJH69Nlieo_7k6LXx85C-QnmDSi4L_3omkhJmcui85GNSJzNGtOUg_cgYYm3mAFGgqz4AS7zq0Kfus5GU802XZoVGd4DYJZh2kfZB7ncFhnkITf9zjgWyCfd8u3RV_tig-BynFFn5SYYXgwJMJ4LdqCIPjikY?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1874101,36.2957921,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chicken Coop Ledge </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq8FlpP4FzsrRNgtDNBAaYCs-5J-qsUHGc_olkKz2e3e843Mzg3zf6ze35S-CSUd7C_yZflMB7u_GsFPR_71EHhkSWbMpvzrn44mQVoumvFRR2-IKHWrybcmlDeKV57VL1E2a4XlOTUDDmg9qgUcJ3z7Zlc7NSBMsTBYM5OCj341I7CR1ujm78UstAmWEf2hBzmFkPi-uP9XklT0_NWZPtbbIj2ja_L5bCXF-r2Xx0v4IWODiYv2U5q_t0?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq8FlpP4FzsrRNgtDNBAaYCs-5J-qsUHGc_olkKz2e3e843Mzg3zf6ze35S-CSUd7C_yZflMB7u_GsFPR_71EHhkSWbMpvzrn44mQVoumvFRR2-IKHWrybcmlDeKV57VL1E2a4XlOTUDDmg9qgUcJ3z7Zlc7NSBMsTBYM5OCj341I7CR1ujm78UstAmWEf2hBzmFkPi-uP9XklT0_NWZPtbbIj2ja_L5bCXF-r2Xx0v4IWODiYv2U5q_t0?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1800095,36.0966203,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Farmington Junior High Ledges </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoofk0I321gDQEiLCwL8MjirnYoCqooOJ4lxNBLKJOuPb4FP9BLiZT_F5OdDy4ZsX-2g0u8IL5PwFuvpEYSKVp2xofYa8HVFAziU0VOuhLxSE73DmRnSjviQKc1VecpIMbYD_YY7d9ILaKXb05OXPsm6fuU0cfHKDd7qDvy5YK29Au_Mu9A1W0Aec9O9pPgP28-F74L8BFR3nJDLkfSpk48-bKGZYGpxpAKMAJtaf-cInOfAh9hekZ81Cvk?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoofk0I321gDQEiLCwL8MjirnYoCqooOJ4lxNBLKJOuPb4FP9BLiZT_F5OdDy4ZsX-2g0u8IL5PwFuvpEYSKVp2xofYa8HVFAziU0VOuhLxSE73DmRnSjviQKc1VecpIMbYD_YY7d9ILaKXb05OXPsm6fuU0cfHKDd7qDvy5YK29Au_Mu9A1W0Aec9O9pPgP28-F74L8BFR3nJDLkfSpk48-bKGZYGpxpAKMAJtaf-cInOfAh9hekZ81Cvk?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.2540172,36.040464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dragon Ledge </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBornM0LmVYWc2igAG68wpwJAFUALHEKqiF2cjSLYdiy3ELBaj-tlCad5Zw_Q5SUN7ur3eaMQF7gRIlScIEwmTPxerZxRRM5dyKTWbKPF_H8V5jqTiJnLG6oprGGAne20o1bKdMs9EXrK4bDD6-asJ0RLDqZtRWjFUyR_rA1sL5MGge-FcqPEjlwaMrdsEh408mH7jrtbjT6uOA5frPGlo71YeS_Z2qvhsdlhQFlKX5Bmo45aJ-rBJ2m8-VM?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBornM0LmVYWc2igAG68wpwJAFUALHEKqiF2cjSLYdiy3ELBaj-tlCad5Zw_Q5SUN7ur3eaMQF7gRIlScIEwmTPxerZxRRM5dyKTWbKPF_H8V5jqTiJnLG6oprGGAne20o1bKdMs9EXrK4bDD6-asJ0RLDqZtRWjFUyR_rA1sL5MGge-FcqPEjlwaMrdsEh408mH7jrtbjT6uOA5frPGlo71YeS_Z2qvhsdlhQFlKX5Bmo45aJ-rBJ2m8-VM?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.2022742,36.0552311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lot 1 Rock Stair Sets </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqWBFmZvW9Jt2kHo3Bnn_8vfwlruu3BdPW2EJRSr-kIZ2fEtbnHYKq_6ey_tfEBb3ShwJklNH_zOYhRqhPi9JfGSUb95g8b_DmgLvVj0e0wG3PnMUvp7JA1JnxdQ_SXfr2sO2avuhDKvnveTOidP4EjDzmACCIquWjlGx_D9gB9fqHwurD2K9t68LRdFvHtB7Q1bV8xnj6QTw_8uaoQQHSJOmQvSH5CohkVQdIyjHfpMn4M7EDxAgQSxsg?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-FBC02D</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqWBFmZvW9Jt2kHo3Bnn_8vfwlruu3BdPW2EJRSr-kIZ2fEtbnHYKq_6ey_tfEBb3ShwJklNH_zOYhRqhPi9JfGSUb95g8b_DmgLvVj0e0wG3PnMUvp7JA1JnxdQ_SXfr2sO2avuhDKvnveTOidP4EjDzmACCIquWjlGx_D9gB9fqHwurD2K9t68LRdFvHtB7Q1bV8xnj6QTw_8uaoQQHSJOmQvSH5CohkVQdIyjHfpMn4M7EDxAgQSxsg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.181776,36.0708378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sushi Skinny Ledge </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo_Ij8sVhPGGBFQ0EVm7to__QkKOfvvHqbyTrlBAtcvCNVGIbBFUlKRw1u3csh2zdTYQjkxQWzOmdcy0XG-738XMgd7-DloMgP3KHiQ2Wmv46RD4rkCi_l2iHyuMNux_3WWVnQj9rcJiLj0PRdezMEAfUCIFkozcFAq3By6lK9W6pD-F6NFe5YJXBdw7dpfFrhPjILFIWF1lTgVUS8lOaiVvwv2mIxoPWbkF2aMpiVc_YWF-s4GADJwbVQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoo_Ij8sVhPGGBFQ0EVm7to__QkKOfvvHqbyTrlBAtcvCNVGIbBFUlKRw1u3csh2zdTYQjkxQWzOmdcy0XG-738XMgd7-DloMgP3KHiQ2Wmv46RD4rkCi_l2iHyuMNux_3WWVnQj9rcJiLj0PRdezMEAfUCIFkozcFAq3By6lK9W6pD-F6NFe5YJXBdw7dpfFrhPjILFIWF1lTgVUS8lOaiVvwv2mIxoPWbkF2aMpiVc_YWF-s4GADJwbVQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1665257,36.0665493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Malco Ditch </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopOvvuiscTd3XyfTJY5yQKCoLudCTf-wxP7QiGwVEcrB7F2BYnTPH3Mo3Li86-gsTRccimwEJ-f93on0xDhZVuQcNZZP67vM-Q7NfLnIhstE9XkzTfmglJiSNCm2m27hYZJkIUPusPDSfDme8lbIiuJumPH4PV-kOIS6eNvmRiZAzgGnp8snv_4pH-0NMZO0dRDS-KEF3UHATNkns8Lh--d5Qb75rwbMprUReT95x3J6JjRnk0h3HR_lvA?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopOvvuiscTd3XyfTJY5yQKCoLudCTf-wxP7QiGwVEcrB7F2BYnTPH3Mo3Li86-gsTRccimwEJ-f93on0xDhZVuQcNZZP67vM-Q7NfLnIhstE9XkzTfmglJiSNCm2m27hYZJkIUPusPDSfDme8lbIiuJumPH4PV-kOIS6eNvmRiZAzgGnp8snv_4pH-0NMZO0dRDS-KEF3UHATNkns8Lh--d5Qb75rwbMprUReT95x3J6JjRnk0h3HR_lvA?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.162869,36.1772988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Debbie's Philly Ledge ]]></name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoprXkNia67vuswTPl-rpbxhBA_zxG-UecM6UrW_1smKcQqF-D_Qnu2Eth-Ljji8VXGIP82DQGYGQ2AtCZVhp18FtKPwrrtU4RqDpfZR_UNUqZK0P4CPtdyqUuacCtsEF5_cn1XlZxTpkmo4lREnUON5ofQ2QQohZMoIbop_0vvCweCrKx-Pm16JtG5jYx0BVxd4pOas2De-YTw47lm11FwIbKJ4AqqGo1dyfauLadeVGfbUh61-AwJ8fZQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoprXkNia67vuswTPl-rpbxhBA_zxG-UecM6UrW_1smKcQqF-D_Qnu2Eth-Ljji8VXGIP82DQGYGQ2AtCZVhp18FtKPwrrtU4RqDpfZR_UNUqZK0P4CPtdyqUuacCtsEF5_cn1XlZxTpkmo4lREnUON5ofQ2QQohZMoIbop_0vvCweCrKx-Pm16JtG5jYx0BVxd4pOas2De-YTw47lm11FwIbKJ4AqqGo1dyfauLadeVGfbUh61-AwJ8fZQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1873796,36.3120447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Debbie's Pad Drop Pad ]]></name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqpBOWw-OWdQY5fMQZWW2zSVX5Xo1qYe8FO1L0qrT6VAxGUoYNjIT3Ta7gdbY-PYUquyJDJOjHtb5T-pU4O_5u8lR6NA4R2xl3ARHFrTvn38EmcKy6CH8xYoHhRkC6NwLDMDg4agBMNtLzSmi8ZsbjNEbXCKmjyogmfudQytzX9xXPpwy2JsX9ozFy9Rjau_KSr0BXWtyVRZMeh2uKoqWFUhI_b0y3c9VOLFpI6Jvf_VDmBgDh6CkzDcEs?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-F57C00</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqpBOWw-OWdQY5fMQZWW2zSVX5Xo1qYe8FO1L0qrT6VAxGUoYNjIT3Ta7gdbY-PYUquyJDJOjHtb5T-pU4O_5u8lR6NA4R2xl3ARHFrTvn38EmcKy6CH8xYoHhRkC6NwLDMDg4agBMNtLzSmi8ZsbjNEbXCKmjyogmfudQytzX9xXPpwy2JsX9ozFy9Rjau_KSr0BXWtyVRZMeh2uKoqWFUhI_b0y3c9VOLFpI6Jvf_VDmBgDh6CkzDcEs?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1873018,36.3118729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Powerhouse Parking Garage Ledge (BOTTOM FLOOR) </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqDlkbAw0WDpn7J9q_VkowwwKTY4CgyRX2ImU30d1HiqUm8cVK7dzm9K2d5-TztAWbWfF7iRIRuFJ6x9etzsNf20WeaZP768y9K1lEp_x7YqlObC8OkHXw6zVhN9s-vKP8bL69syctD4xpVAdjimHSfGPaYQdVYDe-l8EwFO4KQpU-kcIXe-eGpFuvItHacZusOfA27XDJ4CjT2P_mOiDdJXcXLHT0YPwUc4wF0uDejnvUvRFs1TnNmaWQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqDlkbAw0WDpn7J9q_VkowwwKTY4CgyRX2ImU30d1HiqUm8cVK7dzm9K2d5-TztAWbWfF7iRIRuFJ6x9etzsNf20WeaZP768y9K1lEp_x7YqlObC8OkHXw6zVhN9s-vKP8bL69syctD4xpVAdjimHSfGPaYQdVYDe-l8EwFO4KQpU-kcIXe-eGpFuvItHacZusOfA27XDJ4CjT2P_mOiDdJXcXLHT0YPwUc4wF0uDejnvUvRFs1TnNmaWQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1669586,36.0656317,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rogers DIY Ditch </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopjEmLWCZn4fGujWKYcHHce7xQJSE1lrGLe32jRYSGaLQzp1wwJJAvj5My900O0k0QskEmBa5UnI9if91wpbyiyAS7QFcYpXaNLNC5CXgqQVNfheQbYNBmUh9iPdtuGzDO3rHqHrWa_lOQ56AIT3s3QumFoe7aiPdPoUUZuxbd2HowZF3Fs9y8eYKnmUl2f0CFFLj1iS3eQh8GMA9PZABg3z2vt83WiZqxzYPB9VIo_H90cuWSL2FC86eo?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopjEmLWCZn4fGujWKYcHHce7xQJSE1lrGLe32jRYSGaLQzp1wwJJAvj5My900O0k0QskEmBa5UnI9if91wpbyiyAS7QFcYpXaNLNC5CXgqQVNfheQbYNBmUh9iPdtuGzDO3rHqHrWa_lOQ56AIT3s3QumFoe7aiPdPoUUZuxbd2HowZF3Fs9y8eYKnmUl2f0CFFLj1iS3eQh8GMA9PZABg3z2vt83WiZqxzYPB9VIo_H90cuWSL2FC86eo?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1512862,36.3247425,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gap Over Rail Green Bank </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorAGptAfx1yMdVVE0V1_aJ3JppatQJ36TFd31VhL4oEs_QaCMtFZVa0atkvBBzH5d24nCxJ7l9Mveh6EZw1MkgSW3hzTPq2NUSdJ8Zd5rwylS7Y0g8JNz2Ld53p8OU8QnonG_-U-OMISB0qDThuqjHcQx4Lo0g8KM-zmuQ4FmY5kRLa42y7xfbkbNvD8HtuCumnFZapSpyVLVWb_Dn_UW9gLNJ0insCzjXKy1TrgMgVdYAxskR6xcBS7Y0?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorAGptAfx1yMdVVE0V1_aJ3JppatQJ36TFd31VhL4oEs_QaCMtFZVa0atkvBBzH5d24nCxJ7l9Mveh6EZw1MkgSW3hzTPq2NUSdJ8Zd5rwylS7Y0g8JNz2Ld53p8OU8QnonG_-U-OMISB0qDThuqjHcQx4Lo0g8KM-zmuQ4FmY5kRLa42y7xfbkbNvD8HtuCumnFZapSpyVLVWb_Dn_UW9gLNJ0insCzjXKy1TrgMgVdYAxskR6xcBS7Y0?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1779659,36.1581174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FHS 3 Stair Tall Outledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorURJXhui9NMFT-ZwS7TyM82O4ooQqU8gX_UJRuWuGuIaW1gheLhFFxsKNXWv7VotcULB4eUGAVvSIt1dn7X2J_4hMeEXeOmmcQqSyazxH-p4Szpf1CB7KChJPimSyYgc3lGSWAHYjfY1_HeZDFjjRvNC-K1z6d-RNMdbeaX-uMINfpakpux9e0K8DKX-nbNEHTrPEiP-VJfgcslaDBOD1jKFYuBo_Lt1buiDD0M-vHMnXiEDO81gvyFKE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorURJXhui9NMFT-ZwS7TyM82O4ooQqU8gX_UJRuWuGuIaW1gheLhFFxsKNXWv7VotcULB4eUGAVvSIt1dn7X2J_4hMeEXeOmmcQqSyazxH-p4Szpf1CB7KChJPimSyYgc3lGSWAHYjfY1_HeZDFjjRvNC-K1z6d-RNMdbeaX-uMINfpakpux9e0K8DKX-nbNEHTrPEiP-VJfgcslaDBOD1jKFYuBo_Lt1buiDD0M-vHMnXiEDO81gvyFKE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1729,36.0591537,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chinese Church Philly Step</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopnOX-uzWfxf5ziC_3RFTr1YNyMjqN78D6V1E7N-e_UkZlKGafYEJYTY_fcgA1LqMXbA6D-j99tUygIQtJj21kB8cCF2h4xQxUp8RG7Slp9ybB4zBn-srRsjBrFoUbgYSRTgOBAYiKhdB4QvJVofdRG03iITy7pJUNZupzXy1rzYBvmmotJnCcg__0Qi01z77kuqLE5gwsdlZTeQVakb-HsiUzwIjWEaUbeOAOz5UPqdBCEm64DR5Firbk?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopnOX-uzWfxf5ziC_3RFTr1YNyMjqN78D6V1E7N-e_UkZlKGafYEJYTY_fcgA1LqMXbA6D-j99tUygIQtJj21kB8cCF2h4xQxUp8RG7Slp9ybB4zBn-srRsjBrFoUbgYSRTgOBAYiKhdB4QvJVofdRG03iITy7pJUNZupzXy1rzYBvmmotJnCcg__0Qi01z77kuqLE5gwsdlZTeQVakb-HsiUzwIjWEaUbeOAOz5UPqdBCEm64DR5Firbk?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1718322,36.0590618,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Melissa Yellow Flatbars</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorRYXUlAd0A2jUZv1FxFQrJNaH6qG0i3Mtf7EdY9ihfo5nRqRkfRqBh1RDcTMjNkrL9TXb3CuhAdjSojJAv2-R5T8BtWv3-2oTywxjBlHLIW3ceH-nHvMx3eLM8EhPqfvqlScUjc5Y943hG9MExOfycf-Y-KUTIqvYYlppsGUdNBMMvCaEk3yUkcxwINTq5qXjLnHHQJwbVuWeOvc_DxgJ7MUtEfPzQalnR9D-oQopHlGnbe7tFAZXLY4I?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoql2XQiMThgEJgKZKoIv3-fFAQ1YHnS5f0Uhe8MbqkXeC3nQcXICes-SDpCURWzay7L7bAu2QmSefoBN7a997FiEJ-MSAxFHs_mOszway6unricmM3bO6wde6vTP9-Ucbdim5bnfEsLcprxVAReg-T6wzCuIm33xVr4oNY2nLqFsAtIncXB5pyb5p01JzCczc7WS3VZHVaFZ1djhxLNNjkaRJD2PROWC5M5Ku_jhSJtP7bx6dKMjlGwxcM?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorRYXUlAd0A2jUZv1FxFQrJNaH6qG0i3Mtf7EdY9ihfo5nRqRkfRqBh1RDcTMjNkrL9TXb3CuhAdjSojJAv2-R5T8BtWv3-2oTywxjBlHLIW3ceH-nHvMx3eLM8EhPqfvqlScUjc5Y943hG9MExOfycf-Y-KUTIqvYYlppsGUdNBMMvCaEk3yUkcxwINTq5qXjLnHHQJwbVuWeOvc_DxgJ7MUtEfPzQalnR9D-oQopHlGnbe7tFAZXLY4I?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoql2XQiMThgEJgKZKoIv3-fFAQ1YHnS5f0Uhe8MbqkXeC3nQcXICes-SDpCURWzay7L7bAu2QmSefoBN7a997FiEJ-MSAxFHs_mOszway6unricmM3bO6wde6vTP9-Ucbdim5bnfEsLcprxVAReg-T6wzCuIm33xVr4oNY2nLqFsAtIncXB5pyb5p01JzCczc7WS3VZHVaFZ1djhxLNNjkaRJD2PROWC5M5Ku_jhSJtP7bx6dKMjlGwxcM?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.2252711,36.3614307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sir Lancelot Conundrum</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopK13yXao5sKH2RonPZ6VZdxzVwgwz6mh6lCLfEZh-R9DAbjJfghJafWGZQ9lNoY5pDbnAaHZNXVoXh53bKoJQnlG8Vy6bYOYFNxY037U2m5uca6isD8HMFqmGaapRRkBPI-lfXsmGhXJvf1lqDLGTBcYTHnKmqiK4qAluZ12wzmnH12oDZtRO-Ln-Uo867TLieYEsRvP09VL6EiK9CdY6RG-7mSk9_z9OPHf2Sh-ze8HMaLgC9u2WNqNU?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopt4TYp3wH0VRooeMvOApD27jYBG1fPnD2p8HfiFH2qdwVtSXHH0CKkC5Ki_NiEDuux7uUPUf2m-GPpr4l8Kc1THYzo6b58ZiP8pSb0PYDPf5CBhVNzIxNdnIDZqe09nzH0sC4HmOH1AQou20-GqcVJZhrVljBRwDzBZOFKruNlNiurI5YoDb8RICvIfUS5Yx28fDG3YsDS0e0GuXHyYF_D1he6x4CdHcmxRT3VcZ9lv-lk9QSidNV13gs?authuser=0&fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorVdsx-gx1TFIPAJLzL2D1cUcm3QLhhuQpBALu7FAcff7l-FiL4zEvGU4qxgDirfhHLrW9TsIy6idr_omThkzYmeLKFC8qpAL8mmEOfZt0fWYmV8WJ9rR1UXcyJ1fRF4SmWfZs0n0W5KYc4teQjXTrjjW4jZikJv1JMYaSMcnsbrW3MtuTePlLSBoYbpFkOBkRLnYTni-dzmYNbiZwjytIsHJmFsa2mF9ojJMYFn-Hkbo6Ggx2Z-pXJYyE?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopK13yXao5sKH2RonPZ6VZdxzVwgwz6mh6lCLfEZh-R9DAbjJfghJafWGZQ9lNoY5pDbnAaHZNXVoXh53bKoJQnlG8Vy6bYOYFNxY037U2m5uca6isD8HMFqmGaapRRkBPI-lfXsmGhXJvf1lqDLGTBcYTHnKmqiK4qAluZ12wzmnH12oDZtRO-Ln-Uo867TLieYEsRvP09VL6EiK9CdY6RG-7mSk9_z9OPHf2Sh-ze8HMaLgC9u2WNqNU?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopt4TYp3wH0VRooeMvOApD27jYBG1fPnD2p8HfiFH2qdwVtSXHH0CKkC5Ki_NiEDuux7uUPUf2m-GPpr4l8Kc1THYzo6b58ZiP8pSb0PYDPf5CBhVNzIxNdnIDZqe09nzH0sC4HmOH1AQou20-GqcVJZhrVljBRwDzBZOFKruNlNiurI5YoDb8RICvIfUS5Yx28fDG3YsDS0e0GuXHyYF_D1he6x4CdHcmxRT3VcZ9lv-lk9QSidNV13gs?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorVdsx-gx1TFIPAJLzL2D1cUcm3QLhhuQpBALu7FAcff7l-FiL4zEvGU4qxgDirfhHLrW9TsIy6idr_omThkzYmeLKFC8qpAL8mmEOfZt0fWYmV8WJ9rR1UXcyJ1fRF4SmWfZs0n0W5KYc4teQjXTrjjW4jZikJv1JMYaSMcnsbrW3MtuTePlLSBoYbpFkOBkRLnYTni-dzmYNbiZwjytIsHJmFsa2mF9ojJMYFn-Hkbo6Ggx2Z-pXJYyE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.2251074,36.3622505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Center Street Church 3 stair to Ledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqIUy0l5uv3Yu6iwBF8xrIsvpc6e0kYFPScao0OjXFB-Q3ZnBQ5G8I6L77Tbfcjht6O5vrhSfbR0qkVHekWkHlZoL8XbwW-jroFY4vn3utF1BAXZW6Vi-V8udFyTCjuj8Ln5eobyzNe5fm3sQ_3t1DpXq-U7_Pyu5BAwDbqa-B3xHEfmdDTdgp4ag7DQA-mYwDf1UctA1EVzIX_uGIgpPvBead-23RISWvUHZQ7L-m3c5gc_8qMNYzJZeA?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqHdCpJylfekyOTHPivAwf9BN3cDxjuJ4UEDMLXw4QV1V5oddA-8vPGTl21JtqvQ3BccvDGZ08rJgbqX_CwCRSakeu68D3xKjo9xZFhLbcdyqTvF5DLRy0ovfUJw5OGky2wza8KokCtt3LBsiW_n8Tq71mnAlp9sru4v_gsgSxSmtxCgCfSMlTU_4V1B6CppGm4G78O_y23Pye8EaJjHp7QKhTVVodXXftWbsqSFmJj8j09X389ICR6l4M?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqIUy0l5uv3Yu6iwBF8xrIsvpc6e0kYFPScao0OjXFB-Q3ZnBQ5G8I6L77Tbfcjht6O5vrhSfbR0qkVHekWkHlZoL8XbwW-jroFY4vn3utF1BAXZW6Vi-V8udFyTCjuj8Ln5eobyzNe5fm3sQ_3t1DpXq-U7_Pyu5BAwDbqa-B3xHEfmdDTdgp4ag7DQA-mYwDf1UctA1EVzIX_uGIgpPvBead-23RISWvUHZQ7L-m3c5gc_8qMNYzJZeA?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqHdCpJylfekyOTHPivAwf9BN3cDxjuJ4UEDMLXw4QV1V5oddA-8vPGTl21JtqvQ3BccvDGZ08rJgbqX_CwCRSakeu68D3xKjo9xZFhLbcdyqTvF5DLRy0ovfUJw5OGky2wza8KokCtt3LBsiW_n8Tq71mnAlp9sru4v_gsgSxSmtxCgCfSMlTU_4V1B6CppGm4G78O_y23Pye8EaJjHp7QKhTVVodXXftWbsqSFmJj8j09X389ICR6l4M?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1635879,36.062795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Center Street Pit Ledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop0xaeCg42-T9xmTANl7nsgEsVdjlIqgh7f3xZ6PcR3OzgAvbN1oHTqaUJFC1wNGTekxt4ipXkjURZdDowkNsa5EzQ7QgYddwaQtDg285bnd6GDDsWO9Kfl4VOD5KG1cfRmOKWasfImN9wiEww4vFRvOyBDlAwsEEHQ28vnIfo600LIZLIdiQYWUMX617_UAblqZKNQJhJs-0TNdYMoAXzZUDHR5V8m-6TkM9w9JFG-UByqftppwKJW3Tg?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBop0xaeCg42-T9xmTANl7nsgEsVdjlIqgh7f3xZ6PcR3OzgAvbN1oHTqaUJFC1wNGTekxt4ipXkjURZdDowkNsa5EzQ7QgYddwaQtDg285bnd6GDDsWO9Kfl4VOD5KG1cfRmOKWasfImN9wiEww4vFRvOyBDlAwsEEHQ28vnIfo600LIZLIdiQYWUMX617_UAblqZKNQJhJs-0TNdYMoAXzZUDHR5V8m-6TkM9w9JFG-UByqftppwKJW3Tg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1593709,36.0625916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Walking Dead Maze</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorfvI8-Z9ilKb5Ev2IxPgsk7YbnYvMRfvIuQwmPtkyKdkHGa_Z3fK2TGjYuXJEwhq4OyMvtsCrtrS-Dj7uOgPCnvbmlwBnIajkTohSbZC-djrH7xZOcooKXeLoyD_Dai8piIqHxYcO06-jiXa4uamuBCLK9sdhfVw0iSoIAGXIlGcxh45sq9vMMfn1DZ9NE-WGjQTyJBT3h7lIlDESpb3AoClR2V5Gb6QPaPOlqBacz_xSZ7SmDp15VTTM?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorfvI8-Z9ilKb5Ev2IxPgsk7YbnYvMRfvIuQwmPtkyKdkHGa_Z3fK2TGjYuXJEwhq4OyMvtsCrtrS-Dj7uOgPCnvbmlwBnIajkTohSbZC-djrH7xZOcooKXeLoyD_Dai8piIqHxYcO06-jiXa4uamuBCLK9sdhfVw0iSoIAGXIlGcxh45sq9vMMfn1DZ9NE-WGjQTyJBT3h7lIlDESpb3AoClR2V5Gb6QPaPOlqBacz_xSZ7SmDp15VTTM?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1634783,36.0478722,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rustic Wave</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorJA1kqsMmErRnxDQa105vbDxFDwky2ukiEWv7upYWdXMr5Lk6dOdLfjdmIZZX_HBDNZ36Ws02-FLUuGVeMN_Nv4XCu3eoufrh5wzTn5vQ2A_evrdMWDWZ1Ig9agMWmV9TbJ7HXOT1FZ3vqKZthCkIxyH43iRH2VSuXaUTAiukz3jVwMknSjMV4WW0XNNkga05_Ld15ilI-Yzc-1pH4_eUkau2rIazXuZLWUibYOqo8qLtQLA_6OB5oCow?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorcJHoTDfHBwy2UGmOrW1flLPoqEFpeL8gor0IPcn3ZKdB7u7gwo5YeYC5tsaR7IF18AkfKcybRSfgVygK_Y14NBUG6dmDJh09YGtUHsiLiNG2vloZM0qEV9V3-jIGgGJMh7RkU23CmpbA95nHs_lS4DU-cDY6xIb-36Pk700brCv9l9IaydFAUY_7U6qqbmkGerQ3QP8wc0ZgGXTsl1mH9T1sDwTwV83ooKc_ZK2h7DBRYBghwqmqHyxA?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorJA1kqsMmErRnxDQa105vbDxFDwky2ukiEWv7upYWdXMr5Lk6dOdLfjdmIZZX_HBDNZ36Ws02-FLUuGVeMN_Nv4XCu3eoufrh5wzTn5vQ2A_evrdMWDWZ1Ig9agMWmV9TbJ7HXOT1FZ3vqKZthCkIxyH43iRH2VSuXaUTAiukz3jVwMknSjMV4WW0XNNkga05_Ld15ilI-Yzc-1pH4_eUkau2rIazXuZLWUibYOqo8qLtQLA_6OB5oCow?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorcJHoTDfHBwy2UGmOrW1flLPoqEFpeL8gor0IPcn3ZKdB7u7gwo5YeYC5tsaR7IF18AkfKcybRSfgVygK_Y14NBUG6dmDJh09YGtUHsiLiNG2vloZM0qEV9V3-jIGgGJMh7RkU23CmpbA95nHs_lS4DU-cDY6xIb-36Pk700brCv9l9IaydFAUY_7U6qqbmkGerQ3QP8wc0ZgGXTsl1mH9T1sDwTwV83ooKc_ZK2h7DBRYBghwqmqHyxA?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.126493,36.1828071,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cliffs Ditch</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqhG-o4CoMc73-CbfaZg1q9Ynmi4MvqSOyfcKRKpoerU7FFi-3cKQOJjFNUJuQJBQLrzj5OR_OEYp2NyzxWB9FuoJ4cxNv_uqVadShNrXmRRrWTFw2fWlW1YbVcwMO_LsWuy8TtZ_YmOvsGSVb1gaQd3QNIrLq7l-Ua-T_PJVihQ9gwCrTiRyjpzesgdjYppdOGP5pjDGL2KJTTZQQw2ZX5a8KKxR4qbz8mDaASsRYb2ukAajgxrM-3IlY?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqhG-o4CoMc73-CbfaZg1q9Ynmi4MvqSOyfcKRKpoerU7FFi-3cKQOJjFNUJuQJBQLrzj5OR_OEYp2NyzxWB9FuoJ4cxNv_uqVadShNrXmRRrWTFw2fWlW1YbVcwMO_LsWuy8TtZ_YmOvsGSVb1gaQd3QNIrLq7l-Ua-T_PJVihQ9gwCrTiRyjpzesgdjYppdOGP5pjDGL2KJTTZQQw2ZX5a8KKxR4qbz8mDaASsRYb2ukAajgxrM-3IlY?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1356239,36.0635412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cliffs Bump To Handrail</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqZAabL-drdwLjSFJpchpgZkF2_n-3LiRHRUSMgvMf7GGvw_nECvqHFgcbZhhU-7xk7aj5Sv8DMCds6dYS7-eP8f5uxbkJb3nNcyBVuo3PWSi-4rlREBJZhyBAG4xkK9FS8idUTnUv7zwdv9vWfm7J_zVlap9Htar1rXbgPEQt_j9lY2CwYAAjc-I-jx1yoOFDBEnnJ9PiYjryOI-92BK6hUtra4PA9ck54gEdS5M7YprfKtwYuPz50syI?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqZAabL-drdwLjSFJpchpgZkF2_n-3LiRHRUSMgvMf7GGvw_nECvqHFgcbZhhU-7xk7aj5Sv8DMCds6dYS7-eP8f5uxbkJb3nNcyBVuo3PWSi-4rlREBJZhyBAG4xkK9FS8idUTnUv7zwdv9vWfm7J_zVlap9Htar1rXbgPEQt_j9lY2CwYAAjc-I-jx1yoOFDBEnnJ9PiYjryOI-92BK6hUtra4PA9ck54gEdS5M7YprfKtwYuPz50syI?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1346003,36.0658607,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ramble Ledge to Hillbomb</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq5Xr9bzeAV2je_01zx5E4rN-FlSLvLeOIgsTRsQD4sSt--gxMZegVcvnTMtFMuG_rioEX1Wu8ZOuMoGONN39x_EPQvwxOstcLVclp2okCVvkxfwmeWJeH-G1DKGOzCVhfyZmNE-fb3njco8WbI89KQN1ZDfCSQpCuvakE9kLQAsFYpRcNingNGpA02sTF8xbT5sH2jJH79mAgqvne92b8kJYx1VPV9K_HHq4ByVcuixdA5_l33FRXtNzQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq5Xr9bzeAV2je_01zx5E4rN-FlSLvLeOIgsTRsQD4sSt--gxMZegVcvnTMtFMuG_rioEX1Wu8ZOuMoGONN39x_EPQvwxOstcLVclp2okCVvkxfwmeWJeH-G1DKGOzCVhfyZmNE-fb3njco8WbI89KQN1ZDfCSQpCuvakE9kLQAsFYpRcNingNGpA02sTF8xbT5sH2jJH79mAgqvne92b8kJYx1VPV9K_HHq4ByVcuixdA5_l33FRXtNzQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.16567,36.059382,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Ramble (Ledges, Manny Pad)</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopgcllKZ0HD3R4M8byPCYQx2G-vf9txvT2VGhD7jhSi8n5ivFYEpYt47KW-AmZnCPIdDLZDPU7TfCO5slREq_6pgDBwBhlvV7zXDjYWJYCwU8AR0z974OMSBAebx83gyTfNGhWGjQqcHn8DiKQVbdQFvcxMKX5hOXv2XGbDP3YlsxanC1G_I1Yw1LRs0c5C_LZrDLVyX4GEvXHajXAFa44qQZhQfvSvhxArjhbZRxKP9IkzrHwlYAcmB88?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqsl1IFUWz2kdGPLPY10OOY2RFHndZahYAvAdwhivsXldDARDcUOa-By0m9BfZAOIwD4vI6dDLzE1H1De9ux_QX2q4-Su9wfVHUH7o8U6p6xPPBH6Y5S9MTJWIMtoG5Ptq8bRhfRdOinw5mYRSUlyIPU3XYme59pldRk0IUxNab5dQuSPF04St98jttRl1wgmR4zYSjH7-qDU81FYBEj95eBltT1Zp5ERtNirlFHWIyucrBj211-v04xwg?authuser=0&fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorP5JkESFu6PnBQ7lAM0xt3jLO1qkjcpO-UXGqzwknF51fGCu-JhVie2eVv1A4k72My2pzwsphpPAgwYl_YCx9xxbIwMp56Mus5XMGFUlsyg2gMWGGh0B1TcpAhzpzP0NYyo2lrao9lqY9cT2Jf2DIVlKTbmPvLOfmKFZmAh-lRLm0Qei_hkzS-eHb-WBMGvHE5RnCf4L27LRrkpahwe33d3cR7m7JW1YSHujb58D-0ueH_28PUsIafo_o?authuser=0&fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoraeNghPbjsCR8-ZE5ZWzTSzJIaMsf7PyCQ6SCazgg1YMp6SgFZmofj2aGOPfL6ayajCeCxFZfpTpc3_YDaTxSRoVOOe-zdU4aR-GxqJ-VpTgoIsUZwDJ4F345GyAaRSgheZ-GcjjzKuXyIKoSW7MyMBdDVXw5nufopT4N66t0Yyzvxqzb9CtB2yLU-F5yA10r9Y2YMLejVg2iqQEAzd1sOKi07dHQiMs-6GlebtFQvbhFitTpXEryeQm4?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopgcllKZ0HD3R4M8byPCYQx2G-vf9txvT2VGhD7jhSi8n5ivFYEpYt47KW-AmZnCPIdDLZDPU7TfCO5slREq_6pgDBwBhlvV7zXDjYWJYCwU8AR0z974OMSBAebx83gyTfNGhWGjQqcHn8DiKQVbdQFvcxMKX5hOXv2XGbDP3YlsxanC1G_I1Yw1LRs0c5C_LZrDLVyX4GEvXHajXAFa44qQZhQfvSvhxArjhbZRxKP9IkzrHwlYAcmB88?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqsl1IFUWz2kdGPLPY10OOY2RFHndZahYAvAdwhivsXldDARDcUOa-By0m9BfZAOIwD4vI6dDLzE1H1De9ux_QX2q4-Su9wfVHUH7o8U6p6xPPBH6Y5S9MTJWIMtoG5Ptq8bRhfRdOinw5mYRSUlyIPU3XYme59pldRk0IUxNab5dQuSPF04St98jttRl1wgmR4zYSjH7-qDU81FYBEj95eBltT1Zp5ERtNirlFHWIyucrBj211-v04xwg?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorP5JkESFu6PnBQ7lAM0xt3jLO1qkjcpO-UXGqzwknF51fGCu-JhVie2eVv1A4k72My2pzwsphpPAgwYl_YCx9xxbIwMp56Mus5XMGFUlsyg2gMWGGh0B1TcpAhzpzP0NYyo2lrao9lqY9cT2Jf2DIVlKTbmPvLOfmKFZmAh-lRLm0Qei_hkzS-eHb-WBMGvHE5RnCf4L27LRrkpahwe33d3cR7m7JW1YSHujb58D-0ueH_28PUsIafo_o?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoraeNghPbjsCR8-ZE5ZWzTSzJIaMsf7PyCQ6SCazgg1YMp6SgFZmofj2aGOPfL6ayajCeCxFZfpTpc3_YDaTxSRoVOOe-zdU4aR-GxqJ-VpTgoIsUZwDJ4F345GyAaRSgheZ-GcjjzKuXyIKoSW7MyMBdDVXw5nufopT4N66t0Yyzvxqzb9CtB2yLU-F5yA10r9Y2YMLejVg2iqQEAzd1sOKi07dHQiMs-6GlebtFQvbhFitTpXEryeQm4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1659369,36.0661663,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Osage Park</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoricS9zjoW31cf12nTboj4_-zvG1TUgBcDgGZuqdeR7gu3TuqziXCZiY8DA9aW-YEhOZi728jy3TiBgBGqbJ9KuX237EHIziFXnITmU7kG6IAyGTTcfwsmeuOGSdJdVfWbFwXLczyHajDnlwaMhu0x1NhMtb2Fbl-OUB421b8PKwr3XG3BXCzOjZxKvpbjKQxepUPsebXNu1Rsm3SS7DRxyznf8qGEHmlfCykMggrL5_WgPK-54ein3z5w?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoricS9zjoW31cf12nTboj4_-zvG1TUgBcDgGZuqdeR7gu3TuqziXCZiY8DA9aW-YEhOZi728jy3TiBgBGqbJ9KuX237EHIziFXnITmU7kG6IAyGTTcfwsmeuOGSdJdVfWbFwXLczyHajDnlwaMhu0x1NhMtb2Fbl-OUB421b8PKwr3XG3BXCzOjZxKvpbjKQxepUPsebXNu1Rsm3SS7DRxyznf8qGEHmlfCykMggrL5_WgPK-54ein3z5w?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.2163561,36.3544539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EZ Mart Bump to Flat</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor0UZXT-dQkYlG-GKqHau1HQUE_qgqvO8BP4DLInTOuYTwuUxJBX55AqEhANGSmmG7x52KtzQ-C_bbVz5lfHdDh8nmeVOCiG7by9s1Ed186ihDm6CcKkpjyXHDWgV2FGrvownCvx0b1zkeUNWtOxTrW2Mga6HSPg_ogX5GSmQw6pSoa9Tb8JghlhS1HexcKGC6B83FQhkOeqRp5a7hqblooqP2bb4XKkDpo_Ud6yJ4PgrLRv7yVx-ye1J0?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqRJmiZGwdnx6kA3uHjPU6jnNZigKkOB2zX8R-IAHhcp2C1zNbT6aCSST660PR1fX3fnkt6gQBq9aBCFd7vG1NjeA0B2Tbcmo6lQZPMblhWmpaRrQbfi07ByA463iKOe7-KsNX7YcIIo3ApoaVyQbeZeqBLUD8_RnccmoIqoAh6KaiKetnMqOfyAHrW0BekM5DecSOPYeSx5PtSCxtZxqGOn2-qat8I11DQF01jJuxsaApDEGsXHjEimbo?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor0UZXT-dQkYlG-GKqHau1HQUE_qgqvO8BP4DLInTOuYTwuUxJBX55AqEhANGSmmG7x52KtzQ-C_bbVz5lfHdDh8nmeVOCiG7by9s1Ed186ihDm6CcKkpjyXHDWgV2FGrvownCvx0b1zkeUNWtOxTrW2Mga6HSPg_ogX5GSmQw6pSoa9Tb8JghlhS1HexcKGC6B83FQhkOeqRp5a7hqblooqP2bb4XKkDpo_Ud6yJ4PgrLRv7yVx-ye1J0?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqRJmiZGwdnx6kA3uHjPU6jnNZigKkOB2zX8R-IAHhcp2C1zNbT6aCSST660PR1fX3fnkt6gQBq9aBCFd7vG1NjeA0B2Tbcmo6lQZPMblhWmpaRrQbfi07ByA463iKOe7-KsNX7YcIIo3ApoaVyQbeZeqBLUD8_RnccmoIqoAh6KaiKetnMqOfyAHrW0BekM5DecSOPYeSx5PtSCxtZxqGOn2-qat8I11DQF01jJuxsaApDEGsXHjEimbo?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1169896,36.1846877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Washington Building Bump to Door Ledge</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor-oV0-ppU0BNTCsq0OtBvrSCrP-6nIGbdKXPtQ_QdhlTobcDbmEyt-GvRTan-Tn3yD0NWSWP18uhfEZ601NtnKnRC8kHW5Cx5ntv_giThAs0Q_ARHozAsOpnt_PufGaVfsU_xuO-K0k8jyshicYRF-rZyrvV_cXlduy3xUdQ80KW6257WroZygSpVx19k46sW1xbF5r54sIFkqw0kseSGkISkAMa_ccCgqSynUs4EqzVWDTNhLIAshK8Y?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorYjoBv1j65SrJL7VPyCwg4CZ4ds92N39rx1qksuu-Jvp7UaWp7oYQQ_em5jy3grvt8Ofrt3BCMjlzIPlquu7j3k8rcsfeQIvX9xVoUAOwjFnGBqRrb8xM5xljz3tuGeyBpmN22djIqDXCHTpwZeZLEd46ZKM-2FcMfJn2RqFhSyN-U2_fCwNfEb82XcLIffG-01A3AeV6xdaNL4lEXjuxaFJSRQT37EsTBQfTtCw-ZtPHm8FZxgNMrGyo?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-3949AB</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBor-oV0-ppU0BNTCsq0OtBvrSCrP-6nIGbdKXPtQ_QdhlTobcDbmEyt-GvRTan-Tn3yD0NWSWP18uhfEZ601NtnKnRC8kHW5Cx5ntv_giThAs0Q_ARHozAsOpnt_PufGaVfsU_xuO-K0k8jyshicYRF-rZyrvV_cXlduy3xUdQ80KW6257WroZygSpVx19k46sW1xbF5r54sIFkqw0kseSGkISkAMa_ccCgqSynUs4EqzVWDTNhLIAshK8Y?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBorYjoBv1j65SrJL7VPyCwg4CZ4ds92N39rx1qksuu-Jvp7UaWp7oYQQ_em5jy3grvt8Ofrt3BCMjlzIPlquu7j3k8rcsfeQIvX9xVoUAOwjFnGBqRrb8xM5xljz3tuGeyBpmN22djIqDXCHTpwZeZLEd46ZKM-2FcMfJn2RqFhSyN-U2_fCwNfEb82XcLIffG-01A3AeV6xdaNL4lEXjuxaFJSRQT37EsTBQfTtCw-ZtPHm8FZxgNMrGyo?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1206957,36.185041,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Palermo's Slab]]></name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq2Iobb0aPZsVHsyUHMuAB6Ru_BqfpPuJyYBZt8-x8T8pzKMo-HL0mi6tnnNPpK6WmP8SRRfpokLBDBVddgm0NRjrS0P4AyJwbQFXzxUm9q4Hyok08AnPw4NaeWsaPhL2WC0qTKgdW9kvzf3uzQ6eR16rCYaw_E4Hlozxeuwa8yDyMsdw7hJuaO5mINERA9uEV_Zrlr6rgBWEyXjpKUOD8tePEEAY2ObzUbM5iFsMqSc2fxtXGF-hgdFS0?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqKOKWZ2yXy_FHOYxFV0XE0hxNZ6zApENxE0l1LYrPFsmpGKuCZiUyI2VtKrJHyYEzoAHwDY1RRC8jm5zBcz29N_NxFlLn1i_4FM2lzgTxZHmW51kb5jsCqmhq5sflY9Z936DwQ3C6HkA1ZHYGfzgoS5Vn7CHgYTd1OQmZwLjdx-qpxtWjv1sS3_CLryUSNJUPhbongBHqNKBtotcIOt_k1mKKrRSghep4dzzl0hvjwtuZWzzTCZiYjTEM?authuser=0&fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopLm1tMpc0Jo7VQEsKscql_WcyJIYKmU0iQuNua1n5hKC3IzhWfqnGicHl4cxNKLXYK4MNmqvwkdgyjGQlsEA1NXb2I6a1Bm19yTwFktB_A2DYRxXiZH5ulb-jaEEUHGQS6xSvtw79w9qOyzGa9Zv4UTIVGba0oB9una09MA4ZehJprFDWZ1yITiNJbMlwTQf3-PPwqQiTLugKcztXUjrMrD3u4DMFVXyAHY9lVIgKI7ZUuPGQ67b1btMc?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoq2Iobb0aPZsVHsyUHMuAB6Ru_BqfpPuJyYBZt8-x8T8pzKMo-HL0mi6tnnNPpK6WmP8SRRfpokLBDBVddgm0NRjrS0P4AyJwbQFXzxUm9q4Hyok08AnPw4NaeWsaPhL2WC0qTKgdW9kvzf3uzQ6eR16rCYaw_E4Hlozxeuwa8yDyMsdw7hJuaO5mINERA9uEV_Zrlr6rgBWEyXjpKUOD8tePEEAY2ObzUbM5iFsMqSc2fxtXGF-hgdFS0?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBoqKOKWZ2yXy_FHOYxFV0XE0hxNZ6zApENxE0l1LYrPFsmpGKuCZiUyI2VtKrJHyYEzoAHwDY1RRC8jm5zBcz29N_NxFlLn1i_4FM2lzgTxZHmW51kb5jsCqmhq5sflY9Z936DwQ3C6HkA1ZHYGfzgoS5Vn7CHgYTd1OQmZwLjdx-qpxtWjv1sS3_CLryUSNJUPhbongBHqNKBtotcIOt_k1mKKrRSghep4dzzl0hvjwtuZWzzTCZiYjTEM?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ALCsBopLm1tMpc0Jo7VQEsKscql_WcyJIYKmU0iQuNua1n5hKC3IzhWfqnGicHl4cxNKLXYK4MNmqvwkdgyjGQlsEA1NXb2I6a1Bm19yTwFktB_A2DYRxXiZH5ulb-jaEEUHGQS6xSvtw79w9qOyzGa9Zv4UTIVGba0oB9una09MA4ZehJprFDWZ1yITiNJbMlwTQf3-PPwqQiTLugKcztXUjrMrD3u4DMFVXyAHY9lVIgKI7ZUuPGQ67b1btMc?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -94.1238239,36.1659175,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
