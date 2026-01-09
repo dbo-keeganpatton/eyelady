@@ -13,6 +13,7 @@ export default function Ail8d3() {
   const [userLat, setUserLat] = useState<number | null>(null);
   const [userLng, setUserLng] = useState<number | null>(null);
   const [locationError, setLocationError] = useState<string | null>(null);
+  const [locationReady, setLocationReady] = useState(false);
 
   /* -----------------------------
      Fallback location (NWA)
@@ -31,28 +32,63 @@ export default function Ail8d3() {
       setUserLat(FALLBACK_LOCATION.lat);
       setUserLng(FALLBACK_LOCATION.lng);
       setLocationError('Location unavailable — using approximate position.');
+      setLocationReady(true);
       return;
     }
 
-    navigator.geolocation.getCurrentPosition(
-      (pos) => {
-        setUserLat(pos.coords.latitude);
-        setUserLng(pos.coords.longitude);
-      },
-      (err) => {
-        console.warn('Geolocation error:', err);
-
-        // Fallback for Firefox / Linux / denied services
+    // Set a manual timeout to ensure fallback happens
+    const timeoutId = setTimeout(() => {
+      if (!locationReady) {
+        console.warn('Geolocation timeout - using fallback');
         setUserLat(FALLBACK_LOCATION.lat);
         setUserLng(FALLBACK_LOCATION.lng);
-        setLocationError('Location unavailable — using approximate position.');
+        setLocationError('Location timeout — using approximate position.');
+        setLocationReady(true);
+      }
+    }, 5000);
+
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        clearTimeout(timeoutId);
+        setUserLat(pos.coords.latitude);
+        setUserLng(pos.coords.longitude);
+        setLocationError(null);
+        setLocationReady(true);
+        console.log('Location acquired:', pos.coords.latitude, pos.coords.longitude);
+      },
+      (err) => {
+        clearTimeout(timeoutId);
+        console.warn('Geolocation error:', err.message, 'Code:', err.code);
+
+        // Use fallback for any error
+        setUserLat(FALLBACK_LOCATION.lat);
+        setUserLng(FALLBACK_LOCATION.lng);
+
+        // More specific error messages
+        let errorMsg = 'Location unavailable — using approximate position.';
+        if (err.code === 1) {
+          errorMsg = 'Location permission denied — using approximate position.';
+        } else if (err.code === 2) {
+          errorMsg = 'Location unavailable — using approximate position.';
+        } else if (err.code === 3) {
+          errorMsg = 'Location timeout — using approximate position.';
+        }
+
+        setLocationError(errorMsg);
+        setLocationReady(true);
       },
       {
-        enableHighAccuracy: false,   // Firefox-safe
-        timeout: 8000,
-        maximumAge: 60000,
+        // I guess firefox freaks out with high accuracy
+        // Location times out at 5 seconds and I try 
+        // to keep cache for 30 minutes
+        enableHighAccuracy: false,
+        timeout: 5000,
+        maximumAge: 300000,
       }
     );
+
+    // Cleanup
+    return () => clearTimeout(timeoutId);
   }, []);
 
   /* -----------------------------
@@ -61,8 +97,8 @@ export default function Ail8d3() {
   const sendPrompt = async () => {
     if (!input.trim()) return;
 
-    if (userLat === null || userLng === null) {
-      setResponse('I cannot see where you are.');
+    if (!locationReady || userLat === null || userLng === null) {
+      setResponse('Waiting for location...');
       return;
     }
 
@@ -106,15 +142,21 @@ export default function Ail8d3() {
       </div>
 
       {/* Location Status */}
-      {locationError && (
-        <p className="text-red-400 text-sm font-mono text-center">
+      {!locationReady && (
+        <p className="text-yellow-400 text-sm font-mono text-center">
+          Acquiring location...
+        </p>
+      )}
+
+      {locationReady && locationError && (
+        <p className="text-orange-400 text-sm font-mono text-center">
           {locationError}
         </p>
       )}
 
-      {userLat !== null && userLng !== null && !locationError && (
-        <p className="text-blue-400 text-xs font-mono text-center opacity-60">
-          Location acquired.
+      {locationReady && !locationError && (
+        <p className="text-green-400 text-xs font-mono text-center opacity-60">
+          Location acquired: {userLat?.toFixed(4)}, {userLng?.toFixed(4)}
         </p>
       )}
 
@@ -130,10 +172,10 @@ export default function Ail8d3() {
       {/* Submit */}
       <button
         onClick={sendPrompt}
-        disabled={loading}
+        disabled={loading || !locationReady}
         className="w-full border border-blue-500/50 backdrop-blur-lg backdrop-saturate-150 text-md p-1 m-2 rounded-sm shadow-2xl shadow-blue-500/50 hover:border-yellow-500 transition-transform duration-300 disabled:opacity-50"
       >
-        {loading ? 'Thinking…' : 'Send'}
+        {loading ? 'Thinking…' : locationReady ? 'Send' : 'Waiting for location...'}
       </button>
 
       {/* Response */}
@@ -160,4 +202,3 @@ export default function Ail8d3() {
     </div>
   );
 }
-

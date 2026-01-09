@@ -12,19 +12,24 @@ export type MapLocation = {
 
 export async function loadNwaSpots(): Promise<MapLocation[]> {
   const filePath = path.join(process.cwd(), "data", "nwa_spots.kml");
+  console.log('Reading KML from:', filePath);
+
   const kml = await fs.readFile(filePath, "utf-8");
+  console.log('KML file size:', kml.length, 'characters');
 
   const parsed = await parseStringPromise(kml);
 
-  const placemarks =
-    parsed?.kml?.Document?.[0]?.Placemark ?? [];
+  // Spot coordinates are nested in the kml under <document><folder></documemt> 
+  const folder = parsed?.kml?.Document?.[0]?.Folder?.[0];
+  const placemarks = folder?.Placemark ?? [];
 
-  return placemarks.map((p: any) => {
+  console.log('Placemarks found:', placemarks.length);
+
+  const spots = placemarks.map((p: any) => {
     const [lng, lat] = p.Point[0].coordinates[0]
       .trim()
       .split(",")
       .map(Number);
-
     return {
       name: p.name?.[0] ?? "Unnamed",
       description: p.description?.[0],
@@ -33,4 +38,8 @@ export async function loadNwaSpots(): Promise<MapLocation[]> {
       raw: p
     };
   });
+
+  console.log('Sample spot:', spots[0]);
+
+  return spots;
 }
